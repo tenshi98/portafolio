@@ -59,9 +59,38 @@ if (currentTheme) {
   }
 }
 
+// se levanta ventana modal
+const modals = document.querySelectorAll("[data-modal]");
+
+modals.forEach(function (trigger) {
+  trigger.addEventListener("click", function (event) {
+    event.preventDefault();
+    const modal = document.getElementById(trigger.dataset.modal);
+    modal.classList.add("open");
+    const exits = modal.querySelectorAll(".modal-exit");
+    exits.forEach(function (exit) {
+      exit.addEventListener("click", function (event) {
+        event.preventDefault();
+        modal.classList.remove("open");
+      });
+    });
+  });
+});
+
+
+//cargo los datos
+/*function load_proyectos(){$('#modal-display').load('D:/GitHub/portafolio/proyectos.html');}
+function load_experiencia(){$('#modal-display').load('experiencia.html');}
+function load_estudios(){$('#modal-display').load('estudios.html');}*/
 
 
 
+async function fetchHtmlAsText(url) {
+  return await (await fetch(url)).text();
+}
 
-
-
+// this is your `load_home() function`
+async function load_proyectos() {
+  const contentDiv = document.getElementById("modal-display");
+  contentDiv.innerHTML = await fetchHtmlAsText("proyectos.html");
+}
