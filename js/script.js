@@ -79,12 +79,6 @@ modals.forEach(function (trigger) {
 
 
 //cargo los datos
-/*function load_proyectos(){$('#modal-display').load('D:/GitHub/portafolio/proyectos.html');}
-function load_experiencia(){$('#modal-display').load('experiencia.html');}
-function load_estudios(){$('#modal-display').load('estudios.html');}*/
-
-
-
 async function fetchHtmlAsText(url) {
   return await (await fetch(url)).text();
 }
@@ -93,4 +87,12 @@ async function fetchHtmlAsText(url) {
 async function load_proyectos() {
   const contentDiv = document.getElementById("modal-display");
   contentDiv.innerHTML = await fetchHtmlAsText("proyectos.html");
+}
+async function load_experiencia() {
+  const contentDiv = document.getElementById("modal-display");
+  contentDiv.innerHTML = await fetchHtmlAsText("experiencia.html");
+}
+async function load_estudios() {
+  const contentDiv = document.getElementById("modal-display");
+  contentDiv.innerHTML = await fetchHtmlAsText("estudios.html");
 }
