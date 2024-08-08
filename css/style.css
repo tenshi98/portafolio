@@ -180,7 +180,7 @@ body {background: var(--bg-body);color: var(--text-text2-color);font-family: "Ra
 .modal-container #modal-display .container_proyectos {max-width: var(--width-full);padding-top: 0;}
 .modal-container #modal-display .container_proyectos .content-box .list {max-width: var(--width-full);display: inline;}
 .modal-close {position: absolute;right: 15px;top: 15px;outline: none;appearance: none;background: var(--btn-colorbg);color: var(--btn-colortext);border: 0px;font-weight: bold;cursor: pointer;height: 30px;width: 30px;border-radius: 50%;}
-.modal-close:hover {background: var(--bg-modal);}
+.modal-close:hover {background: var(--btn-colorbg-hover);}
 
 /* tooltip */
 .tooltip{position: relative;}
