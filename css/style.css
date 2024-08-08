@@ -13,7 +13,7 @@
     --text-tittle-color: #ea4a4c;
     --text-subtittle-color: #ea4a4c;
     --text-text1-color: #ea4a4c;
-    --text-text2-color: #131f35;
+    --text-text2-color: #202124;
     --text-text3-color: #273852;
     --text-text4-color: #ffffff;
 
@@ -22,13 +22,13 @@
     --btn-colorbg: #ea4a4c;
     --btn-colorbg-hover: #f56565;
     --btn-socialtext: #ffffff;
-    --btn-social-hover: #131f35;
-    --btn-techtext: #131f35;
+    --btn-social-hover: #202124;
+    --btn-techtext: #202124;
     --btn-techbg: #ffffff;
     --btn-techtext-hover: #ffffff;
-    --btn-techbg-hover: #131f35;
+    --btn-techbg-hover: #202124;
     --btn-icontechtext: #ffffff;
-    --btn-icontechbg: #131f35;
+    --btn-icontechbg: #202124;
 
     /* Font Weight */
     --weight-small: 400;
@@ -43,29 +43,29 @@
 
 [data-theme="dark"] {
     /* Fondos */
-    --bg-header: #131f35;
-    --bg-body: #131f35;
-    --bg-footer: #131f35;
+    --bg-header: #202124;
+    --bg-body: #202124;
+    --bg-footer: #202124;
     --bg-modal: none;
 
     /* Textos */
-    --text-tittle-color: #3f8c96;
-    --text-subtittle-color: #3f8c96;
-    --text-text1-color: #3f8c96;
+    --text-tittle-color: #758694;
+    --text-subtittle-color: #758694;
+    --text-text1-color: #758694;
     --text-text2-color: #fafafa;
     --text-text3-color: #fafafa;
 
     /* Botones */
     --btn-colortext: #ffffff;
-    --btn-colorbg: #3f8c96;
-    --btn-colorbg-hover: #52a9b3;
-    --btn-socialtext: #131f35;
+    --btn-colorbg: #758694;
+    --btn-colorbg-hover: #8a9dad;
+    --btn-socialtext: #202124;
     --btn-social-hover: #fafafa;
-    --btn-techtext: #131f35;
+    --btn-techtext: #202124;
     --btn-techbg: #ffffff;
     --btn-techtext-hover: #ffffff;
-    --btn-techbg-hover: #131f35;
-    --btn-icontechtext: #131f35;
+    --btn-techbg-hover: #202124;
+    --btn-icontechtext: #202124;
     --btn-icontechbg: #ffffff;
 
 }
