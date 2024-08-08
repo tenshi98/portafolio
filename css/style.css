@@ -7,6 +7,7 @@
     --bg-header: #fafafa;
     --bg-body: #fafafa;
     --bg-footer: #131f35;
+    --bg-modal: #fafafa;
 
     /* Textos */
     --text-tittle-color: #ea4a4c;
@@ -45,6 +46,7 @@
     --bg-header: #131f35;
     --bg-body: #131f35;
     --bg-footer: #131f35;
+    --bg-modal: #333;
 
     /* Textos */
     --text-tittle-color: #3f8c96;
@@ -173,12 +175,12 @@ body {background: var(--bg-body);color: var(--text-text2-color);font-family: "Ra
 .modal {position: fixed;width: 100vw;height: 100vh;opacity: 0;visibility: hidden;transition: all 0.3s ease;top: 0;left: 0;display: flex;align-items: center;justify-content: center;}
 .modal.open {visibility: visible;opacity: 1;transition-delay: 0s;z-index: 1000;}
 .modal-bg {position: absolute;width: 100%;height: 100%;}
-.modal-container {border-radius: 10px;background: var(--bg-body);position: relative;padding: 30px;color:#273852;border: 1px solid #666;width: 96%;height: 94%;}
+.modal-container {border-radius: 10px;background: var(--bg-modal);position: relative;padding: 30px;color:#273852;border: 1px solid #666;width: 96%;height: 94%;}
 .modal-container #modal-display{overflow-y: auto;height: 100%;}
 .modal-container #modal-display .container_proyectos {max-width: var(--width-full);padding-top: 0;}
 .modal-container #modal-display .container_proyectos .content-box .list {max-width: var(--width-full);display: inline;}
 .modal-close {position: absolute;right: 15px;top: 15px;outline: none;appearance: none;background: var(--btn-colorbg);color: var(--btn-colortext);border: 0px;font-weight: bold;cursor: pointer;height: 30px;width: 30px;border-radius: 50%;}
-.modal-close:hover {background: var(--btn-colorbg-hover);}
+.modal-close:hover {background: var(--bg-modal);}
 
 /* tooltip */
 .tooltip{position: relative;}
