@@ -6,8 +6,8 @@
     /* Fondos */
     --bg-header: #fafafa;
     --bg-body: #fafafa;
-    --bg-footer: #131f35;
-    --bg-modal: #fafafa;
+    --bg-footer: #4158A6;
+    --bg-modal: none;
 
     /* Textos */
     --text-tittle-color: #ea4a4c;
@@ -46,7 +46,7 @@
     --bg-header: #131f35;
     --bg-body: #131f35;
     --bg-footer: #131f35;
-    --bg-modal: #333;
+    --bg-modal: none;
 
     /* Textos */
     --text-tittle-color: #3f8c96;
@@ -155,7 +155,7 @@ body {background: var(--bg-body);color: var(--text-text2-color);font-family: "Ra
 
 /************************* FOOTER *************************/
 /* Footer */
-#footer {background: #131f35;}
+#footer {background: var(--bg-footer);}
 #footer .container {display: flex;flex-direction: column;align-items: center;justify-content: center;color: #ffffff;min-height: 160px;text-align: center;}
 #footer a {font-size: 0.8rem;color: #fff;}
 #footer a:hover {opacity: 0.6;}
