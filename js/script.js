@@ -86,13 +86,16 @@ async function fetchHtmlAsText(url) {
 // this is your `load_home() function`
 async function load_proyectos() {
   const contentDiv = document.getElementById("modal-display");
+  contentDiv.innerHTML = '';//se vacia el modal
   contentDiv.innerHTML = await fetchHtmlAsText("proyectos.html");
 }
 async function load_experiencia() {
   const contentDiv = document.getElementById("modal-display");
+  contentDiv.innerHTML = '';//se vacia el modal
   contentDiv.innerHTML = await fetchHtmlAsText("experiencia.html");
 }
 async function load_estudios() {
   const contentDiv = document.getElementById("modal-display");
+  contentDiv.innerHTML = '';//se vacia el modal
   contentDiv.innerHTML = await fetchHtmlAsText("estudios.html");
 }
