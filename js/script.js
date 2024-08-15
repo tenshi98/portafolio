@@ -99,3 +99,8 @@ async function load_estudios() {
   contentDiv.innerHTML = '';//se vacia el modal
   contentDiv.innerHTML = await fetchHtmlAsText("estudios.html");
 }
+async function load_cursos() {
+  const contentDiv = document.getElementById("modal-display");
+  contentDiv.innerHTML = '';//se vacia el modal
+  contentDiv.innerHTML = await fetchHtmlAsText("cursos.html");
+}
