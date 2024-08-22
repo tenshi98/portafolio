@@ -89,6 +89,7 @@ body {background: var(--bg-body);color: var(--text-text2-color);font-family: "Ra
 .navbar .container .nav-menu .btn .fas.fa-arrow-right {margin-left: 0.5rem;font-size: 0.9rem;}
 /* Blur Navbar */
 .backdrop-blur{background: transparent;backdrop-filter: blur(10px);}
+.backdrop-blur-2{background: transparent;backdrop-filter: blur(30px);}
 
 /* switch Dark mode */
 #switch {display: none;}
