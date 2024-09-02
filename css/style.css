@@ -79,6 +79,10 @@ a {text-decoration: none;color: var(--text-text1-color);}
 
 /* Main styling */
 body {background: var(--bg-body);color: var(--text-text2-color);font-family: "Raleway", sans-serif;line-height: 1.5;}
+body {scrollbar-color: var(--btn-colorbg) transparent;}
+body::-webkit-scrollbar {background-color: #fff;}
+body::-webkit-scrollbar-thumb {background-color: #aab7cf;}
+
 /************************* MENU *************************/
 /* Navbar */
 .navbar {position: fixed;top: 0;left: 0;right: 0;z-index: 20;background: var(--bg-header);}
