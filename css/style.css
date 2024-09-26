@@ -113,6 +113,7 @@ body::-webkit-scrollbar-thumb {background-color: #aab7cf;}
 /* contenedor */
 .content-text {text-align: center;margin: 1.5rem 0;}
 .content-text h2 {font-size: 3rem;line-height: 1.2;transition: 0.2s ease-in-out;}
+.content-text h3 {padding: 0.5rem;margin: 0 auto;max-width: 700px;}
 .content-text p {padding: 0.5rem;margin: 0 auto;max-width: 700px;}
 .container {max-width: var(--width-medium);margin: 0 auto;padding: 1rem 2rem;}
 
