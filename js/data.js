@@ -1,3 +1,32 @@
+/***********************************************/
+var tecnologiasUsadas = [
+    {IMG: "assets/icons/node-js.svg", Titulo: "Node.js"},
+    {IMG: "assets/icons/react.svg", Titulo: "React.js"},
+    {IMG: "assets/icons/angular.svg", Titulo: "Angular"},
+    {IMG: "assets/icons/vue.svg", Titulo: "Vue"},
+    {IMG: "assets/icons/nestjs.svg", Titulo: "Nest.js"},
+
+    {IMG: "assets/icons/java.svg", Titulo: "Java"},
+    {IMG: "assets/icons/php.svg", Titulo: "PHP"},
+    {IMG: "assets/icons/python.svg", Titulo: "Python"},
+    {IMG: "assets/icons/typescript.svg", Titulo: "Typescript"},
+
+    {IMG: "assets/icons/codeigniter.svg", Titulo: "Codeigniter"},
+    {IMG: "assets/icons/laravel.svg", Titulo: "Laravel"},
+    {IMG: "assets/icons/cakephp.svg", Titulo: "Cakephp"},
+
+    {IMG: "assets/icons/github.svg", Titulo: "Github"},
+    {IMG: "assets/icons/docker.svg", Titulo: "Docker"},
+    {IMG: "assets/icons/jenkins.svg", Titulo: "Jenkins"},
+
+    {IMG: "assets/icons/microsoftsqlserver.svg", Titulo: "Microsoft SQL Server"},
+    {IMG: "assets/icons/mongodb.svg", Titulo: "Mongo DB"},
+    {IMG: "assets/icons/mysql.svg", Titulo: "MySQL"},
+    {IMG: "assets/icons/mariadb.svg", Titulo: "Maria DB"},
+
+    {IMG: "assets/icons/firebase.svg", Titulo: "Firebase"},
+
+];
 
 /***********************************************/
 var cursos = [

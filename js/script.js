@@ -82,11 +82,23 @@ modals.forEach(function (trigger) {
 let countExperiencia  = 0;
 let countCursos       = 0;
 let countProyectos    = 0;
+let countTecnologias  = 0;
 
+let dataTecnologias  = '';
 let dataEstudios     = '';
 let dataExperiencia  = '';
 let dataCursos       = '';
 let dataProyectos    = '';
+
+/***************************************/
+//se agregan los estudios
+tecnologiasUsadas.forEach((item, i) => {
+  dataTecnologias += '<span class="tooltip" data-tooltip="'+item.Titulo+'"><img class="icon-box" src="'+item.IMG+'" alt="'+item.Titulo+'"/></span>';
+
+  countExperiencia++;
+  if(countExperiencia==10){dataTecnologias += '<br/>';}
+});
+
 
 
 /***************************************/
@@ -142,6 +154,7 @@ proyectos.forEach((item, i) => {
 
 /***************************************/
 //imprimo
+document.getElementById('IDTecnologias').innerHTML = dataTecnologias;
 document.getElementById('IDEstudios').innerHTML += dataEstudios;
 document.getElementById('IDExperiencia').innerHTML += dataExperiencia;
 document.getElementById('IDCursos').innerHTML += dataCursos;
