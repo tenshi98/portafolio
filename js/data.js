@@ -253,7 +253,7 @@ var experiencia = [
     },
     {
         Fechas:      "Noviembre 2024 - Presente",
-        Empresa:     "Servicios Electrónicos SA. (Freelance)",
+        Empresa:     "Servicios Electrónicos S.A. (Freelance)",
         Puesto:      "FullStack Developer",
         Descripcion: "Creación y desarrollo de la plataforma de Bienestar Inacap enfocada en la administración de socios, sus préstamos y bonificaciones.",
         proyectos : [

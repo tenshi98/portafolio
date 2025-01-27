@@ -94,9 +94,8 @@ let dataProyectos    = '';
 //se agregan los estudios
 tecnologiasUsadas.forEach((item, i) => {
   dataTecnologias += '<span class="tooltip" data-tooltip="'+item.Titulo+'"><img class="icon-box" src="'+item.IMG+'" alt="'+item.Titulo+'"/></span>';
-
-  countExperiencia++;
-  if(countExperiencia==10){dataTecnologias += '<br/>';}
+  countTecnologias++;
+  if(countTecnologias==10){dataTecnologias += '<br/>';}
 });
 
 
