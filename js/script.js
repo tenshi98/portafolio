@@ -77,7 +77,78 @@ modals.forEach(function (trigger) {
   });
 });
 
+/***************************************/
+//Contadores
+let countExperiencia  = 0;
+let countCursos       = 0;
+let countProyectos    = 0;
 
+let dataEstudios     = '';
+let dataExperiencia  = '';
+let dataCursos       = '';
+let dataProyectos    = '';
+
+
+/***************************************/
+//se agregan los estudios
+estudios.forEach((item, i) => {
+  dataEstudios += '<li class="timeline-item"><div class="timeline-info"><span>'+item.Fechas+'</span></div><div class="timeline-marker"></div><div class="timeline-content"><h3 class="timeline-title">'+item.Colegio+'</h3><p>'+item.Titulo+'.</p></div></li>';
+});
+dataEstudios += '<li class="timeline-item"><div class="timeline-info"></div></li>';
+
+/***************************************/
+//se agrega la experiencia
+experiencia.forEach((item, i) => {
+  if(countExperiencia<4){
+    dataExperiencia += '<li class="timeline-item"><div class="timeline-info"><span>'+item.Fechas+'</span></div><div class="timeline-marker"></div><div class="timeline-content"><h3 class="timeline-title">'+item.Empresa+'</h3><p><strong>'+item.Puesto+'</strong></p></div></li>';
+    countExperiencia++;
+  }
+});
+dataExperiencia += '<li class="timeline-item"><div class="timeline-info"></div></li>';
+
+/***************************************/
+//se agregan los cursos
+cursos.forEach((item, i) => {
+  if(countCursos<10){
+    dataCursos += '<li class="timeline-item"><div class="timeline-marker"></div><div class="timeline-content"><h3 class="timeline-title">'+item.Ano+'</h3><p>';
+    item.Cursos.forEach((curso, j) => {
+      if(countCursos<10){
+        dataCursos += '•	'+curso.Nombre+'.<br/>';
+        countCursos++;
+      }
+    });
+    dataCursos += '</p></div></li>';
+  }
+});
+dataCursos += '<li class="timeline-item"><div class="timeline-info"></div></li>';
+
+/***************************************/
+//se agregan los proyectos
+proyectos.forEach((item, i) => {
+  if(countProyectos<3){
+    dataProyectos += '<li><div class="inner"><div class="li-img"><img class="animatedBox" src="'+item.IMG+'" alt="'+item.Titulo+'" /></div><div class="li-text"><h3 class="li-head">'+item.Titulo+'</h3><div class="li-sub"><p>'+item.DescCorta+'</p></div><div class="li-icon-tech">';
+    item.Tecnologias.forEach((tecnologia, j) => {
+      dataProyectos += '<span class="tooltip" data-tooltip="'+tecnologia.Text+'"><img class="icon-tech" src="'+tecnologia.Img+'" alt="'+tecnologia.Text+'"/></span>';
+    });
+    dataProyectos += '</div><div class="li-social">';
+    item.Links.forEach((enlaces, j) => {
+        dataProyectos += '<a class="btn btn-primary" target="_blank" href="'+enlaces.Link+'" ><i class="'+enlaces.Icon+'"></i> '+enlaces.Text+'</a> ';
+    });
+    dataProyectos += '</div></div></div></li>';
+    countProyectos++;
+  }
+});
+
+
+/***************************************/
+//imprimo
+document.getElementById('IDEstudios').innerHTML += dataEstudios;
+document.getElementById('IDExperiencia').innerHTML += dataExperiencia;
+document.getElementById('IDCursos').innerHTML += dataCursos;
+document.getElementById('IDProjects').innerHTML += dataProyectos;
+
+
+/***************************************/
 //cargo los datos
 async function fetchHtmlAsText(url) {
   return await (await fetch(url)).text();
@@ -87,20 +158,82 @@ async function fetchHtmlAsText(url) {
 async function load_proyectos() {
   const contentDiv = document.getElementById("modal-display");
   contentDiv.innerHTML = '';//se vacia el modal
-  contentDiv.innerHTML = await fetchHtmlAsText("proyectos.html");
+  /***************************************/
+  //Variable
+  let dataProyectosModal = '<section id="projects" class="project-container container container_proyectos"><div class="content-text"><h2><i class="fas fa-code"></i> Proyectos</h2><h3>Revisa todos mis Proyectos Realizados.</h3></div><article class="content-box"><ul class="list img-list">';
+  //se agregan los proyectos
+  proyectos.forEach((item, i) => {
+    dataProyectosModal += '<li><div class="inner"><div class="li-img"><img class="animatedBox" src="'+item.IMG+'" alt="'+item.Titulo+'" /></div><div class="li-text"><h3 class="li-head">'+item.Titulo+'</h3><div class="li-sub"><p>'+item.Descripcion+'</p></div><div class="li-icon-tech">';
+    //verificar si existe
+    if(item.Tecnologias && item.Tecnologias.length > 0){
+      item.Tecnologias.forEach((tecnologia, j) => {
+        dataProyectosModal += '<span class="tooltip" data-tooltip="'+tecnologia.Text+'"><img class="icon-tech" src="'+tecnologia.Img+'" alt="'+tecnologia.Text+'"/></span>';
+      });
+    }
+    dataProyectosModal += '</div><div class="li-social">';
+    //verificar si existe
+    if(item.Links && item.Links.length > 0){
+      item.Links.forEach((enlaces, j) => {
+        dataProyectosModal += '<a class="btn btn-primary" target="_blank" href="'+enlaces.Link+'" ><i class="'+enlaces.Icon+'"></i> '+enlaces.Text+'</a> ';
+      });
+    }
+    dataProyectosModal += '</div></div></div></li>';
+  });
+  dataProyectosModal += '</ul></article></section>';
+  /***************************************/
+  //imprimo
+  contentDiv.innerHTML = dataProyectosModal;
 }
 async function load_experiencia() {
   const contentDiv = document.getElementById("modal-display");
   contentDiv.innerHTML = '';//se vacia el modal
-  contentDiv.innerHTML = await fetchHtmlAsText("experiencia.html");
-}
-async function load_estudios() {
-  const contentDiv = document.getElementById("modal-display");
-  contentDiv.innerHTML = '';//se vacia el modal
-  contentDiv.innerHTML = await fetchHtmlAsText("estudios.html");
+  /***************************************/
+  //Variable
+  let dataExperienciaModal = '<section id="experiencia" class="project-container container"><div class="content-text"><h2><i class="fas fa-book"></i> Experiencia Laboral</h2><p>Revisa mi experiencia laboral</p></div><article class=""><div class="row example-basic"><ul class="timeline">';
+  //se agregan los proyectos
+  experiencia.forEach((item, i) => {
+    dataExperienciaModal += '<li class="timeline-item"><div class="timeline-info"><span>'+item.Fechas+'</span></div><div class="timeline-marker"></div><div class="timeline-content"><h3 class="timeline-title">'+item.Empresa+'</h3><p><strong>'+item.Puesto+':</strong><br/>'+item.Descripcion+'<br/>';
+    //verificar si existe
+    if(item.proyectos && item.proyectos.length > 0){
+      dataExperienciaModal += '<strong>Proyectos:</strong>';
+      item.proyectos.forEach((proyecto, j) => {
+        if(proyecto.Link!=''){
+          dataExperienciaModal += '<br/><a href="'+proyecto.Link+'" target="_blank" rel="noopener noreferrer">•	'+proyecto.Nombre+'.</a>';
+        }else{
+          dataExperienciaModal += '<br/>•	'+proyecto.Nombre+'.';
+        }
+      });
+    }
+    dataExperienciaModal += '</p></div></li>';
+  });
+  dataExperienciaModal += '<li class="timeline-item"><div class="timeline-info"></div></li>';
+  dataExperienciaModal += '</ul></div></article></section>';
+  /***************************************/
+  //imprimo
+  contentDiv.innerHTML = dataExperienciaModal;
 }
 async function load_cursos() {
   const contentDiv = document.getElementById("modal-display");
   contentDiv.innerHTML = '';//se vacia el modal
-  contentDiv.innerHTML = await fetchHtmlAsText("cursos.html");
+  /***************************************/
+  //Variable
+  let dataCursosModal = '<section id="estudios" class="project-container container"><div class="content-text"><h2><i class="fas fa-school"></i> Cursos y Capacitaciones</h2><p>Revisa los últimos cursos y capacitaciones que he realizado.</p></div><article class=""><div class="row example-basic"><ul class="timeline" id="IDCursosModal">';
+  //se agregan los proyectos
+  cursos.forEach((item, i) => {
+    dataCursosModal += '<li class="timeline-item"><div class="timeline-marker"></div><div class="timeline-content"><h3 class="timeline-title">'+item.Ano+'</h3><p>';
+    item.Cursos.forEach((curso, j) => {
+      dataCursosModal += '•	'+curso.Nombre+'.';
+      if(curso.Link!=''){     dataCursosModal += ' <a href="'+curso.Link+'" target="_blank" rel="noopener noreferrer" >';}
+      if(curso.TextLink!=''){ dataCursosModal += curso.TextLink;}
+      if(curso.Link!=''){     dataCursosModal += '</a>';}
+      dataCursosModal += '.<br/>';
+      countCursos++;
+    });
+    dataCursosModal += '</p></div></li>';
+  });
+  dataCursosModal += '<li class="timeline-item"><div class="timeline-info"></div></li>';
+  dataCursosModal += '</ul></div></article></section>';
+  /***************************************/
+  //imprimo
+  contentDiv.innerHTML = dataCursosModal;
 }

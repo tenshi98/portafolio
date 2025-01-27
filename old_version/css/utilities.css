@@ -1,0 +1,65 @@
+
+h1::selection,
+h2::selection {
+  color: #111;
+  background: var(--text-tittle-color);
+}
+
+
+@keyframes bounce {
+  from {transform: translateY(0px);}
+  to {transform: translateY(-10px);}
+}
+
+/* Responsiveness */
+@media (max-width: 1000px) {
+  .project {display: grid;grid-template-columns: repeat(2, 1fr);}
+}
+@media (max-width: 768px) {
+  .header-container {margin-top: 7rem;text-align: center;}
+  .content-text h2 {font-size: 2.5rem;}
+}
+@media (max-width: 670px) {
+  .navbar .nav-menu {position: fixed;right: -100vw;top: 4.5rem;flex-direction: column;width: calc(80% - 10px);transition: 0.3s;background-color: var(--bg-header);padding: 2rem;border-radius: 5px;align-items: flex-start;}
+  .navbar .btn {margin: 0;margin-top: 1rem;}
+  .nav-menu.active {right: 20px;}
+  .nav-menu .nav-link {font-size: 0.9rem;margin: 0 0.2rem;}
+  .nav-menu li {margin-bottom: 0.5rem;width: 100%;}
+  .nav-menu .btn {width: 100%;text-align: center;margin-top: 0.5rem;}
+  .hamburger {display: block;cursor: pointer;padding: 0.2rem 0.4rem;}
+  .hamburger.active {border: 1px dotted gray;}
+  .hamburger.active .bar:nth-child(2) {opacity: 0;}
+  .hamburger.active .bar:nth-child(1) {transform: translateY(6px) rotate(45deg);}
+  .hamburger.active .bar:nth-child(3) {transform: translateY(-8px) rotate(-45deg);}
+  .project-container .content-box .list li .inner .li-img {width: 100%;display: grid;}
+  .project-container .content-box .list li .inner .li-text {width: 100%;display: grid;}
+}
+
+@media (max-width: 600px) {
+  .project {display: grid;grid-template-columns: 1fr;}
+  .header-container .btn {border-radius: 5px;width: 80%;}
+}
+
+@media all and (min-width: 45em) {
+  .list li {float: left;width: 100%;}
+}
+
+@media all and (min-width: 75em) {
+  .list li {width: 50%;}
+}
+
+/* for flexbox */
+@supports(display: flex) {
+  .list {display: flex;flex-wrap: wrap;}
+  .li-img,
+  .li-text,
+  .list li {display: block;float: none;}
+  .li-img {align-self: center; /* to match the middle alignment of the original */}
+  .inner {display: flex;}
+}
+
+/* for grid */
+@supports(display: grid) {
+  .list {display: grid;grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));}
+  .list li {width: auto; /* this overrides the media queries */}
+}
