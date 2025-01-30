@@ -234,7 +234,23 @@ var experiencia = [
         Fechas:      "Junio 2016 - Presente",
         Empresa:     "Exilon 360 SPA - Crosstech - Simplytech",
         Puesto:      "FullStack Developer",
-        Descripcion: "Creación y desarrollo de distintas plataformas implementando el uso de tecnologías como la telemetría en tiempo real, la geolocalización mediante el uso de GPS, la notificación masiva a través de whatsapp o de un servicio externo de envío de emails masivos, utilización de charts.js y plotly.js para crear gráficos con unos 10.000 datos a mostrar, visualización de los límites de los campos de arado, áreas fumigadas, ruta de los tractores, etc. gracias a Google Maps, previsión meteorológica utilizando PHP ML (Machine Learning), exportación de los datos a archivos Excel o PDF, importación de datos masivos a través de archivos CVS o XML, integración con el SII a través de servicios externos, creación de APP para Android  y Aplicaciones para Windows, etc.",
+        Descripcion:
+                    "•	Creación de plataforma de administración de equipos, clientes y contratos."
+                    + "<br/>•	Implementación de sistema telemetría y geolocalización GPS en tiempo real basado en tecnología propia (placas Arduino y sensores GPS)."
+                    + "<br/>•	Implementación de sistema mediciones en tiempo real basado en tecnología propia (placas Arduino y sensores de temperatura, niveles de flujo, tensión eléctrica, etc.)."
+                    + "<br/>•	Implementación de sistema de notificaciones masivas a través de la API de WhatsApp Business."
+                    + "<br/>•	Implementación de sistema de notificaciones de correo masivas a través del servicio de correos del servidor."
+                    + "<br/>•	Implementación de gráficos simples utilizando la librería charts.js."
+                    + "<br/>•	Implementación de gráficos de mayor complejidad utilizando la librería plotly.js."
+                    + "<br/>•	Implementación de Crones para el envío de informes personalizados a los distintos usuarios de cada cliente basado en los permisos de los equipos asignados."
+                    + "<br/>•	Implementación de mapas dinámicos a través de la API de Google Maps, para la visualización de datos de medición y/o telemetría (delimitación de campos de arado, niveles de áreas fumigadas, ruta de tractores u otros vehículos, etc.)."
+                    + "<br/>•	Implementación de la librería PHP ML para la previsión de datos (principalmente meteorológicos, para dar aviso mediante correo y/o WhatsApp antes de una helada)."
+                    + "<br/>•	Implementación exportación de datos (PDF, Excel, Word, Xml)."
+                    + "<br/>•	Implementación importación de datos masivos (CVS o XML)."
+                    + "<br/>•	Implementación de facturación electrónica a través de la API de LibreDTE."
+                    + "<br/>•	Creación de APP para Android utilizando Android Studio."
+                    + "<br/>•	Creación de Aplicaciones para Windows utilizando Visual Studio."
+                    ,
         proyectos : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma Gesti%C3%B3n Modular",  Nombre: "Creación plataforma Gestión Modular"},
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma Agropraxis",            Nombre: "Creación plataforma Agropraxis"},
@@ -249,7 +265,11 @@ var experiencia = [
         Fechas:      "Noviembre 2024 - Presente",
         Empresa:     "Servicios Electrónicos S.A. (Freelance)",
         Puesto:      "FullStack Developer",
-        Descripcion: "Creación y desarrollo de la plataforma de Bienestar Inacap enfocada en la administración de socios, sus préstamos y bonificaciones.",
+        Descripcion:
+                    "•	Creación y desarrollo de la plataforma de Bienestar Inacap enfocada en la administración de socios, sus préstamos y bonificaciones."
+                    + "<br/>•	Implementación de sistema de notificaciones masivas."
+                    + "<br/>•	Implementación exportación de datos (PDF, Excel, Word)."
+                    ,
         proyectos : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma Bienestar Inacap",Nombre: "Creación plataforma Bienestar Inacap"},
         ]
@@ -258,7 +278,10 @@ var experiencia = [
         Fechas:      "Noviembre 2024 - Presente",
         Empresa:     "Deimos Corp. (Freelance)",
         Puesto:      "FullStack Developer",
-        Descripcion: "Creacion de Sitios Web.",
+        Descripcion:
+                    "•	Diseño, maquetación y programación de sitios web."
+                    + "<br/>•	Diseño y retoque de imágenes, portadas y otras artes."
+                    + "<br/>•	Implementación de SEO y SEM en los sitios.",
         proyectos : [
             {Link: "https://web.deimoscorp.cl/",  Nombre: "Creación sitio web Deimos Corp"},
         ]
@@ -267,7 +290,16 @@ var experiencia = [
         Fechas:      "Noviembre 2022 - Presente",
         Empresa:     "Polz Asociados. (Freelance)",
         Puesto:      "FullStack Developer",
-        Descripcion: "Creación y desarrollo de las plataformas implementando el uso de Google Maps, sistemas de envío de correos masivos, sistema de seguimiento en los avances de las unidades de negocios, gestión de clientes, vendedores, etc.",
+        Descripcion:
+                    "•	Creación de plataforma Terranía (plataformas de administración, compradores, vendedores, ejecutivos, corredores)."
+                    + "<br/>•	Creación plataforma Somos Teatro (plataformas de administración, compañías de teatro y compradores)."
+                    + "<br/>•	Implementación de sistema de notificaciones masivas a través de la API de WhatsApp Business."
+                    + "<br/>•	Implementación de sistema de notificaciones de correo masivas a través de la API de Brevo."
+                    + "<br/>•	Implementación de gráficos simples utilizando la librería charts.js."
+                    + "<br/>•	Implementación exportación de datos (PDF, Excel, Word)."
+                    + "<br/>•	Implementación importación de datos masivos (CVS o XML)."
+                    + "<br/>•	Implementación de mapas dinámicos a través de la API de Google Maps, para la visualización de la ubicación de los terrenos."
+                    ,
         proyectos : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma Terrania",        Nombre: "Creación plataforma Terrania"},
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma Somos Teatro",    Nombre: "Creación plataforma Somos Teatro"},
@@ -300,7 +332,15 @@ var experiencia = [
         Fechas:      "Mayo 2014 - Mayo 2016",
         Empresa:     "Natural Phone S.A.",
         Puesto:      "Jefe Departamento de Desarrollo de Aplicaciones",
-        Descripcion: "Planificación, coordinación y desarrollo de proyectos en distintas áreas tecnológicas, dentro y fuera de Chile, implementando las últimas tecnologías para tareas tales como chat en vivo, videoconferencias, comunicaciones web-teléfono a través de servidores Asterisk, interacciones con redes sociales, desarrollo de aplicaciones para IOS y Android enfocadas a temas de seguridad y redes sociales, etc.",
+        Descripcion:
+                    "•	Planificación, coordinación y desarrollo de proyectos en distintas áreas tecnológicas, principalmente en proyectos realizados fuera de Chile."
+                    + "<br/>•	Implementación las últimas tecnologías para tareas tales como chat en vivo, videoconferencias, comunicaciones web-teléfono a través de servidores Asterisk."
+                    + "<br/>•	Desarrollo de aplicaciones para las plataformas IOS y Android enfocadas a temas de seguridad y redes sociales."
+                    + "<br/>•	Asesorías en instalación de redes."
+                    + "<br/>•	Asesorías en adquisición de equipamientos."
+                    + "<br/>•	Instalación, mantención y soporte de computadores."
+                    + "<br/>•	Coordinación de proyectos en Perú, Colombia y Venezuela."
+                    ,
         proyectos : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma TodosComunicados",    Nombre: "Creación Plataforma TodosComunicados"},
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma ubica tu colectivo",  Nombre: "Creación Plataforma ubica tu colectivo"},
@@ -336,19 +376,27 @@ var experiencia = [
         Fechas:      "Enero 2014 - Febrero 2014",
         Empresa:     "Novafoods S.A.",
         Puesto:      "Programador PHP",
-        Descripcion: "•	Análisis y diseño del sistema de gestión interno de la empresa enfocada en compras, ventas, gestión de las bodegas, gestión de producción y la planificación de la misma. <br/>•	Creación del sistema Novasystem, el cual es un sistema de administración de la empresa similar a un ERP, el cual permite administrar las compras, ventas y los procesos dentro de la planta de producción, a través de un Flujo de Trabajo predefinido. <br/>•	Creación del sistema Mercotactica, el cual es un pequeño sistema orientado a la administración de las bodegas de Novafoods en todo chile, permitiendo el traspaso de productos entre la bodega central y el resto de las bodegas, mostrando en todo momento el stock de las bodegas en tiempo real.",
+        Descripcion:
+                    "•	Análisis y diseño del sistema de gestión interno de la empresa enfocada en compras, ventas, gestión de las bodegas, gestión de producción y la planificación de la misma."
+                    + "<br/>•	Creación del sistema Novasystem, el cual es un sistema de administración de la empresa similar a un ERP, el cual permite administrar las compras, ventas y los procesos dentro de la planta de producción, a través de un Flujo de Trabajo predefinido."
+                    + "<br/>•	Creación del sistema Mercotactica, el cual es un pequeño sistema orientado a la administración de las bodegas de Novafoods en todo chile, permitiendo el traspaso de productos entre la bodega central y el resto de las bodegas, mostrando en todo momento el stock de las bodegas en tiempo real.",
     },
     {
         Fechas:      "Octubre 2013 - Diciembre 2013",
         Empresa:     "Chile Digital Limitada",
         Puesto:      "Diseñador Web Wordpress",
-        Descripcion: "•	Diseño, maquetación y programación de sitios web basados en Wordpress. <br/>•	Diseño y retoque de imágenes, portadas y otras artes. <br/>•	Implementación de SEO y SEM en los sitios.",
+        Descripcion:
+                    "•	Diseño, maquetación y programación de sitios web basados en Wordpress."
+                    + "<br/>•	Diseño y retoque de imágenes, portadas y otras artes."
+                    + "<br/>•	Implementación de SEO y SEM en los sitios.",
     },
     {
         Fechas:      "Mayo 2013 - Octubre 2013",
         Empresa:     "Simyl S.A.",
         Puesto:      "Programador PHP",
-        Descripcion: "•	Creación del sistema Enap-Metro, el cual es un sistema orientado a la administración de los servicios entregados por Simyl a través de las distintas ordenes de trabajos previamente fijadas en el contrato de servicios. <br/>•	Creación del sistema Mantenlubric, el cual es un sistema orientado a la gestión de los puntos de lubricación de las maquinas al interior de las empresas, además de gestionar las bodegas, las cotizaciones y las ventas de la empresa Simyl.",
+        Descripcion:
+                    "•	Creación del sistema Enap-Metro, el cual es un sistema orientado a la administración de los servicios entregados por Simyl a través de las distintas ordenes de trabajos previamente fijadas en el contrato de servicios."
+                    + "<br/>•	Creación del sistema Mantenlubric, el cual es un sistema orientado a la gestión de los puntos de lubricación de las maquinas al interior de las empresas, además de gestionar las bodegas, las cotizaciones y las ventas de la empresa Simyl.",
         proyectos : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma Mantenlubric",   Nombre: "Creación y mantención plataforma Enap"},
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma Mantenlubric",   Nombre: "Creación y mantención plataforma Metro"},
@@ -381,19 +429,35 @@ var experiencia = [
         Fechas:      "Diciembre 2011 - Abril 2013",
         Empresa:     "Nielsoft Informática Ltda",
         Puesto:      "Analista Datos sección Atención de empleadores",
-        Descripcion: "•	Revisión y mantención base de datos sistema PU de Provida.<br/>•	Implementación del nuevo informe para el control de Moras presuntas, Rezagos Obligatorios y Voluntarias.<br/>•	Creación de informe de control de los ingresos de causas de mora y rezagos de empleadores, con validación y cruce de información del sistema SARINA y PU.",
+        Descripcion:
+                    "•	Revisión y mantención base de datos sistema PU de Provida."
+                    + "<br/>•	Implementación del nuevo informe para el control de Moras presuntas, Rezagos Obligatorios y Voluntarias."
+                    + "<br/>•	Creación de informe de control de los ingresos de causas de mora y rezagos de empleadores, con validación y cruce de información del sistema SARINA y PU.",
     },
     {
         Fechas:      "Julio 2011 - Noviembre 2011",
         Empresa:     "Automotora Patricio Hidalgo S.A.",
         Puesto:      "Tesorero General",
-        Descripcion: "Ejecución de tareas relacionadas al puesto a través de la plataforma SAP. <br/><strong>Tareas:</strong> <br/>•	Ingreso de facturas y cheques al sistema SAP. <br/>•	Generación de cheques para pago de proveedores vía SAP. <br/>•	Generación de reportes varios a Gerencia.",
+        Descripcion:
+                    "Ejecución de tareas relacionadas al puesto a través de la plataforma SAP."
+                    + "<br/><strong>Tareas:</strong>"
+                    + "<br/>•	Ingreso de facturas y cheques al sistema SAP."
+                    + "<br/>•	Generación de cheques para pago de proveedores vía SAP."
+                    + "<br/>•	Generación de reportes varios a Gerencia.",
     },
     {
         Fechas:      "Marzo 2003 - Junio 2011",
         Empresa:     "Viña Concha y Toro",
         Puesto:      "Soporte de Gerencia",
-        Descripcion: "Creación y desarrollo de distintos sistemas e informes basados en planillas Excel conectadas a bases de datos Access mediante macros.",
+        Descripcion:
+                    "•	Responsable de la creación de distintas mejoras para la optimización de la información de los distintos departamentos."
+                    + "<br/>•	Responsable de la mantención y optimización de las distintas bases de datos usadas en la planta."
+                    + "<br/>•	Relator de cursos de capacitación en relación a las mejoras implementadas."
+                    + "<br/>•	Gestión del orden en que las órdenes de fabricación son liberadas en relación a la disponibilidad de materiales y el índice de liberación de las órdenes."
+                    + "<br/>•	Responsable de la creación de reportes-informes (KPI) de nivel Táctico y Operativo."
+                    + "<br/>•	Creación de sistema para llevar el control de las horas extras informadas por el personal, reduciendo en un 70% el tiempo invertido en esto."
+                    + "<br/>•	Creación de un sistema de control de las horas extras, bonos por turnos y costo de las horas extras de las distintas empresas externas dentro de la empresa."
+                    ,
         proyectos : [
             {Link: "https://github.com/tenshi98/InfoTurno",                                Nombre: "Mantención del sistema InfoTurno"},
             {Link: "https://github.com/tenshi98/InfoTurno",                                Nombre: "Mantención del informe 5 Minutos"},
@@ -414,7 +478,10 @@ var proyectos = [
     {
         IMG:         "assets/project/img_27.jpg",
         Titulo:      "Plataforma Bienestar Inacap",
-        Descripcion: "Plataforma de administración enfocada en la administración de socios, sus préstamos y bonificaciones, se subdivide en 2 plataformas:<br/><strong> - Administración:</strong> Plataforma hecha para administrar a los socios, sus préstamos solicitados, las bonificaciones entregadas, los respectivos pagos, etc.<br/><strong> - Socios:</strong> Plataforma para los socios donde éstos pueden ver solo sus datos, sus prestamos y bonificaciones.",
+        Descripcion:
+                    "Plataforma de administración enfocada en la administración de socios, sus préstamos y bonificaciones, se subdivide en 2 plataformas:"
+                    +"<br/><strong> - Administración:</strong> Plataforma hecha para administrar a los socios, sus préstamos solicitados, las bonificaciones entregadas, los respectivos pagos, etc."
+                    +"<br/><strong> - Socios:</strong> Plataforma para los socios donde éstos pueden ver solo sus datos, sus prestamos y bonificaciones.",
         DescCorta:   "Plataforma de administración enfocada en la administración de socios, sus préstamos y bonificaciones.",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
@@ -428,6 +495,7 @@ var proyectos = [
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma%20Bienestar%20Inacap", Icon: "fab fa-github", Text: "Documentación"},
+            {Link: "https://github.com/tenshi98/Trabajo_Propios_Demos/tree/main/Bienestar_Inacap",           Icon: "fas fa-cogs",   Text: "Demo"},
         ]
     },
     {
@@ -450,7 +518,11 @@ var proyectos = [
     {
         IMG:         "assets/project/img_7.jpg",
         Titulo:      "Plataforma SimpliVet",
-        Descripcion: "Plataforma de negocios enfocada a ofrecer el servicio de gestión de veterinarias, esta plataforma se subdivide en 3 plataformas:<br/><strong> - Administración:</strong> Plataforma hecha para administrar a los clientes, en este caso las veterinarias y hacer las facturaciones mensuales por los servicios.<br/><strong> - Clientes:</strong> Plataforma de atención de mascotas, llevando el detalle de las vacunas, atenciones, hospitalizaciones y cirugías. También permite administrar los centros, losservicios, los productos a la venta, los empleados y las bodegas, dependiendo de la configuración de la cuenta, puede enviar notificaciones por email y por whatsapp.<br/><strong> - Tutores:</strong> Plataforma que permite ver todos los datos del tutor y sus mascotas, el detalle de cada mascota, sus vacunas, sus cirugías, calendario de vacunas, etc.",
+        Descripcion:
+                    "Plataforma de negocios enfocada a ofrecer el servicio de gestión de veterinarias, esta plataforma se subdivide en 3 plataformas:"
+                    +"<br/><strong> - Administración:</strong> Plataforma hecha para administrar a los clientes, en este caso las veterinarias y hacer las facturaciones mensuales por los servicios."
+                    +"<br/><strong> - Clientes:</strong> Plataforma de atención de mascotas, llevando el detalle de las vacunas, atenciones, hospitalizaciones y cirugías. También permite administrar los centros, losservicios, los productos a la venta, los empleados y las bodegas, dependiendo de la configuración de la cuenta, puede enviar notificaciones por email y por whatsapp."
+                    +"<br/><strong> - Tutores:</strong> Plataforma que permite ver todos los datos del tutor y sus mascotas, el detalle de cada mascota, sus vacunas, sus cirugías, calendario de vacunas, etc.",
         DescCorta:   "Plataforma de negocios enfocada a ofrecer el servicio de gestión de veterinarias.",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
@@ -466,6 +538,7 @@ var proyectos = [
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma%20SimpliVet", Icon: "fab fa-github", Text: "Documentación"},
             {Link: "https://simplivet.cl/",                                                         Icon: "fas fa-link",   Text: "Sitio web de la empresa"},
+            {Link: "https://github.com/tenshi98/Trabajo_Propios_Demos/tree/main/SimpliVet",         Icon: "fas fa-cogs",   Text: "Demo"},
         ]
     },
     {
@@ -552,7 +625,9 @@ var proyectos = [
     {
         IMG:         "assets/project/img_11.jpg",
         Titulo:      "Sitio Web Terranía",
-        Descripcion: "Sitio web que muestra un listado de terrenos disponibles para la compra, separandolos por lineas de negocios, por region y comuna.<br/>Obtiene los datos de las consultas a traves de un webservice y a traves de la direccion IP muestra 4 terrenos destacados cerca de la ubicacion entregada por dicha IP.",
+        Descripcion:
+                    "Sitio web que muestra un listado de terrenos disponibles para la compra, separandolos por lineas de negocios, por region y comuna."
+                    +"<br/>Obtiene los datos de las consultas a traves de un webservice y a traves de la direccion IP muestra 4 terrenos destacados cerca de la ubicacion entregada por dicha IP.",
         DescCorta:   "",
         Tecnologias : [
             {Img: "assets/icons/php.svg",          Text: "PHP"},
@@ -692,7 +767,9 @@ var proyectos = [
     {
         IMG:         "assets/project/img_3.jpg",
         Titulo:      "Plataforma Aguas EAPEC",
-        Descripcion: "Plataforma diseñada para gestionar la facturación de los medidores de aguas, entre sus características se encuentran la gestión de los clientes, la gestión del medidor o los remarcadores instalados en su propiedad, historial de mediciones, facturaciones, pagos, cortes, reposiciones y retiro de medidores, además de los distintos informes.<br/> Corre en un servidor con PHP 5.3 y no ha tenido mantención desde el 2019, pero sigue funcionando correctamente y no han reportado ninguna falla.",
+        Descripcion:
+                    "Plataforma diseñada para gestionar la facturación de los medidores de aguas, entre sus características se encuentran la gestión de los clientes, la gestión del medidor o los remarcadores instalados en su propiedad, historial de mediciones, facturaciones, pagos, cortes, reposiciones y retiro de medidores, además de los distintos informes."
+                    +"<br/> Corre en un servidor con PHP 5.3 y no ha tenido mantención desde el 2019, pero sigue funcionando correctamente y no han reportado ninguna falla.",
         DescCorta:   "",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
@@ -726,7 +803,9 @@ var proyectos = [
     {
         IMG:         "assets/project/img_29.jpg",
         Titulo:      "APP appCargo",
-        Descripcion: "Aplicación Android diseñada para la gestión de los contenedores desocupados en el viaje de vuelta de los camiones, ofreciendo la posibilidad de mover cargas a un costo inferior al arrendamiento de un contenedor completo.<br/>Desgraciadamente nunca vio la luz debido a que no se ponían de acuerdo con las tasas de participación del transportista, la empresa que ofrece la APP y los socios del negocio.",
+        Descripcion:
+                    "Aplicación Android diseñada para la gestión de los contenedores desocupados en el viaje de vuelta de los camiones, ofreciendo la posibilidad de mover cargas a un costo inferior al arrendamiento de un contenedor completo."
+                    +"<br/>Desgraciadamente nunca vio la luz debido a que no se ponían de acuerdo con las tasas de participación del transportista, la empresa que ofrece la APP y los socios del negocio.",
         DescCorta:   "",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
@@ -763,17 +842,12 @@ var proyectos = [
             {Link: "http://www.conatacoch.cl/", Icon: "fas fa-link", Text: "Sitio Web"},
         ]
     },
-
-
-
-
-
-
-
     {
         IMG:         "assets/project/img_0.jpg",
         Titulo:      "Plataforma TodosComunicados",
-        Descripcion: "Plataforma que haciendo uso de las tecnologías (HTML5, CS3, Jquery, html sockets, etc.) implementaba la videoconferencia grupal hasta 4 participantes, antes de la llegada de Zoom o Google Meet.<br/>Desgraciadamente no dispongo de ninguna captura de pantalla ni tampoco se encuentra en uso actualmente.",
+        Descripcion:
+                    "Plataforma que haciendo uso de las tecnologías (HTML5, CS3, Jquery, html sockets, etc.) implementaba la videoconferencia grupal hasta 4 participantes, antes de la llegada de Zoom o Google Meet."
+                    +"<br/>Desgraciadamente no dispongo de ninguna captura de pantalla ni tampoco se encuentra en uso actualmente.",
         DescCorta:   "",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
@@ -791,7 +865,9 @@ var proyectos = [
     {
         IMG:         "assets/project/img_0.jpg",
         Titulo:      "Plataforma ubica tu colectivo",
-        Descripcion: "Plataforma enfocada en indicar el tiempo de espera de llegada a un paradero del próximo colectivo mas cercano a este.<br/>Desgraciadamente no dispongo de ninguna captura de pantalla ni tampoco se encuentra en uso actualmente.",
+        Descripcion:
+                    "Plataforma enfocada en indicar el tiempo de espera de llegada a un paradero del próximo colectivo mas cercano a este."
+                    +"<br/>Desgraciadamente no dispongo de ninguna captura de pantalla ni tampoco se encuentra en uso actualmente.",
         DescCorta:   "",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
@@ -884,7 +960,9 @@ var proyectos = [
     {
         IMG:         "assets/project/img_34.jpg",
         Titulo:      "OIRS San Miguel",
-        Descripcion: "Plataforma diseñada para hacer la solicitud de información a la municipalidad, mantenía un registro de las solicitudes y las respuestas a estas.<br/>También ofrece toda la información de la persona procesada en la municipalidad.",
+        Descripcion:
+                    "Plataforma diseñada para hacer la solicitud de información a la municipalidad, mantenía un registro de las solicitudes y las respuestas a estas."
+                    +"<br/>También ofrece toda la información de la persona procesada en la municipalidad.",
         DescCorta:   "",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
@@ -931,7 +1009,9 @@ var proyectos = [
     {
         IMG:         "assets/project/img_37.jpg",
         Titulo:      "APP Approbar",
-        Descripcion: "Aplicación Android hecha para poder acceder a la información de cualquier producto de un supermercado adherido solo escaneando su código de barras, una vez escaneado mostraría su aporte energético, si tiene preservantes, etc.<br/>El proyecto fracaso porque los supermercados no estaban interesados y porque no se podía implementar el tema de la base de datos en base al código de barras del producto, ya que, para un mismo producto, dependiendo de la zona (hablando de Perú), llevaba un código de barras distinto.",
+        Descripcion:
+                    "Aplicación Android hecha para poder acceder a la información de cualquier producto de un supermercado adherido solo escaneando su código de barras, una vez escaneado mostraría su aporte energético, si tiene preservantes, etc."
+                    +"<br/>El proyecto fracaso porque los supermercados no estaban interesados y porque no se podía implementar el tema de la base de datos en base al código de barras del producto, ya que, para un mismo producto, dependiendo de la zona (hablando de Perú), llevaba un código de barras distinto.",
         DescCorta:   "",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
@@ -945,7 +1025,9 @@ var proyectos = [
     {
         IMG:         "assets/project/img_0.jpg",
         Titulo:      "APP AppSeguridad",
-        Descripcion: "Aplicación Android de seguridad ofrecida para el público en general que se encargaba de registrar eventos en un mapa, con niveles de peligro del evento y un registro de éste, permitía indicar mediante vibraciones del celular si uno estaba entrando a un área conflictiva.<br/>Desgraciadamente no dispongo de ninguna captura de pantalla ni tampoco se encuentra en uso actualmente.",
+        Descripcion:
+                    "Aplicación Android de seguridad ofrecida para el público en general que se encargaba de registrar eventos en un mapa, con niveles de peligro del evento y un registro de éste, permitía indicar mediante vibraciones del celular si uno estaba entrando a un área conflictiva."
+                    +"<br/>Desgraciadamente no dispongo de ninguna captura de pantalla ni tampoco se encuentra en uso actualmente.",
         DescCorta:   "",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
@@ -960,7 +1042,10 @@ var proyectos = [
     {
         IMG:         "assets/project/img_38.jpg",
         Titulo:      "APP Bussan",
-        Descripcion: "Aplicación Android que podría ser la evolución de la APP Busafe, mezcla las características de dicha aplicación, mas las características de la aplicación SOSClick y la aplicacion AppBuss para obtener esta aplicación.<br/>Además, ofrecía una aplicación para tablets para los choferes, con la idea de que fueran utilizadas en el Transantiago para reemplazar el sistema de seguridad que en ese tiempo lo ofrecía la empresa Sonda.<br/>Fracaso porque en ese tiempo, Carlos Valenzuela, le presento la idea completa, más sus flujos y la lógica de funcionamiento y procesos a la persona que unos meses más tarde crearía la APP Sosafe, apoyada por el gobierno de ese entonces, matando por completo esta APP.",
+        Descripcion:
+                    "Aplicación Android que podría ser la evolución de la APP Busafe, mezcla las características de dicha aplicación, mas las características de la aplicación SOSClick y la aplicacion AppBuss para obtener esta aplicación."
+                    +"<br/>Además, ofrecía una aplicación para tablets para los choferes, con la idea de que fueran utilizadas en el Transantiago para reemplazar el sistema de seguridad que en ese tiempo lo ofrecía la empresa Sonda."
+                    +"<br/>Fracaso porque en ese tiempo, Carlos Valenzuela, le presento la idea completa, más sus flujos y la lógica de funcionamiento y procesos a la persona que unos meses más tarde crearía la APP Sosafe, apoyada por el gobierno de ese entonces, matando por completo esta APP.",
         DescCorta:   "",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
@@ -974,7 +1059,9 @@ var proyectos = [
     {
         IMG:         "assets/project/img_39.jpg",
         Titulo:      "APP ClickFarma",
-        Descripcion: "Aplicación Android que permitía acceder a un vademecum de un determinado remedio solo escaneando su código de barras con la cámara del celular, ver el stock de un determinado remedio de la farmacia mas cercana a tu ubicación y una agenda que te recordaba con una alarma el remedio que te tocaba.<br/>La APP fracaso porque todas sus funciones eran irreales, la base de datos con códigos de barras iba a ser enorme, cada farmacia gestiona su stock con programas diferentes entre una y otra, por lo que se debía hacer una implementación nueva para cada una, además de que se tenía que negociar con cada una para ver si permitían el acceso a sus bases de datos, y el tema de las alarmas podía ser fácilmente reemplazado con la alarma del celular.",
+        Descripcion:
+                    "Aplicación Android que permitía acceder a un vademecum de un determinado remedio solo escaneando su código de barras con la cámara del celular, ver el stock de un determinado remedio de la farmacia mas cercana a tu ubicación y una agenda que te recordaba con una alarma el remedio que te tocaba."
+                    +"<br/>La APP fracaso porque todas sus funciones eran irreales, la base de datos con códigos de barras iba a ser enorme, cada farmacia gestiona su stock con programas diferentes entre una y otra, por lo que se debía hacer una implementación nueva para cada una, además de que se tenía que negociar con cada una para ver si permitían el acceso a sus bases de datos, y el tema de las alarmas podía ser fácilmente reemplazado con la alarma del celular.",
         DescCorta:   "",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
@@ -1119,7 +1206,9 @@ var proyectos = [
     {
         IMG:         "assets/project/img_49.jpg",
         Titulo:      "APP SOSClick",
-        Descripcion: "Aplicación Android de seguridad ofrecida para el público en general, entre sus características estaban la de crear redes de seguridad, envío de notificaciones de seguridad y encontrar mi dispositivo.<br/>Actualmente se le han agregado mas funcionalidades, pero mantiene las definidas en un inicio.",
+        Descripcion:
+                    "Aplicación Android de seguridad ofrecida para el público en general, entre sus características estaban la de crear redes de seguridad, envío de notificaciones de seguridad y encontrar mi dispositivo."
+                    +"<br/>Actualmente se le han agregado mas funcionalidades, pero mantiene las definidas en un inicio.",
         DescCorta:   "",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
@@ -1191,7 +1280,9 @@ var proyectos = [
     {
         IMG:         "assets/project/img_15.jpg",
         Titulo:      "Sitio Web Inés Bengoa - Narración Infantil",
-        Descripcion: "En este sitio solo hice una mantención de plugins y correcciones visuales debido a algunas incompatibilidades entre plugins.<br/> Actualmente fue rediseñada sobre otra arquitectura.",
+        Descripcion:
+                    "En este sitio solo hice una mantención de plugins y correcciones visuales debido a algunas incompatibilidades entre plugins."
+                    +"<br/> Actualmente fue rediseñada sobre otra arquitectura.",
         DescCorta:   "",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
@@ -1215,7 +1306,9 @@ var proyectos = [
     {
         IMG:         "assets/project/img_17.jpg",
         Titulo:      "Sitio Web Turismo Rural en Navarra",
-        Descripcion: "Creación del sitio en wordpress a partir de la versión antigua hecha en joomla.<br/> Actualmente fue rediseñada sobre otra arquitectura manteniendo casi todas sus caracteristicas.",
+        Descripcion:
+                    "Creación del sitio en wordpress a partir de la versión antigua hecha en joomla."
+                    +"<br/> Actualmente fue rediseñada sobre otra arquitectura manteniendo casi todas sus caracteristicas.",
         DescCorta:   "",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
