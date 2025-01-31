@@ -98,8 +98,6 @@ tecnologiasUsadas.forEach((item, i) => {
   if(countTecnologias==10){dataTecnologias += '<br/>';}
 });
 
-
-
 /***************************************/
 //se agregan los estudios
 estudios.forEach((item, i) => {
@@ -195,6 +193,7 @@ async function load_proyectos() {
   /***************************************/
   //imprimo
   contentDiv.innerHTML = dataProyectosModal;
+  contentDiv.scrollTop = 0;
 }
 async function load_experiencia() {
   const contentDiv = document.getElementById("modal-display");
@@ -223,6 +222,7 @@ async function load_experiencia() {
   /***************************************/
   //imprimo
   contentDiv.innerHTML = dataExperienciaModal;
+  contentDiv.scrollTop = 0;
 }
 async function load_cursos() {
   const contentDiv = document.getElementById("modal-display");
@@ -248,4 +248,5 @@ async function load_cursos() {
   /***************************************/
   //imprimo
   contentDiv.innerHTML = dataCursosModal;
+  contentDiv.scrollTop = 0;
 }
