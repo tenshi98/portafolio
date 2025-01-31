@@ -27,7 +27,8 @@ var cursos = [
     {
         Ano: "2025",
         Cursos : [
-            {Nombre: "Aprende Laravel paso a paso desde cero - De 0 a 100",Link: "https://ude.my/UC-ddc69e2a-2b89-4e9f-b473-3452eff4f622/",TextLink: "(Ver certificado en Udemy)"},
+            {Nombre: "Crea una Api REST FULL completa con PHP NATIVO",         Link: "https://ude.my/UC-7cdd1dec-cb66-486c-b97e-752b64af7868/",TextLink: "(Ver certificado en Udemy)"},
+            {Nombre: "Aprende Laravel paso a paso desde cero - De 0 a 100",    Link: "https://ude.my/UC-ddc69e2a-2b89-4e9f-b473-3452eff4f622/",TextLink: "(Ver certificado en Udemy)"},
         ]
     },
     {
