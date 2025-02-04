@@ -484,6 +484,7 @@ var proyectos = [
                     +"<br/><strong> - Administración:</strong> Plataforma hecha para administrar a los socios, sus préstamos solicitados, las bonificaciones entregadas, los respectivos pagos, etc."
                     +"<br/><strong> - Socios:</strong> Plataforma para los socios donde éstos pueden ver solo sus datos, sus prestamos y bonificaciones.",
         DescCorta:   "Plataforma de administración enfocada en la administración de socios, sus préstamos y bonificaciones.",
+        Tipo:       "Plataforma",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -504,6 +505,7 @@ var proyectos = [
         Titulo:      "Sitio Web Deimos Corp",
         Descripcion: "Sitio web de Soluciones de ingeniería y gestión de proyectos para diversas industrias.",
         DescCorta:   "Sitio web de Soluciones de ingeniería y gestión de proyectos para diversas industrias.",
+        Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/html-5.svg",     Text: "HTML-5"},
             {Img: "assets/icons/css-3.svg",      Text: "CSS-3"},
@@ -525,6 +527,7 @@ var proyectos = [
                     +"<br/><strong> - Clientes:</strong> Plataforma de atención de mascotas, llevando el detalle de las vacunas, atenciones, hospitalizaciones y cirugías. También permite administrar los centros, losservicios, los productos a la venta, los empleados y las bodegas, dependiendo de la configuración de la cuenta, puede enviar notificaciones por email y por whatsapp."
                     +"<br/><strong> - Tutores:</strong> Plataforma que permite ver todos los datos del tutor y sus mascotas, el detalle de cada mascota, sus vacunas, sus cirugías, calendario de vacunas, etc.",
         DescCorta:   "Plataforma de negocios enfocada a ofrecer el servicio de gestión de veterinarias.",
+        Tipo:        "Plataforma",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -547,6 +550,7 @@ var proyectos = [
         Titulo:      "Sitio Web SimpliVet",
         Descripcion: "Sitio web de presentación del software de gestión para centros veterinarios.",
         DescCorta:   "",
+        Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/php.svg",       Text: "PHP"},
             {Img: "assets/icons/html-5.svg",    Text: "HTML-5"},
@@ -564,6 +568,7 @@ var proyectos = [
         Titulo:      "Sitio Web Simplytech",
         Descripcion: "Sitio con información de la empresa, da acceso directo a los clientes a su plataforma, posee funcionamiento estandar de un sitio web de este tipo.",
         DescCorta:   "",
+        Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/html-5.svg",     Text: "HTML-5"},
@@ -581,6 +586,7 @@ var proyectos = [
         Titulo:      "Plataforma Gestión Modular",
         Descripcion: "Plataforma enfocada a gestionar las mediciones de telemetría a través de sus distintas interfaces para cada clientes de la empresa. Ofrece la administración de usuarios, de equipos de telemetría, gestión de mantenciones preventivas y de urgencia a los equipos de telemetría, informes agrupados al tipo de servicio ofrecido (medición temperaturas, GPS y niveles de riego en los campos, voltajes de equipo, etc.), entre otras características.",
         DescCorta:   "",
+        Tipo:        "Plataforma",
         Tecnologias : [
             {Img: "assets/icons/php.svg",         Text: "PHP"},
             {Img: "assets/icons/mysql.svg",       Text: "MYSQL"},
@@ -597,6 +603,7 @@ var proyectos = [
             {Img: "assets/icons/whatsapp.svg",    Text: "Whatsapp"},
             {Img: "assets/icons/email.svg",       Text: "Email"},
             {Img: "assets/icons/php-office.jpg",  Text: "PHP office"},
+            {Img: "assets/icons/cplusplus.svg",   Text: "C++"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma Gesti%C3%B3n Modular", Icon: "fab fa-github", Text: "Documentación"},
@@ -608,6 +615,7 @@ var proyectos = [
         Titulo:      "Plataforma Terranía",
         Descripcion: "Plataforma enfocada en la gestión de venta de los terrenos para cada línea de negocios, gestionando de principio a fin cada negociación con las empresas interesadas de forma separada para cada terreno.",
         DescCorta:   "",
+        Tipo:        "Plataforma",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -630,6 +638,7 @@ var proyectos = [
                     "Sitio web que muestra un listado de terrenos disponibles para la compra, separandolos por lineas de negocios, por region y comuna."
                     +"<br/>Obtiene los datos de las consultas a traves de un webservice y a traves de la direccion IP muestra 4 terrenos destacados cerca de la ubicacion entregada por dicha IP.",
         DescCorta:   "",
+        Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/php.svg",          Text: "PHP"},
             {Img: "assets/icons/html-5.svg",       Text: "HTML-5"},
@@ -648,6 +657,7 @@ var proyectos = [
         Titulo:      "Plataforma Vendo mi Campo",
         Descripcion: "Plataforma que sirve como base de datos y gestión en la venta o arriendo de los terrenos en la línea de negocios Campos (aquellos que solo permiten el cultivo, no la construcción), esta base de datos es mostrada en el sitio web de la empresa vendomicampo.cl a través de varios webservices.",
         DescCorta:   "",
+        Tipo:        "Plataforma",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -667,6 +677,7 @@ var proyectos = [
         Titulo:      "Plataforma Somos Teatro",
         Descripcion: "Plataforma enfocada en la gestión de venta de obras de teatro a las empresas interesadas, gestionando de principio a fin cada negociación con las empresas de forma separada para cada caso.",
         DescCorta:   "",
+        Tipo:        "Plataforma",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -687,6 +698,7 @@ var proyectos = [
         Titulo:      "Sitio Web Somos Teatro",
         Descripcion: "Sitio web de la empresa, esta se conecta con la plataforma de administración a través de Web Services para obtener las obras y su detalle.",
         DescCorta:   "",
+        Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/php.svg",       Text: "PHP"},
             {Img: "assets/icons/mysql.svg",     Text: "MYSQL"},
@@ -705,6 +717,7 @@ var proyectos = [
         Titulo:      "Sitio Web Casas Colmena",
         Descripcion: "Sitio web de acceso a los interesados en kit de casas prefabricadas, posee funcionamiento estandar de un sitio web de este tipo.",
         DescCorta:   "",
+        Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
         ],
@@ -717,6 +730,7 @@ var proyectos = [
         Titulo:      "Sitio Web Lomas de Lambert",
         Descripcion: "Sitio web de acceso a los interesados en comprar una parcela en esta zona, posee funcionamiento estandar de un sitio web de este tipo.",
         DescCorta:   "",
+        Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/php.svg",       Text: "PHP"},
             {Img: "assets/icons/html-5.svg",    Text: "HTML-5"},
@@ -734,6 +748,7 @@ var proyectos = [
         Titulo:      "Sitio Web Aktion",
         Descripcion: "Sitio web con información de esta firma de contadores, posee un formulario de contacto.",
         DescCorta:   "",
+        Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/php.svg",       Text: "PHP"},
             {Img: "assets/icons/html-5.svg",    Text: "HTML-5"},
@@ -751,6 +766,7 @@ var proyectos = [
         Titulo:      "Plataforma Agropraxis",
         Descripcion: "Servicio de consolidación de la carga Frutícola embarcada en contenedores. Se controla el cumplimiento de las instrucciones de carga (cargas específicas). Control de las condiciones de transporte instruidas a la naviera, estiba, sellado y registro de temperaturas. Terminada la faena se emite informe oficial de la actividad desarrollada, documento que será requerido por el seguro de carga en caso de algún siniestro.",
         DescCorta:   "",
+        Tipo:        "Plataforma",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -772,6 +788,7 @@ var proyectos = [
                     "Plataforma diseñada para gestionar la facturación de los medidores de aguas, entre sus características se encuentran la gestión de los clientes, la gestión del medidor o los remarcadores instalados en su propiedad, historial de mediciones, facturaciones, pagos, cortes, reposiciones y retiro de medidores, además de los distintos informes."
                     +"<br/> Corre en un servidor con PHP 5.3 y no ha tenido mantención desde el 2019, pero sigue funcionando correctamente y no han reportado ninguna falla.",
         DescCorta:   "",
+        Tipo:        "Plataforma",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -792,10 +809,12 @@ var proyectos = [
         Titulo:      "APP Busafe",
         Descripcion: "Aplicación Android diseñada para la gestión de los pasajeros y conductores de furgones escolares, se encarga de notificar al apoderado del niño cuando el furgón está cerca y de notificarlo cuando llega a su colegio, mientras que para el chofer del furgón se encarga de notificarle los niños que no asistirán dándole nuevas rutas alternativas por el pasajero faltante.",
         DescCorta:   "",
+        Tipo:        "APP",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
             {Img: "assets/icons/android.svg",    Text: "Android"},
+            {Img: "assets/icons/java.svg",       Text: "Java"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20Busafe", Icon: "fab fa-github", Text: "Documentación"},
@@ -808,10 +827,12 @@ var proyectos = [
                     "Aplicación Android diseñada para la gestión de los contenedores desocupados en el viaje de vuelta de los camiones, ofreciendo la posibilidad de mover cargas a un costo inferior al arrendamiento de un contenedor completo."
                     +"<br/>Desgraciadamente nunca vio la luz debido a que no se ponían de acuerdo con las tasas de participación del transportista, la empresa que ofrece la APP y los socios del negocio.",
         DescCorta:   "",
+        Tipo:        "APP",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
             {Img: "assets/icons/android.svg",    Text: "Android"},
+            {Img: "assets/icons/java.svg",       Text: "Java"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20appCargo", Icon: "fab fa-github", Text: "Documentación"},
@@ -822,6 +843,7 @@ var proyectos = [
         Titulo:      "APP CrossCrane",
         Descripcion: "Aplicación de escritorio diseñada para mostrar el estado de las grúas plumas de la plataforma gestión modular.",
         DescCorta:   "",
+        Tipo:        "APP",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -836,6 +858,7 @@ var proyectos = [
         Titulo:      "Sitio Web Conatacoch",
         Descripcion: "Sitio web del gremio de colectivos, es una fusión de sitio web con un blog y otros servicios. La administra el presidente del gremio.",
         DescCorta:   "",
+        Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
         ],
@@ -850,6 +873,7 @@ var proyectos = [
                     "Plataforma que haciendo uso de las tecnologías (HTML5, CS3, Jquery, html sockets, etc.) implementaba la videoconferencia grupal hasta 4 participantes, antes de la llegada de Zoom o Google Meet."
                     +"<br/>Desgraciadamente no dispongo de ninguna captura de pantalla ni tampoco se encuentra en uso actualmente.",
         DescCorta:   "",
+        Tipo:        "Plataforma",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -870,6 +894,7 @@ var proyectos = [
                     "Plataforma enfocada en indicar el tiempo de espera de llegada a un paradero del próximo colectivo mas cercano a este."
                     +"<br/>Desgraciadamente no dispongo de ninguna captura de pantalla ni tampoco se encuentra en uso actualmente.",
         DescCorta:   "",
+        Tipo:        "Plataforma",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -888,6 +913,7 @@ var proyectos = [
         Titulo:      "Click2Call",
         Descripcion: "Plataforma diseñada para conectar una pagina web a un llamado telefónico a un teléfono físico configurado previamente, permitía varias instancias.",
         DescCorta:   "",
+        Tipo:        "Otros",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -906,9 +932,10 @@ var proyectos = [
     },
     {
         IMG:         "assets/project/img_31.jpg",
-        Titulo:      "edukAmerica",
+        Titulo:      "Plataforma edukAmerica",
         Descripcion: "Plataforma clon de edukclick, donde se ofrecían cursos impartidos por las estrellas del canal América TV.",
         DescCorta:   "",
+        Tipo:        "Plataforma",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -924,9 +951,10 @@ var proyectos = [
     },
     {
         IMG:         "assets/project/img_32.jpg",
-        Titulo:      "edukclick",
+        Titulo:      "Plataforma edukclick",
         Descripcion: "Plataforma de educación tipo Moddle.",
         DescCorta:   "",
+        Tipo:        "Plataforma",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -942,9 +970,10 @@ var proyectos = [
     },
     {
         IMG:         "assets/project/img_33.jpg",
-        Titulo:      "MisionEduca",
+        Titulo:      "Plataforma MisionEduca",
         Descripcion: "Plataforma clon de edukclick, donde se ofrecían cursos impartidos por los pastores.",
         DescCorta:   "",
+        Tipo:        "Plataforma",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -965,6 +994,7 @@ var proyectos = [
                     "Plataforma diseñada para hacer la solicitud de información a la municipalidad, mantenía un registro de las solicitudes y las respuestas a estas."
                     +"<br/>También ofrece toda la información de la persona procesada en la municipalidad.",
         DescCorta:   "",
+        Tipo:        "Otros",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -984,6 +1014,7 @@ var proyectos = [
         Titulo:      "APP Aaazu",
         Descripcion: "Aplicación Android hecha para poder pagar con el celular en los puntos de la red de Pago Efectivo, además tenía una interacción con la app ClubAmerica, en donde se podían hacer apuestas utilizando el saldo de la APP.",
         DescCorta:   "",
+        Tipo:        "APP",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -998,6 +1029,7 @@ var proyectos = [
         Titulo:      "APP appBuss",
         Descripcion: "Aplicación Android hecha para que el transporte público pudiera enviarse alertas de emergencia entre ellos creando una red de seguridad, lamentablemente solo conservo los logos de la APP.",
         DescCorta:   "",
+        Tipo:        "APP",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -1014,6 +1046,7 @@ var proyectos = [
                     "Aplicación Android hecha para poder acceder a la información de cualquier producto de un supermercado adherido solo escaneando su código de barras, una vez escaneado mostraría su aporte energético, si tiene preservantes, etc."
                     +"<br/>El proyecto fracaso porque los supermercados no estaban interesados y porque no se podía implementar el tema de la base de datos en base al código de barras del producto, ya que, para un mismo producto, dependiendo de la zona (hablando de Perú), llevaba un código de barras distinto.",
         DescCorta:   "",
+        Tipo:        "APP",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -1030,6 +1063,7 @@ var proyectos = [
                     "Aplicación Android de seguridad ofrecida para el público en general que se encargaba de registrar eventos en un mapa, con niveles de peligro del evento y un registro de éste, permitía indicar mediante vibraciones del celular si uno estaba entrando a un área conflictiva."
                     +"<br/>Desgraciadamente no dispongo de ninguna captura de pantalla ni tampoco se encuentra en uso actualmente.",
         DescCorta:   "",
+        Tipo:        "APP",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -1048,6 +1082,7 @@ var proyectos = [
                     +"<br/>Además, ofrecía una aplicación para tablets para los choferes, con la idea de que fueran utilizadas en el Transantiago para reemplazar el sistema de seguridad que en ese tiempo lo ofrecía la empresa Sonda."
                     +"<br/>Fracaso porque en ese tiempo, Carlos Valenzuela, le presento la idea completa, más sus flujos y la lógica de funcionamiento y procesos a la persona que unos meses más tarde crearía la APP Sosafe, apoyada por el gobierno de ese entonces, matando por completo esta APP.",
         DescCorta:   "",
+        Tipo:        "APP",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -1064,6 +1099,7 @@ var proyectos = [
                     "Aplicación Android que permitía acceder a un vademecum de un determinado remedio solo escaneando su código de barras con la cámara del celular, ver el stock de un determinado remedio de la farmacia mas cercana a tu ubicación y una agenda que te recordaba con una alarma el remedio que te tocaba."
                     +"<br/>La APP fracaso porque todas sus funciones eran irreales, la base de datos con códigos de barras iba a ser enorme, cada farmacia gestiona su stock con programas diferentes entre una y otra, por lo que se debía hacer una implementación nueva para cada una, además de que se tenía que negociar con cada una para ver si permitían el acceso a sus bases de datos, y el tema de las alarmas podía ser fácilmente reemplazado con la alarma del celular.",
         DescCorta:   "",
+        Tipo:        "APP",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -1079,6 +1115,7 @@ var proyectos = [
         Titulo:      "APP ClubAmerica",
         Descripcion: "Aplicación Android hecha para poder participar en el programa del mismo nombre en el canal peruano América TV.",
         DescCorta:   "",
+        Tipo:        "APP",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -1093,6 +1130,7 @@ var proyectos = [
         Titulo:      "APP EasyPago",
         Descripcion: "Aplicación Android que permitía pagar con el celular en todos los almacenes y bazares del Perú conectados al servicio de Pago Fácil, después se transformó en la APP Aaazu.",
         DescCorta:   "",
+        Tipo:        "APP",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -1108,6 +1146,7 @@ var proyectos = [
         Titulo:      "APP Jootes",
         Descripcion: "Aplicación Android Chat Roulette para conversar con personas del sexo opuesto durante 30 segundos.",
         DescCorta:   "",
+        Tipo:        "APP",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -1124,6 +1163,7 @@ var proyectos = [
         Titulo:      "APP Juntos Somos Mas",
         Descripcion: "Aplicación Android de opinión para el partido político PS, funcionaba de forma similar a un foro con algunas ligeras modificaciones.",
         DescCorta:   "",
+        Tipo:        "APP",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -1138,6 +1178,7 @@ var proyectos = [
         Titulo:      "APP Llappa",
         Descripcion: "Aplicación Android mutante que mezclaba la opción de tener una sim virtual para poder hacer llamadas a un costo inferior al de las empresas chilenas y una aplicación de concursos, nunca vio la luz debido a que no se definió qué tipo de aplicación era.",
         DescCorta:   "",
+        Tipo:        "APP",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -1152,6 +1193,7 @@ var proyectos = [
         Titulo:      "APP PSVirtual",
         Descripcion: "Aplicación Android clon de la app Juntos Somos Mas, ofrecía exactamente lo mismo.",
         DescCorta:   "",
+        Tipo:        "APP",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -1166,6 +1208,7 @@ var proyectos = [
         Titulo:      "APP RPMClick",
         Descripcion: "Aplicación Android clon de la APP SOSClick, tiene mas o menos las mismas características.",
         DescCorta:   "",
+        Tipo:        "APP",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -1180,6 +1223,7 @@ var proyectos = [
         Titulo:      "APP SOSAmerica",
         Descripcion: "Aplicación Android de seguridad ofrecida por el canal de Perú América TV.",
         DescCorta:   "",
+        Tipo:        "APP",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -1195,6 +1239,7 @@ var proyectos = [
         Titulo:      "APP SOSBuin",
         Descripcion: "Aplicación Android clon de la APP SOSClick, ofrecida en exclusiva para la comuna de Buin.",
         DescCorta:   "",
+        Tipo:        "APP",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -1211,6 +1256,7 @@ var proyectos = [
                     "Aplicación Android de seguridad ofrecida para el público en general, entre sus características estaban la de crear redes de seguridad, envío de notificaciones de seguridad y encontrar mi dispositivo."
                     +"<br/>Actualmente se le han agregado mas funcionalidades, pero mantiene las definidas en un inicio.",
         DescCorta:   "",
+        Tipo:        "APP",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -1225,6 +1271,7 @@ var proyectos = [
         Titulo:      "APP SOSLaFlorida",
         Descripcion: "Aplicación Android clon de la APP SOSClick, ofrecida en exclusiva para la comuna de la Florida.",
         DescCorta:   "",
+        Tipo:        "APP",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -1239,6 +1286,7 @@ var proyectos = [
         Titulo:      "APP SOSTaxi",
         Descripcion: "Aplicación Android hecha para la seguridad de los taxistas, también existe una aplicación para los pasajeros, su funcionamiento asemeja lo que hace Didi o Uber.",
         DescCorta:   "",
+        Tipo:        "APP",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -1253,6 +1301,7 @@ var proyectos = [
         Titulo:      "APP Supega",
         Descripcion: "Aplicación Android que permite generar y aceptar ofertas de trabajo.",
         DescCorta:   "",
+        Tipo:        "APP",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -1269,6 +1318,7 @@ var proyectos = [
         Titulo:      "APP VinaSomosTodos",
         Descripcion: "Aplicación Android clon de la APP SOSClick, ofrecida en exclusiva para la comuna de Viña del Mar.",
         DescCorta:   "",
+        Tipo:        "APP",
         Tecnologias : [
             {Img: "assets/icons/php.svg",        Text: "PHP"},
             {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
@@ -1285,6 +1335,7 @@ var proyectos = [
                     "En este sitio solo hice una mantención de plugins y correcciones visuales debido a algunas incompatibilidades entre plugins."
                     +"<br/> Actualmente fue rediseñada sobre otra arquitectura.",
         DescCorta:   "",
+        Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
         ],
@@ -1297,6 +1348,7 @@ var proyectos = [
         Titulo:      "Sitio Web Itinerario muralístico",
         Descripcion: "Creación del sitio en wordpress a partir de la versión antigua hecha en html y javascript.",
         DescCorta:   "",
+        Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
         ],
@@ -1311,6 +1363,7 @@ var proyectos = [
                     "Creación del sitio en wordpress a partir de la versión antigua hecha en joomla."
                     +"<br/> Actualmente fue rediseñada sobre otra arquitectura manteniendo casi todas sus caracteristicas.",
         DescCorta:   "",
+        Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
         ],
@@ -1323,6 +1376,7 @@ var proyectos = [
         Titulo:      "Sitio Web Pizzeria del Sol",
         Descripcion: "Creación del sitio en wordpress a partir de la versión antigua hecha en HTML.",
         DescCorta:   "",
+        Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
         ],
@@ -1335,6 +1389,7 @@ var proyectos = [
         Titulo:      "Sitio Web Mundo raintxe",
         Descripcion: "Creación del sitio en wordpress a partir de la versión antigua hecha en wordpress, pero esta versión antigua tenia incompatibilidades con los plugins instalados, por lo que se solicitó una version hecha desde 0.",
         DescCorta:   "",
+        Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
         ],
@@ -1347,6 +1402,7 @@ var proyectos = [
         Titulo:      "Sitio Web Cosami",
         Descripcion: "Creación del sitio en wordpress a partir de una maqueta y utilizando otros sitios del mismo tipo como referencia.",
         DescCorta:   "",
+        Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
         ],
@@ -1359,6 +1415,7 @@ var proyectos = [
         Titulo:      "Sitio Web Rifo y Compañía Ltda",
         Descripcion: "Creación del sitio en wordpress clonando lo que ya tenia hecho en HTML.",
         DescCorta:   "",
+        Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
         ],
@@ -1371,6 +1428,7 @@ var proyectos = [
         Titulo:      "Sitio Web Animaciones infantiles Payasito Cascabel",
         Descripcion: "Creación del sitio en wordpress a partir de una maqueta en jpg.",
         DescCorta:   "",
+        Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
         ],
@@ -1383,6 +1441,7 @@ var proyectos = [
         Titulo:      "Sitio Web Fonda Carrera",
         Descripcion: "Creación del sitio en wordpress a partir de reuniones y solicitudes del cliente, se reciben los bosquejos y una especie de maqueta con lo que se había negociado.",
         DescCorta:   "",
+        Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
         ],
@@ -1395,6 +1454,7 @@ var proyectos = [
         Titulo:      "Plataforma Mantenlubric",
         Descripcion: "Este sistema está enfocado a la gestión de lubricación de las máquinas y sus puntos, todo se gestiona a través de contratos donde se indica el número de lubricaciones dentro del año, además poder programas mantenciones preventivas o de emergencia. Posee transacciones para gestionar a los usuarios (con un control de permisos según sus roles), las máquinas, los trabajadores, las bodegas, las compras y ventas, los vendedores y sus negociaciones, entre otras.",
         DescCorta:   "",
+        Tipo:        "Plataforma",
         Tecnologias : [
             {Img: "assets/icons/php.svg",       Text: "PHP"},
             {Img: "assets/icons/mysql.svg",     Text: "MYSQL"},
@@ -1414,6 +1474,7 @@ var proyectos = [
         Titulo:      "Sitio Web Simyl",
         Descripcion: "Creación del sitio en wordpress a partir de la versión antigua hecha también en wordpress.",
         DescCorta:   "",
+        Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
         ],

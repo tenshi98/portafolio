@@ -170,10 +170,24 @@ async function load_proyectos() {
   contentDiv.innerHTML = '';//se vacia el modal
   /***************************************/
   //Variable
-  let dataProyectosModal = '<section id="projects" class="project-container container container_proyectos"><div class="content-text"><h2><i class="fas fa-code"></i> Proyectos</h2><h3>Revisa todos mis Proyectos Realizados.</h3></div><article class="content-box"><ul class="list img-list">';
+  let dataProyectosModal = '<section id="projects" class="project-container container container_proyectos">';
+  dataProyectosModal += '<div class="content-text">';
+  dataProyectosModal += '<h2><i class="fas fa-code"></i> Proyectos</h2>';
+  dataProyectosModal += '<h3>Revisa todos mis Proyectos Realizados.</h3>';
+  dataProyectosModal += '</div>';
+  dataProyectosModal += '<div id="myBtnContainer">';
+  dataProyectosModal += '<a class="btn btn-primary" onclick="filterSelection(\'all\')"> Mostrar Todos</a> ';
+  dataProyectosModal += '<a class="btn btn-primary" onclick="filterSelection(\'Plataforma\')"> Plataformas</a> ';
+  dataProyectosModal += '<a class="btn btn-primary" onclick="filterSelection(\'SitioWeb\')"> Sitio Web</a> ';
+  dataProyectosModal += '<a class="btn btn-primary" onclick="filterSelection(\'APP\')"> APP</a> ';
+  dataProyectosModal += '<a class="btn btn-primary" onclick="filterSelection(\'Otros\')"> Otros</a> ';
+  dataProyectosModal += '</div>';
+  dataProyectosModal += '<article class="content-box">';
+  dataProyectosModal += '<ul class="list img-list">';
+
   //se agregan los proyectos
   proyectos.forEach((item, i) => {
-    dataProyectosModal += '<li><div class="inner"><div class="li-img"><img class="animatedBox" src="'+item.IMG+'" alt="'+item.Titulo+'" /></div><div class="li-text"><h3 class="li-head">'+item.Titulo+'</h3><div class="li-sub"><p>'+item.Descripcion+'</p></div><div class="li-icon-tech">';
+    dataProyectosModal += '<li class="column '+item.Tipo+'"><div class="inner"><div class="li-img"><img class="animatedBox" src="'+item.IMG+'" alt="'+item.Titulo+'" /></div><div class="li-text"><h3 class="li-head">'+item.Titulo+'</h3><div class="li-sub"><p>'+item.Descripcion+'</p></div><div class="li-icon-tech">';
     //verificar si existe
     if(item.Tecnologias && item.Tecnologias.length > 0){
       item.Tecnologias.forEach((tecnologia, j) => {
@@ -194,13 +208,15 @@ async function load_proyectos() {
   //imprimo
   contentDiv.innerHTML = dataProyectosModal;
   contentDiv.scrollTop = 0;
+
+  filterSelection("all");
 }
 async function load_experiencia() {
   const contentDiv = document.getElementById("modal-display");
   contentDiv.innerHTML = '';//se vacia el modal
   /***************************************/
   //Variable
-  let dataExperienciaModal = '<section id="experiencia" class="project-container container"><div class="content-text"><h2><i class="fas fa-book"></i> Experiencia Laboral</h2><p>Revisa mi experiencia laboral</p></div><article class=""><div class="row example-basic"><ul class="timeline">';
+  let dataExperienciaModal = '<section id="experiencia" class="project-container container"><div class="content-text"><h2><i class="fas fa-book"></i> Experiencia Laboral</h2><h3>Revisa mi experiencia laboral</h3></div><article class=""><div class="row example-basic"><ul class="timeline">';
   //se agregan los proyectos
   experiencia.forEach((item, i) => {
     dataExperienciaModal += '<li class="timeline-item"><div class="timeline-info"><span>'+item.Fechas+'</span></div><div class="timeline-marker"></div><div class="timeline-content"><h3 class="timeline-title">'+item.Empresa+'</h3><p><strong>'+item.Puesto+':</strong><br/>'+item.Descripcion+'<br/>';
@@ -229,7 +245,7 @@ async function load_cursos() {
   contentDiv.innerHTML = '';//se vacia el modal
   /***************************************/
   //Variable
-  let dataCursosModal = '<section id="estudios" class="project-container container"><div class="content-text"><h2><i class="fas fa-school"></i> Cursos y Capacitaciones</h2><p>Revisa los últimos cursos y capacitaciones que he realizado.</p></div><article class=""><div class="row example-basic"><ul class="timeline" id="IDCursosModal">';
+  let dataCursosModal = '<section id="estudios" class="project-container container"><div class="content-text"><h2><i class="fas fa-school"></i> Cursos y Capacitaciones</h2><h3>Revisa los últimos cursos y capacitaciones que he realizado.</h3></div><article class=""><div class="row example-basic"><ul class="timeline" id="IDCursosModal">';
   //se agregan los proyectos
   cursos.forEach((item, i) => {
     dataCursosModal += '<li class="timeline-item"><div class="timeline-marker"></div><div class="timeline-content"><h3 class="timeline-title">'+item.Ano+'</h3><p>';
@@ -250,3 +266,38 @@ async function load_cursos() {
   contentDiv.innerHTML = dataCursosModal;
   contentDiv.scrollTop = 0;
 }
+
+
+
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
