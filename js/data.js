@@ -15,7 +15,7 @@ var tecnologiasUsadas = [
     {IMG: "assets/icons/github.svg",             Titulo: "Github"},
     {IMG: "assets/icons/docker.svg",             Titulo: "Docker"},
     {IMG: "assets/icons/jenkins.svg",            Titulo: "Jenkins"},
-    {IMG: "assets/icons/microsoftsqlserver.svg", Titulo: "Microsoft SQL Server"},
+    {IMG: "assets/icons/sqlserver.svg",          Titulo: "Microsoft SQL Server"},
     {IMG: "assets/icons/mongodb.svg",            Titulo: "Mongo DB"},
     {IMG: "assets/icons/mysql.svg",              Titulo: "MySQL"},
     {IMG: "assets/icons/mariadb.svg",            Titulo: "Maria DB"},
