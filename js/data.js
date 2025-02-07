@@ -729,6 +729,8 @@ var proyectos = [
         Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
+            {Img: "assets/icons/php.svg",       Text: "PHP"},
+            {Img: "assets/icons/mysql.svg",     Text: "MYSQL"},
         ],
         Links : [
             {Link: "https://casascolmena.cl/", Icon: "fas fa-link", Text: "Sitio Web"},
@@ -875,6 +877,8 @@ var proyectos = [
         Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
+            {Img: "assets/icons/php.svg",       Text: "PHP"},
+            {Img: "assets/icons/mysql.svg",     Text: "MYSQL"},
         ],
         Links : [
             {Link: "http://www.conatacoch.cl/", Icon: "fas fa-link", Text: "Sitio Web"},
@@ -1432,6 +1436,8 @@ var proyectos = [
         Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
+            {Img: "assets/icons/php.svg",       Text: "PHP"},
+            {Img: "assets/icons/mysql.svg",     Text: "MYSQL"},
         ],
         Links : [
             {Link: "https://www.inesbengoa.com/", Icon: "fas fa-link", Text: "Sitio Web"},
@@ -1445,6 +1451,8 @@ var proyectos = [
         Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
+            {Img: "assets/icons/php.svg",       Text: "PHP"},
+            {Img: "assets/icons/mysql.svg",     Text: "MYSQL"},
         ],
         Links : [
             {Link: "https://www.muralismopublico.com/", Icon: "fas fa-link", Text: "Sitio Web"},
@@ -1460,6 +1468,8 @@ var proyectos = [
         Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
+            {Img: "assets/icons/php.svg",       Text: "PHP"},
+            {Img: "assets/icons/mysql.svg",     Text: "MYSQL"},
         ],
         Links : [
             {Link: "https://tierrasdeiranzu.com/", Icon: "fas fa-link", Text: "Sitio Web"},
@@ -1473,6 +1483,8 @@ var proyectos = [
         Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
+            {Img: "assets/icons/php.svg",       Text: "PHP"},
+            {Img: "assets/icons/mysql.svg",     Text: "MYSQL"},
         ],
         Links : [
             {Link: "https://www.pizzeriadelsol.cl/", Icon: "fas fa-link", Text: "Sitio Web"},
@@ -1486,6 +1498,8 @@ var proyectos = [
         Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
+            {Img: "assets/icons/php.svg",       Text: "PHP"},
+            {Img: "assets/icons/mysql.svg",     Text: "MYSQL"},
         ],
         Links : [
             {Link: "https://www.mundoraintxe.com", Icon: "fas fa-link", Text: "Sitio Web"},
@@ -1499,6 +1513,8 @@ var proyectos = [
         Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
+            {Img: "assets/icons/php.svg",       Text: "PHP"},
+            {Img: "assets/icons/mysql.svg",     Text: "MYSQL"},
         ],
         Links : [
             {Link: "https://cosamiweb.com/", Icon: "fas fa-link", Text: "Sitio Web"},
@@ -1512,6 +1528,8 @@ var proyectos = [
         Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
+            {Img: "assets/icons/php.svg",       Text: "PHP"},
+            {Img: "assets/icons/mysql.svg",     Text: "MYSQL"},
         ],
         Links : [
             {Link: "https://www.rifoseguros.cl/", Icon: "fas fa-link", Text: "Sitio Web"},
@@ -1525,6 +1543,8 @@ var proyectos = [
         Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
+            {Img: "assets/icons/php.svg",       Text: "PHP"},
+            {Img: "assets/icons/mysql.svg",     Text: "MYSQL"},
         ],
         Links : [
             {Link: "https://www.payasitocascabel.cl/", Icon: "fas fa-link", Text: "Sitio Web"},
@@ -1538,6 +1558,8 @@ var proyectos = [
         Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
+            {Img: "assets/icons/php.svg",       Text: "PHP"},
+            {Img: "assets/icons/mysql.svg",     Text: "MYSQL"},
         ],
         Links : [
             {Link: "https://fondacarrera.com/", Icon: "fas fa-link", Text: "Sitio Web"},
@@ -1571,9 +1593,172 @@ var proyectos = [
         Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
+            {Img: "assets/icons/php.svg",       Text: "PHP"},
+            {Img: "assets/icons/mysql.svg",     Text: "MYSQL"},
         ],
         Links : [
             {Link: "https://www.simyl.cl/", Icon: "fas fa-link", Text: "Sitio Web"},
         ]
     },
+    {
+        IMG:         "assets/project/img_54.jpg",
+        Titulo:      "Informe 5 Minutos",
+        Descripcion: "Informe que permite descargar la información en bruto generada por la plantilla Inforturno, para su posterior uso en la generación de tablas dinámicas y gráficos, este archivo se conecta a una base de datos access a través del servicio de Origenes de bases de Datos (ODBC) del sistema operativo para obtener los datos.",
+        DescCorta:   "",
+        Tipo:        "Excel",
+        Tecnologias : [
+            {Img: "assets/icons/excel.svg",   Text: "Excel"},
+            {Img: "assets/icons/access.svg",  Text: "Access"},
+            {Img: "assets/icons/macros.svg",  Text: "Macros"},
+            {Img: "assets/icons/vb.svg",      Text: "Visual Basic"},
+        ],
+        Links : [
+            {Link: "https://github.com/tenshi98/InfoTurno", Icon: "fab fa-github", Text: "Documentación"},
+        ]
+    },
+    {
+        IMG:         "assets/project/img_55.jpg",
+        Titulo:      "Horas extras",
+        Descripcion: "Archivo para cotejar las horas extras informadas con las horas extras de la plataforma de marcaje, este archivo se conecta a una base de datos access a través del servicio de Origenes de bases de Datos (ODBC) del sistema operativo para obtener los datos.",
+        DescCorta:   "",
+        Tipo:        "Excel",
+        Tecnologias : [
+            {Img: "assets/icons/excel.svg",   Text: "Excel"},
+            {Img: "assets/icons/access.svg",  Text: "Access"},
+            {Img: "assets/icons/macros.svg",  Text: "Macros"},
+            {Img: "assets/icons/vb.svg",      Text: "Visual Basic"},
+        ],
+        Links : [
+            {Link: "https://github.com/tenshi98/InfoTurno", Icon: "fab fa-github", Text: "Documentación"},
+        ]
+    },
+    {
+        IMG:         "assets/project/img_56.jpg",
+        Titulo:      "Info Roquefort",
+        Descripcion: "Archivo con el cual la empresa Roquefort le facturaba a Viña Concha y Toro.",
+        DescCorta:   "",
+        Tipo:        "Excel",
+        Tecnologias : [
+            {Img: "assets/icons/excel.svg",   Text: "Excel"},
+            {Img: "assets/icons/access.svg",  Text: "Access"},
+        ],
+        Links : [
+            {Link: "https://github.com/tenshi98/InfoTurno", Icon: "fab fa-github", Text: "Documentación"},
+        ]
+    },
+    {
+        IMG:         "assets/project/img_57.jpg",
+        Titulo:      "Infoturno",
+        Descripcion: "Plantilla para hacer el ingreso de las detenciones de las lineas de produccion al interior de la planta, este archivo se conecta a una base de datos access a través del servicio de Origenes de bases de Datos (ODBC) del sistema operativo para obtener y guardar los datos.",
+        DescCorta:   "",
+        Tipo:        "Excel",
+        Tecnologias : [
+            {Img: "assets/icons/excel.svg",   Text: "Excel"},
+            {Img: "assets/icons/access.svg",  Text: "Access"},
+            {Img: "assets/icons/macros.svg",  Text: "Macros"},
+            {Img: "assets/icons/vb.svg",      Text: "Visual Basic"},
+        ],
+        Links : [
+            {Link: "https://github.com/tenshi98/InfoTurno", Icon: "fab fa-github", Text: "Documentación"},
+        ]
+    },
+    {
+        IMG:         "assets/project/img_58.jpg",
+        Titulo:      "Resumen",
+        Descripcion: "Informe de analisis gerencial con distintas vistas, donde muestra gráficos por tipo de detenciones, por tipos de cambios, producción por tipo de envase, etc. Este archivo se conecta a una base de datos access a través del servicio de Origenes de bases de Datos (ODBC) del sistema operativo para obtener los datos.",
+        DescCorta:   "",
+        Tipo:        "Excel",
+        Tecnologias : [
+            {Img: "assets/icons/excel.svg",   Text: "Excel"},
+            {Img: "assets/icons/access.svg",  Text: "Access"},
+            {Img: "assets/icons/macros.svg",  Text: "Macros"},
+            {Img: "assets/icons/vb.svg",      Text: "Visual Basic"},
+        ],
+        Links : [
+            {Link: "https://github.com/tenshi98/InfoTurno", Icon: "fab fa-github", Text: "Documentación"},
+        ]
+    },
+    {
+        IMG:         "assets/project/img_59.jpg",
+        Titulo:      "Resumen Linea",
+        Descripcion: "Informe de análisis gerencial, muestra los datos agrupados de distintas formas (tipos de tiempo, tipo de produccion, tipo de enevase, tipo de caja, etc) representado en valores y porcentajes. . Este archivo se conecta a una base de datos access a través del servicio de Origenes de bases de Datos (ODBC) del sistema operativo para obtener los datos.",
+        DescCorta:   "",
+        Tipo:        "Excel",
+        Tecnologias : [
+            {Img: "assets/icons/excel.svg",   Text: "Excel"},
+            {Img: "assets/icons/access.svg",  Text: "Access"},
+            {Img: "assets/icons/macros.svg",  Text: "Macros"},
+            {Img: "assets/icons/vb.svg",      Text: "Visual Basic"},
+        ],
+        Links : [
+            {Link: "https://github.com/tenshi98/InfoTurno", Icon: "fab fa-github", Text: "Documentación"},
+        ]
+    },
+    {
+        IMG:         "assets/project/img_60.jpg",
+        Titulo:      "Informe Supervisión",
+        Descripcion: "Informe con varios resúmenes orientados a la supervisión, básicamente muestra resúmenes de velocidades, produccion, tiempos de cambios, tiempos muertos y las distintas mermas generadas durante la producción.",
+        DescCorta:   "",
+        Tipo:        "Excel",
+        Tecnologias : [
+            {Img: "assets/icons/excel.svg",   Text: "Excel"},
+            {Img: "assets/icons/access.svg",  Text: "Access"},
+            {Img: "assets/icons/macros.svg",  Text: "Macros"},
+            {Img: "assets/icons/vb.svg",      Text: "Visual Basic"},
+        ],
+        Links : [
+            {Link: "https://github.com/tenshi98/Descontinuados-Excel", Icon: "fab fa-github", Text: "Documentación"},
+        ]
+    },
+    {
+        IMG:         "assets/project/img_61.jpg",
+        Titulo:      "Informe MTBC",
+        Descripcion: "Informe enfocado en los atrasos en la producción respecto a la planificación de programación.",
+        DescCorta:   "",
+        Tipo:        "Excel",
+        Tecnologias : [
+            {Img: "assets/icons/excel.svg",   Text: "Excel"},
+            {Img: "assets/icons/access.svg",  Text: "Access"},
+            {Img: "assets/icons/macros.svg",  Text: "Macros"},
+            {Img: "assets/icons/vb.svg",      Text: "Visual Basic"},
+        ],
+        Links : [
+            {Link: "https://github.com/tenshi98/Descontinuados-Excel", Icon: "fab fa-github", Text: "Documentación"},
+        ]
+    },
+    {
+        IMG:         "assets/project/img_62.jpg",
+        Titulo:      "Informe IPP",
+        Descripcion: "Informe con el indice de pedido perfecto, es un informe enfocado en la gestión de los pedidos completos y los pedidos incompletos, verificando el motivo por el cual no pudieron ser completados, para asi a futuro no volver a cometer ese error (relacionado a la metodologia TPM).",
+        DescCorta:   "",
+        Tipo:        "Excel",
+        Tecnologias : [
+            {Img: "assets/icons/excel.svg",   Text: "Excel"},
+            {Img: "assets/icons/access.svg",  Text: "Access"},
+            {Img: "assets/icons/macros.svg",  Text: "Macros"},
+            {Img: "assets/icons/vb.svg",      Text: "Visual Basic"},
+        ],
+        Links : [
+            {Link: "https://github.com/tenshi98/Descontinuados-Excel", Icon: "fab fa-github", Text: "Documentación"},
+        ]
+    },
+    {
+        IMG:         "assets/project/img_63.jpg",
+        Titulo:      "Resumen Averias",
+        Descripcion: "Informe hecho para el área de taller mecánico y eléctrico, mostrando la cantidad de tiempos por avería, el motivo y su solución.",
+        DescCorta:   "",
+        Tipo:        "Excel",
+        Tecnologias : [
+            {Img: "assets/icons/excel.svg",   Text: "Excel"},
+            {Img: "assets/icons/access.svg",  Text: "Access"},
+            {Img: "assets/icons/macros.svg",  Text: "Macros"},
+            {Img: "assets/icons/vb.svg",      Text: "Visual Basic"},
+        ],
+        Links : [
+            {Link: "https://github.com/tenshi98/Descontinuados-Excel", Icon: "fab fa-github", Text: "Documentación"},
+        ]
+    },
+
+
+
 ];

@@ -180,6 +180,7 @@ async function load_proyectos() {
   dataProyectosModal += '<a class="btn btn-primary" onclick="filterSelection(\'Plataforma\')"> Plataformas</a> ';
   dataProyectosModal += '<a class="btn btn-primary" onclick="filterSelection(\'SitioWeb\')"> Sitio Web</a> ';
   dataProyectosModal += '<a class="btn btn-primary" onclick="filterSelection(\'APP\')"> APP</a> ';
+  dataProyectosModal += '<a class="btn btn-primary" onclick="filterSelection(\'Excel\')"> Excel</a> ';
   dataProyectosModal += '<a class="btn btn-primary" onclick="filterSelection(\'Otros\')"> Otros</a> ';
   dataProyectosModal += '</div>';
   dataProyectosModal += '<article class="content-box">';
