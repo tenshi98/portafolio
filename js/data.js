@@ -27,9 +27,16 @@ var cursos = [
     {
         Ano: "2025",
         Cursos : [
-            {Nombre: "Arquitectura Web Profesional: PHP y MySQL con MVC",      Link: "https://ude.my/UC-fe0bf452-dce8-4387-9e41-652e36483b79/",TextLink: "(Ver certificado en Udemy)"},
-            {Nombre: "Crea una Api REST FULL completa con PHP NATIVO",         Link: "https://ude.my/UC-7cdd1dec-cb66-486c-b97e-752b64af7868/",TextLink: "(Ver certificado en Udemy)"},
-            {Nombre: "Aprende Laravel paso a paso desde cero - De 0 a 100",    Link: "https://ude.my/UC-ddc69e2a-2b89-4e9f-b473-3452eff4f622/",TextLink: "(Ver certificado en Udemy)"},
+            {Nombre: "Curso de Base de Datos MariaDB Server",                           Link: "https://ude.my/UC-4b74f306-08c1-4d15-9528-0aa7886f331b/",TextLink: "(Ver certificado en Udemy)"},
+            {Nombre: "SQL: Consultas básicas a complejas",                              Link: "https://ude.my/UC-c067c969-f488-45db-98e1-d39dddf861e8/",TextLink: "(Ver certificado en Udemy)"},
+            {Nombre: "SQL: Creación de Bases de Datos (De cero a profesional)",         Link: "https://ude.my/UC-2c20bbd0-2f57-4d21-9f08-d5eecaf383fe/",TextLink: "(Ver certificado en Udemy)"},
+            {Nombre: "Curso de Base de Datos SQLite",                                   Link: "https://ude.my/UC-cbb62c00-9625-4188-a589-6e7ed86ebf74/",TextLink: "(Ver certificado en Udemy)"},
+            {Nombre: "API REST con PHP y MYSQL",                                        Link: "https://ude.my/UC-2e482ea0-050a-41a6-b83e-74165ce7ca76/",TextLink: "(Ver certificado en Udemy)"},
+            {Nombre: "Aprende SQL desde cero: ¡Curso con mas de 50 ejercicios! 2",      Link: "https://ude.my/UC-2add6f57-7190-4bc8-8ea5-b1f085a86ec4/",TextLink: "(Ver certificado en Udemy)"},
+            {Nombre: "Curso SQL: Desde cero para principiantes",                        Link: "https://ude.my/UC-42c39277-cdc9-4f47-b3ee-03eb9d606e06/",TextLink: "(Ver certificado en Udemy)"},
+            {Nombre: "Arquitectura Web Profesional: PHP y MySQL con MVC",               Link: "https://ude.my/UC-fe0bf452-dce8-4387-9e41-652e36483b79/",TextLink: "(Ver certificado en Udemy)"},
+            {Nombre: "Crea una Api REST FULL completa con PHP NATIVO",                  Link: "https://ude.my/UC-7cdd1dec-cb66-486c-b97e-752b64af7868/",TextLink: "(Ver certificado en Udemy)"},
+            {Nombre: "Aprende Laravel paso a paso desde cero - De 0 a 100",             Link: "https://ude.my/UC-ddc69e2a-2b89-4e9f-b473-3452eff4f622/",TextLink: "(Ver certificado en Udemy)"},
         ]
     },
     {
