@@ -278,6 +278,8 @@ body::-webkit-scrollbar-thumb {background-color: #aab7cf;}
 
 #IDCursosModal [data-tooltip]:before {text-align: left;}
 
+#IDCursosModal details summary{cursor: pointer;}
+
 
 /*==================================
     TIMELINE
