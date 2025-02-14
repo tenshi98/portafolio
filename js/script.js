@@ -93,7 +93,7 @@ let dataProyectos    = '';
 /***************************************/
 //se agregan los estudios
 tecnologiasUsadas.forEach((item, i) => {
-  dataTecnologias += '<span class="tooltip" data-tooltip="'+item.Titulo+'"><img class="icon-box" src="'+item.IMG+'" alt="'+item.Titulo+'"/></span>';
+  dataTecnologias += '<span class="stooltip" data-tooltip="'+item.Titulo+'"><img class="icon-box" src="'+item.IMG+'" alt="'+item.Titulo+'"/></span>';
   countTecnologias++;
   if(countTecnologias==10){dataTecnologias += '<br/>';}
 });
@@ -137,7 +137,7 @@ proyectos.forEach((item, i) => {
   if(countProyectos<3){
     dataProyectos += '<li><div class="inner"><div class="li-img"><img class="animatedBox" src="'+item.IMG+'" alt="'+item.Titulo+'" /></div><div class="li-text"><h3 class="li-head">'+item.Titulo+'</h3><div class="li-sub"><p>'+item.DescCorta+'</p></div><div class="li-icon-tech">';
     item.Tecnologias.forEach((tecnologia, j) => {
-      dataProyectos += '<span class="tooltip" data-tooltip="'+tecnologia.Text+'"><img class="icon-tech" src="'+tecnologia.Img+'" alt="'+tecnologia.Text+'"/></span>';
+      dataProyectos += '<span data-tooltip="'+tecnologia.Text+'"><img class="icon-tech" src="'+tecnologia.Img+'" alt="'+tecnologia.Text+'"/></span>';
     });
     dataProyectos += '</div><div class="li-social">';
     item.Links.forEach((enlaces, j) => {
@@ -192,7 +192,7 @@ async function load_proyectos() {
     //verificar si existe
     if(item.Tecnologias && item.Tecnologias.length > 0){
       item.Tecnologias.forEach((tecnologia, j) => {
-        dataProyectosModal += '<span class="tooltip" data-tooltip="'+tecnologia.Text+'"><img class="icon-tech" src="'+tecnologia.Img+'" alt="'+tecnologia.Text+'"/></span>';
+        dataProyectosModal += '<span data-tooltip="'+tecnologia.Text+'"><img class="icon-tech" src="'+tecnologia.Img+'" alt="'+tecnologia.Text+'"/></span>';
       });
     }
     dataProyectosModal += '</div><div class="li-social">';
@@ -249,16 +249,25 @@ async function load_cursos() {
   let dataCursosModal = '<section id="estudios" class="project-container container"><div class="content-text"><h2><i class="fas fa-school"></i> Cursos y Capacitaciones</h2><h3>Revisa los últimos cursos y capacitaciones que he realizado.</h3></div><article class=""><div class="row example-basic"><ul class="timeline" id="IDCursosModal">';
   //se agregan los proyectos
   cursos.forEach((item, i) => {
-    dataCursosModal += '<li class="timeline-item"><div class="timeline-marker"></div><div class="timeline-content"><h3 class="timeline-title">'+item.Ano+'</h3><p>';
+    dataCursosModal += '<li class="timeline-item"><div class="timeline-marker"></div><div class="timeline-content"><h3 class="timeline-title">'+item.Ano+'</h3>';
     item.Cursos.forEach((curso, j) => {
-      dataCursosModal += '•	'+curso.Nombre+'.';
-      if(curso.Link!=''){     dataCursosModal += ' <a href="'+curso.Link+'" target="_blank" rel="noopener noreferrer" >';}
-      if(curso.TextLink!=''){ dataCursosModal += curso.TextLink;}
-      if(curso.Link!=''){     dataCursosModal += '</a>';}
-      dataCursosModal += '.<br/>';
+      if(curso.Contenido!=''){
+        dataCursosModal += '<details><summary>'+curso.Nombre+'.';
+        if(curso.Link!=''){       dataCursosModal += ' <a href="'+curso.Link+'" target="_blank" rel="noopener noreferrer" >';}
+        if(curso.TextLink!=''){   dataCursosModal += curso.TextLink;}
+        if(curso.Link!=''){       dataCursosModal += '</a>';}
+        dataCursosModal += '.</summary><p>'+curso.Contenido+'</p><br/></details>';
+      }else{
+        dataCursosModal += '<p>•	'+curso.Nombre+'.';
+        if(curso.Link!=''){       dataCursosModal += ' <a href="'+curso.Link+'" target="_blank" rel="noopener noreferrer" >';}
+        if(curso.TextLink!=''){   dataCursosModal += curso.TextLink;}
+        if(curso.Link!=''){       dataCursosModal += '</a>';}
+        dataCursosModal += '.</p>';
+      }
+      //dataCursosModal += '<br/>';
       countCursos++;
     });
-    dataCursosModal += '</p></div></li>';
+    dataCursosModal += '</div></li>';
   });
   dataCursosModal += '<li class="timeline-item"><div class="timeline-info"></div></li>';
   dataCursosModal += '</ul></div></article></section>';
