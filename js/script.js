@@ -252,15 +252,15 @@ async function load_cursos() {
     dataCursosModal += '<li class="timeline-item"><div class="timeline-marker"></div><div class="timeline-content"><h3 class="timeline-title">'+item.Ano+'</h3>';
     item.Cursos.forEach((curso, j) => {
       if(curso.Contenido!=''){
-        dataCursosModal += '<details><summary>'+curso.Nombre+'.';
-        if(curso.Link!=''){       dataCursosModal += ' <a href="'+curso.Link+'" target="_blank" rel="noopener noreferrer" >';}
-        if(curso.TextLink!=''){   dataCursosModal += curso.TextLink;}
+        dataCursosModal += '<details><summary>'+curso.Nombre+'. ';
+        if(curso.Link!=''){       dataCursosModal += '<a href="'+curso.Link+'" target="_blank" rel="noopener noreferrer" >';}
+        if(curso.TextLink!=''){   dataCursosModal += '<strong>'+curso.TextLink+'</strong>';}
         if(curso.Link!=''){       dataCursosModal += '</a>';}
         dataCursosModal += '.</summary><p>'+curso.Contenido+'</p><br/></details>';
       }else{
-        dataCursosModal += '<p>•	'+curso.Nombre+'.';
-        if(curso.Link!=''){       dataCursosModal += ' <a href="'+curso.Link+'" target="_blank" rel="noopener noreferrer" >';}
-        if(curso.TextLink!=''){   dataCursosModal += curso.TextLink;}
+        dataCursosModal += '<p>•	'+curso.Nombre+'. ';
+        if(curso.Link!=''){       dataCursosModal += '<a href="'+curso.Link+'" target="_blank" rel="noopener noreferrer" >';}
+        if(curso.TextLink!=''){   dataCursosModal += '<strong>'+curso.TextLink+'</strong>';}
         if(curso.Link!=''){       dataCursosModal += '</a>';}
         dataCursosModal += '.</p>';
       }
