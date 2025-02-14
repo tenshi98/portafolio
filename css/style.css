@@ -234,7 +234,7 @@ body::-webkit-scrollbar-thumb {background-color: #aab7cf;}
 
 
 /* data-tooltip */
-[data-tooltip] {--arrow-size: 5px;position: relative;z-index: 10000;}
+[data-tooltip] {--arrow-size: 5px;position: relative;z-index: 10;}
 [data-tooltip]:before,
 [data-tooltip]:after {position: absolute;visibility: hidden;opacity: 1;left: 50%;bottom: calc(100% + var(--arrow-size));pointer-events: none;transition: 0.2s;will-change: transform;}
 /* The actual tooltip with a dynamic width */
