@@ -188,7 +188,12 @@ async function load_proyectos() {
 
   //se agregan los proyectos
   proyectos.forEach((item, i) => {
-    dataProyectosModal += '<li class="column '+item.Tipo+'"><div class="inner"><div class="li-img"><img class="animatedBox" src="'+item.IMG+'" alt="'+item.Titulo+'" /></div><div class="li-text"><h3 class="li-head">'+item.Titulo+'</h3><div class="li-sub"><p>'+item.Descripcion+'</p></div><div class="li-icon-tech">';
+    dataProyectosModal += '<li class="column '+item.Tipo+'"><div class="inner"><div class="li-img"><img class="animatedBox" src="'+item.IMG+'" alt="'+item.Titulo+'" /></div><div class="li-text"><h3 class="li-head">'+item.Titulo+'</h3><div class="li-sub"><p>'+item.Descripcion+'</p></div>';
+    //verificar si existe
+    if(item.DatosTec!=''){
+      dataProyectosModal += '<h3 class="li-head">Datos Técnicos</h3><div class="li-sub"><p>'+item.DatosTec+'</p></div>';
+    }
+    dataProyectosModal += '<div class="li-icon-tech"><h3 class="li-head">Stack Tecnológico</h3>';
     //verificar si existe
     if(item.Tecnologias && item.Tecnologias.length > 0){
       item.Tecnologias.forEach((tecnologia, j) => {

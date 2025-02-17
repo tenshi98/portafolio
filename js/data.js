@@ -32,7 +32,7 @@ var cursos = [
             {Nombre: "SQL: Desde cero para principiantes (Linux)",                      Link: "https://ude.my/UC-81a85e3c-e893-4d54-97e5-975686f44813/",TextLink: "(Ver certificado en Udemy)",Contenido: "<strong>Temario: </strong><br> - Sección 1: Introducción <br> - Sección 2: Conceptos básicos de SQL <br> - Sección 3: Diseño de base de datos <br> - Sección 4: Consultas Avanzadas <br> - Sección 5: Termino del curso"},
             {Nombre: "Curso SQL - Consultas en SQL para principiantes + ChatGPT",       Link: "https://ude.my/UC-867086af-e299-48e1-b056-d88759beda78/",TextLink: "(Ver certificado en Udemy)",Contenido: "<strong>Temario: </strong><br> - Sección 1: Introducción a MySQL y la sintaxis básica de consultas <br> - Sección 2: Consultas básicas <br> - Sección 3: Filtrando resultados de la consulta <br> - Sección 4: Limitando y ordenando resultados <br> - Sección 5: Trabajando con funciones de agregación <br> - Sección 6: Unión de tablas <br> - Sección 7: Consultas avanzadas <br> - Sección 8: Ejercicios de codificación <br> - Sección 9: Optimización de consultas <br> - Sección 10: Creación y consulta de bases de datos con ChatGPT <br> - Sección 11: Terminaste"},
             {Nombre: "Curso de Base de Datos MySQL Server",                             Link: "https://ude.my/UC-2a0e5fb6-3aa4-4f0f-a00b-0a8873e68514/",TextLink: "(Ver certificado en Udemy)",Contenido: "<strong>Temario: </strong><br> - Sección 1: Introducción <br> - Sección 2: Descarga e Instalación de MySQL Server <br> - Sección 3: Desarrollo del Entorno de trabajo en MySQL Worbench <br> - Sección 4: Desarrollo de nuestra Base de Datos, Tablas, Vistas, Procedimientos Almacenados <br> - Sección 5: Mantenimiento de datos a las tablas de MySQL <br> - Sección 6: Operadores y Funciones <br> - Sección 7: Creación de Vistas <br> - Sección 8: Trabajaremos con mayor detalle la Sentencia SQL SELECT <br> - Sección 9: Procedimientoa Almacenados <br> - Sección 10: Funciones <br> - Sección 11: Triggers"},
-            {Nombre: "Curso Intensivo de MySQL: Aprende SQL desde Cero a Experto",      Link: "https://ude.my/UC-ec84eb8f-41da-481d-a4e6-990e981aec9c/",TextLink: "(Ver certificado en Udemy)",Contenido: "<strong>Temario: </strong><br> - Sección 1: Introducción <br> - Sección 2: 0.creando nuestra base de datos SQL <br> - Sección 3: Práctica Número 1 <br> - Sección 4: Práctica Número 2 <br> - Sección 5: Práctica Número 3 Red Social <br> - Sección 6: practica Número 4 bdparking"},
+            {Nombre: "Curso Intensivo de MySQL: Aprende SQL desde Cero a Experto",      Link: "https://ude.my/UC-ec84eb8f-41da-481d-a4e6-990e981aec9c/",TextLink: "(Ver certificado en Udemy)",Contenido: "<strong>Temario: </strong><br> - Sección 1: Introducción <br> - Sección 2: Creando nuestra base de datos SQL <br> - Sección 3: Práctica Número 1 <br> - Sección 4: Práctica Número 2 <br> - Sección 5: Práctica Número 3 Red Social <br> - Sección 6: Práctica Número 4 bdparking"},
             {Nombre: "SQLite - Aprende bases de datos SQL en tiempo record",            Link: "https://ude.my/UC-4a3a5126-a0d0-4471-90fa-55cf63401ed1/",TextLink: "(Ver certificado en Udemy)",Contenido: "<strong>Temario: </strong><br> - Sección 1: Introducción <br> - Sección 2: Lenguaje SQL parte 1 <br> - Sección 3: Lenguaje SQL parte 2 <br> - Sección 4: Lenguaje SQL parte 3 <br> - Sección 5: Lenguaje SQL parte 4 <br> - Sección 6: Funciones <br> - Sección 7: Retos"},
             {Nombre: "Curso de Base de Datos MariaDB Server",                           Link: "https://ude.my/UC-4b74f306-08c1-4d15-9528-0aa7886f331b/",TextLink: "(Ver certificado en Udemy)",Contenido: "<strong>Temario: </strong><br> - Sección 1: Introducción <br> - Sección 2: Desarrollo del Entorno de trabajo en Heidi SQL <br> - Sección 3: Desarrollo de nuestra Base de Datos, Tablas y Vistas <br> - Sección 4: Operadores <br> - Sección 5: Funciones <br> - Sección 6: Vistas <br> - Sección 7: Cláusula WHERE en sentencia SQL <br> - Sección 8: Sentencia SQL SELECT aplicando más detalles <br> - Sección 9: Procedimientos Almacenados <br> - Sección 10: Crear Funciones <br> - Sección 11: Crear Disparadores o Triggers"},
             {Nombre: "SQL: Consultas básicas a complejas",                              Link: "https://ude.my/UC-c067c969-f488-45db-98e1-d39dddf861e8/",TextLink: "(Ver certificado en Udemy)",Contenido: "<strong>Temario: </strong><br> - Sección 1: Introducción <br> - Sección 2: SELECT, DISTINCT, ORDER BY <br> - Sección 3: WHERE <br> - Sección 4: AND, OR, NOT <br> - Sección 5: IN <br> - Sección 6: BETWEEN <br> - Sección 7: LIKE <br> - Sección 8: INNER JOIN, LEFT JOIN, RIGHT JOIN <br> - Sección 9: COUNT, AVG, SUM, MAX, MIN <br> - Sección 10: GROUP BY <br> - Sección 11: HAVING <br> - Sección 12: Funciones útiles <br> - Sección 13: CASE <br> - Sección 14: SUBQUERIES <br> - Sección 15: VIEWS <br> - Sección 16: Consultas Multitablas <br> - Sección 17: INSERT INTO <br> - Sección 18: UPDATE <br> - Sección 19: ALTER TABLE <br> - Sección 20: Ejercicios Complementarios <br> - Sección 21: Terminaste"},
@@ -497,13 +497,17 @@ var proyectos = [
         Titulo:      "Plataforma Bienestar Inacap",
         Descripcion:
                     "Plataforma de administración enfocada en la administración de socios, sus préstamos y bonificaciones, se subdivide en 2 plataformas:"
-                    +"<br/><strong> - Administración:</strong> Plataforma hecha para administrar a los socios, sus préstamos solicitados, las bonificaciones entregadas, los respectivos pagos, etc."
-                    +"<br/><strong> - Socios:</strong> Plataforma para los socios donde éstos pueden ver solo sus datos, sus prestamos y bonificaciones.",
-        DescCorta:   "Plataforma de administración enfocada en la administración de socios, sus préstamos y bonificaciones.",
+                    +"<br/><strong> - Plataforma Administración:</strong> Plataforma hecha para administrar a los socios, sus préstamos solicitados, las bonificaciones entregadas, los respectivos pagos, etc."
+                    +"<br/><strong> - Plataforma Socios:</strong> Plataforma donde los socios pueden ver solo sus datos, sus prestamos, bonificaciones y sus próximos pagos.",
+        DatosTec:   "Plataforma monilítica programada en PHP puro, utiliza una base de datos MYSQL para guardar los datos, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar."
+                    +"<br>La Plataforma tiene un sistema de notificaciones masivas utilizando el servicio correo interno del servidor."
+                    +"Tambien permite la exportación de datos (PDF, Excel, Word).",
+        DescCorta:  "Plataforma de administración enfocada en la administración de socios, sus préstamos y bonificaciones.",
         Tipo:       "Plataforma",
         Tecnologias : [
-            {Img: "assets/icons/php.svg",        Text: "PHP"},
-            {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
+            {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",      Text: "Base de datos MYSQL"},
             {Img: "assets/icons/html-5.svg",     Text: "HTML-5"},
             {Img: "assets/icons/css-3.svg",      Text: "CSS-3"},
             {Img: "assets/icons/bootstrap.svg",  Text: "Bootstrap 3"},
@@ -519,11 +523,13 @@ var proyectos = [
     {
         IMG:         "assets/project/img_26.jpg",
         Titulo:      "Sitio Web Deimos Corp",
-        Descripcion: "Sitio web de Soluciones de ingeniería y gestión de proyectos para diversas industrias."
-                     +"<br/>El sitio web esta construido con bootstrap 5 y utiliza el servicio postmail para el envio de los correos del formulario de contacto.",
+        Descripcion: "Sitio web de Soluciones de ingeniería y gestión de proyectos para diversas industrias.",
+        DatosTec:    "Página web programada en PHP puro, se utiliza Bootstrap 5 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar."
+                    +"Utiliza el servicio postmail para el envio de los correos del formulario de contacto.",
         DescCorta:   "Sitio web de Soluciones de ingeniería y gestión de proyectos para diversas industrias.",
         Tipo:        "SitioWeb",
         Tecnologias : [
+            {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
             {Img: "assets/icons/html-5.svg",       Text: "HTML-5"},
             {Img: "assets/icons/css-3.svg",        Text: "CSS-3"},
             {Img: "assets/icons/bootstrap.svg",    Text: "Bootstrap 5"},
@@ -541,14 +547,20 @@ var proyectos = [
         Titulo:      "Plataforma SimpliVet",
         Descripcion:
                     "Plataforma de negocios enfocada a ofrecer el servicio de gestión de veterinarias, esta plataforma se subdivide en 3 plataformas:"
-                    +"<br/><strong> - Administración:</strong> Plataforma hecha para administrar a los clientes, en este caso las veterinarias y hacer las facturaciones mensuales por los servicios."
-                    +"<br/><strong> - Clientes:</strong> Plataforma de atención de mascotas, llevando el detalle de las vacunas, atenciones, hospitalizaciones y cirugías. También permite administrar los centros, losservicios, los productos a la venta, los empleados y las bodegas, dependiendo de la configuración de la cuenta, puede enviar notificaciones por email y por whatsapp."
-                    +"<br/><strong> - Tutores:</strong> Plataforma que permite ver todos los datos del tutor y sus mascotas, el detalle de cada mascota, sus vacunas, sus cirugías, calendario de vacunas, etc.",
+                    +"<br/><strong> - Plataforma Administración:</strong> Plataforma hecha para administrar a los clientes, en este caso las veterinarias y hacer las facturaciones mensuales por los servicios."
+                    +"<br/><strong> - Plataforma Clientes:</strong> Plataforma de atención de mascotas, llevando el detalle de las vacunas, atenciones, hospitalizaciones y cirugías. También permite administrar los centros, losservicios, los productos a la venta, los empleados y las bodegas, dependiendo de la configuración de la cuenta, puede enviar notificaciones por email y por whatsapp."
+                    +"<br/><strong> - Plataforma Tutores:</strong> Plataforma que permite al tutor ver todos sus datos y sus mascotas, el detalle de cada mascota, sus vacunas, sus cirugías, calendario de vacunas, etc.",
+        DatosTec:   "Plataforma monilítica programada en PHP puro, utiliza una base de datos MYSQL para guardar los datos, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar."
+                    +"<br>La Plataforma implementa tecnologías como notificación masiva con whatsapp a través de la API de WhatsApp Business"
+                    +", envío de emails masivos a través del servicio de correos del servidor"
+                    +", utilización gráficos simples utilizando la librería charts.js"
+                    +" y la exportación de los datos a archivos (PDF, Excel, Word, Xml)",
         DescCorta:   "Plataforma de negocios enfocada a ofrecer el servicio de gestión de veterinarias.",
         Tipo:        "Plataforma",
         Tecnologias : [
-            {Img: "assets/icons/php.svg",        Text: "PHP"},
-            {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
+            {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",      Text: "Base de datos MYSQL"},
             {Img: "assets/icons/html-5.svg",     Text: "HTML-5"},
             {Img: "assets/icons/css-3.svg",      Text: "CSS-3"},
             {Img: "assets/icons/bootstrap.svg",  Text: "Bootstrap 3"},
@@ -566,12 +578,13 @@ var proyectos = [
     {
         IMG:         "assets/project/img_18.jpg",
         Titulo:      "Sitio Web SimpliVet",
-        Descripcion: "Sitio web de presentación del software de gestión para centros veterinarios."
-                     +"<br/>El sitio web esta construido con bootstrap 5 y utiliza un archivo de configuración hecho en PHP para obtener los datos que muestra.",
+        Descripcion: "Sitio web de presentación del software de gestión para centros veterinarios.",
+        DatosTec:    "Página web programada en PHP puro, se utiliza Bootstrap 5 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
         Tecnologias : [
-            {Img: "assets/icons/php.svg",       Text: "PHP"},
+            {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",       Text: "Sistema programado en PHP"},
             {Img: "assets/icons/html-5.svg",    Text: "HTML-5"},
             {Img: "assets/icons/css-3.svg",     Text: "CSS-3"},
             {Img: "assets/icons/bootstrap.svg", Text: "Bootstrap 5"},
@@ -585,12 +598,13 @@ var proyectos = [
     {
         IMG:         "assets/project/img_8.jpg",
         Titulo:      "Sitio Web Simplytech",
-        Descripcion: "Sitio con información de la empresa, da acceso directo a los clientes a su plataforma, posee funcionamiento estandar de un sitio web de este tipo."
-                     +"<br/>El sitio web esta construido con bootstrap 5 y utiliza un archivo de configuración hecho en PHP para obtener los datos que muestra.",
+        Descripcion: "Sitio con información de la empresa, da acceso directo a los clientes a su plataforma, posee funcionamiento estandar de un sitio web de este tipo.",
+        DatosTec:    "Página web programada en PHP puro, se utiliza Bootstrap 5 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
         Tecnologias : [
-            {Img: "assets/icons/php.svg",        Text: "PHP"},
+            {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
             {Img: "assets/icons/html-5.svg",     Text: "HTML-5"},
             {Img: "assets/icons/css-3.svg",      Text: "CSS-3"},
             {Img: "assets/icons/bootstrap.svg",  Text: "Bootstrap 5"},
@@ -605,11 +619,23 @@ var proyectos = [
         IMG:         "assets/project/img_1.jpg",
         Titulo:      "Plataforma Gestión Modular",
         Descripcion: "Plataforma enfocada a gestionar las mediciones de telemetría a través de sus distintas interfaces para cada clientes de la empresa. Ofrece la administración de usuarios, de equipos de telemetría, gestión de mantenciones preventivas y de urgencia a los equipos de telemetría, informes agrupados al tipo de servicio ofrecido (medición temperaturas, GPS y niveles de riego en los campos, voltajes de equipo, etc.), entre otras características.",
+        DatosTec:    "Plataforma monilítica programada en PHP puro, utiliza una base de datos MYSQL para guardar los datos, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar."
+                    +"<br>La Plataforma implementa tecnologías como telemetría y geolocalización GPS en tiempo real basado en tecnología propia (placas Arduino y sensores GPS)"
+                    +", notificación masiva con whatsapp a través de la API de WhatsApp Business"
+                    +", envío de emails masivos a través del servicio de correos del servidor"
+                    +", utilización gráficos simples utilizando la librería charts.js"
+                    +", gráficos de mayor complejidad utilizando la librería plotly.js para crear gráficos con unos 10.000 datos a mostrar"
+                    +", visualización de los límites de los campos de arado, áreas fumigadas, ruta de los tractores u otros vehículos, etc. gracias a los mapas dinámicos a través de la API de Google Maps"
+                    +", previsión meteorológica utilizando la librería PHP ML (Machine Learning)"
+                    +", exportación de los datos a archivos (PDF, Excel, Word, Xml)"
+                    +", importación de datos masivos a través de archivos CVS o XML"
+                    +" y la integración con el SII a través de la API de LibreDTE.",
         DescCorta:   "",
         Tipo:        "Plataforma",
         Tecnologias : [
-            {Img: "assets/icons/php.svg",         Text: "PHP"},
-            {Img: "assets/icons/mysql.svg",       Text: "MYSQL"},
+            {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",         Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",       Text: "Base de datos MYSQL"},
             {Img: "assets/icons/html-5.svg",      Text: "HTML-5"},
             {Img: "assets/icons/css-3.svg",       Text: "CSS-3"},
             {Img: "assets/icons/bootstrap.svg",   Text: "Bootstrap 3"},
@@ -634,11 +660,17 @@ var proyectos = [
         IMG:         "assets/project/img_4.jpg",
         Titulo:      "Plataforma Terranía",
         Descripcion: "Plataforma enfocada en la gestión de venta de los terrenos para cada línea de negocios, gestionando de principio a fin cada negociación con las empresas interesadas de forma separada para cada terreno.",
+        DatosTec:    "Plataforma monilítica programada en PHP puro, utiliza una base de datos MYSQL para guardar los datos, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar."
+                    +"<br>La Plataforma implementa tecnologías como notificación masiva de correo masivas a través de la API de Brevo"
+                    +", exportación de los datos a archivos (PDF, Excel, Word)"
+                    +", importación de datos masivos a través de archivos CVS o XML"
+                    +" y la visualización de terrenos a través de la API de Google Maps.",
         DescCorta:   "",
         Tipo:        "Plataforma",
         Tecnologias : [
-            {Img: "assets/icons/php.svg",        Text: "PHP"},
-            {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
+            {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",      Text: "Base de datos MYSQL"},
             {Img: "assets/icons/html-5.svg",     Text: "HTML-5"},
             {Img: "assets/icons/css-3.svg",      Text: "CSS-3"},
             {Img: "assets/icons/bootstrap.svg",  Text: "Bootstrap 3"},
@@ -655,14 +687,16 @@ var proyectos = [
         IMG:         "assets/project/img_11.jpg",
         Titulo:      "Sitio Web Terranía",
         Descripcion:
-                    "Sitio web que muestra un listado de terrenos disponibles para la compra, separandolos por lineas de negocios, por region y comuna."
-                    +"<br/>Obtiene los datos de las consultas a través de un webservice y a través de la direccion IP el usuario que accede al sitio, "
+                    "Sitio web que muestra un listado de terrenos disponibles para la compra, separandolos por lineas de negocios, por region y comuna.",
+        DatosTec:    "Página web programada en PHP puro, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar."
+                    +"<br>El sitio web obtiene los datos mostrados a través de un webservice donde se utiliza la direccion IP el usuario que accede al sitio, "
                     +"muestra 4 terrenos destacados cerca de la ubicación entregada por dicha IP, para el caso en que no encuentre terrenos cerca, "
                     +"mostrará 4 terrenos de Chile seleccionados de forma aleatoria.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
         Tecnologias : [
-            {Img: "assets/icons/php.svg",          Text: "PHP"},
+            {Img: "assets/icons/apache.svg",       Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",          Text: "Sistema programado en PHP"},
             {Img: "assets/icons/html-5.svg",       Text: "HTML-5"},
             {Img: "assets/icons/css-3.svg",        Text: "CSS-3"},
             {Img: "assets/icons/js.svg",           Text: "Javascript"},
@@ -678,11 +712,14 @@ var proyectos = [
         IMG:         "assets/project/img_0.jpg",
         Titulo:      "Plataforma Vendo mi Campo",
         Descripcion: "Plataforma que sirve como base de datos y gestión en la venta o arriendo de los terrenos en la línea de negocios Campos (aquellos que solo permiten el cultivo, no la construcción), esta base de datos es mostrada en el sitio web de la empresa vendomicampo.cl a través de varios webservices.",
+        DatosTec:    "Plataforma monilítica programada en PHP puro, utiliza una base de datos MYSQL para guardar los datos, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar"
+                    +"<br>La plataforma hace el envío de correos masivos a través del servicio de Brevo.",
         DescCorta:   "",
         Tipo:        "Plataforma",
         Tecnologias : [
-            {Img: "assets/icons/php.svg",        Text: "PHP"},
-            {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
+            {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",      Text: "Base de datos MYSQL"},
             {Img: "assets/icons/html-5.svg",     Text: "HTML-5"},
             {Img: "assets/icons/css-3.svg",      Text: "CSS-3"},
             {Img: "assets/icons/bootstrap.svg",  Text: "Bootstrap 3"},
@@ -698,11 +735,14 @@ var proyectos = [
         IMG:         "assets/project/img_5.jpg",
         Titulo:      "Plataforma Somos Teatro",
         Descripcion: "Plataforma enfocada en la gestión de venta de obras de teatro a las empresas interesadas, gestionando de principio a fin cada negociación con las empresas de forma separada para cada caso.",
+        DatosTec:    "Plataforma monilítica programada en PHP puro, utiliza una base de datos MYSQL para guardar los datos, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar."
+                    +"<br>La plataforma hace el envío de correos masivos a través del servicio de Brevo.",
         DescCorta:   "",
         Tipo:        "Plataforma",
         Tecnologias : [
-            {Img: "assets/icons/php.svg",        Text: "PHP"},
-            {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
+            {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",      Text: "Base de datos MYSQL"},
             {Img: "assets/icons/html-5.svg",     Text: "HTML-5"},
             {Img: "assets/icons/css-3.svg",      Text: "CSS-3"},
             {Img: "assets/icons/bootstrap.svg",  Text: "Bootstrap 5"},
@@ -718,14 +758,15 @@ var proyectos = [
     {
         IMG:         "assets/project/img_12.jpg",
         Titulo:      "Sitio Web Somos Teatro",
-        Descripcion: "Sitio web de la empresa, esta se conecta con la plataforma de administración a través de Web Services para obtener las obras y su detalle."
-                    +"<br/>Obtiene los datos de las obras a través de un webservice, la plataforma de acceso para los interesados esta montada en una plataforma "
-                    +"separada utilizando la misma interfaz.",
+        Descripcion: "Sitio web de la empresa, esta se conecta con la plataforma de administración a través de Web Services para obtener las obras y su detalle.",
+        DatosTec:    "Página web programada en PHP puro, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar."
+                    +"<br>Esta Página web obtiene los datos a mostrar a partir de un webservice programado en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, este webservice esta montado en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
         Tecnologias : [
-            {Img: "assets/icons/php.svg",       Text: "PHP"},
-            {Img: "assets/icons/mysql.svg",     Text: "MYSQL"},
+            {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",       Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",     Text: "Base de datos MYSQL"},
             {Img: "assets/icons/html-5.svg",    Text: "HTML-5"},
             {Img: "assets/icons/css-3.svg",     Text: "CSS-3"},
             {Img: "assets/icons/bootstrap.svg", Text: "Bootstrap 5"},
@@ -740,12 +781,14 @@ var proyectos = [
         IMG:         "assets/project/img_9.jpg",
         Titulo:      "Sitio Web Casas Colmena",
         Descripcion: "Sitio web de acceso a los interesados en kit de casas prefabricadas, posee funcionamiento estandar de un sitio web de este tipo.",
+        DatosTec:    "Sistema de gestión de contenidos (CMS), montado en un servidor Apache, esta programado utilizando PHP como base, tambien utiliza MYSQL como base de datos.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
         Tecnologias : [
-            {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
-            {Img: "assets/icons/php.svg",       Text: "PHP"},
-            {Img: "assets/icons/mysql.svg",     Text: "MYSQL"},
+            {Img: "assets/icons/wordpress.svg", Text: "CMS WordPress"},
+            {Img: "assets/icons/apache.svg",    Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",       Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",     Text: "Base de datos MYSQL"},
         ],
         Links : [
             {Link: "https://casascolmena.cl/", Icon: "fas fa-link", Text: "Sitio Web"},
@@ -755,10 +798,12 @@ var proyectos = [
         IMG:         "assets/project/img_10.jpg",
         Titulo:      "Sitio Web Lomas de Lambert",
         Descripcion: "Sitio web de acceso para los interesados en comprar una parcela en esta zona, muestra todos los datos de las personas que conforman dicha empresa y posee un formulario de contacto para poder solicitar más información.",
+        DatosTec:    "Página web programada en PHP puro, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
         Tecnologias : [
-            {Img: "assets/icons/php.svg",       Text: "PHP"},
+            {Img: "assets/icons/apache.svg",    Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",       Text: "Sistema programado en PHP"},
             {Img: "assets/icons/html-5.svg",    Text: "HTML-5"},
             {Img: "assets/icons/css-3.svg",     Text: "CSS-3"},
             {Img: "assets/icons/bootstrap.svg", Text: "Bootstrap 5"},
@@ -773,10 +818,12 @@ var proyectos = [
         IMG:         "assets/project/img_13.jpg",
         Titulo:      "Sitio Web Aktion",
         Descripcion: "Sitio web con información de esta firma de contadores, contiene informacion de la empresa, sus trabajadores y posee un formulario de contacto con el cual se puede solicitar los servicios.",
+        DatosTec:    "Página web programada en PHP puro, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
         Tecnologias : [
-            {Img: "assets/icons/php.svg",       Text: "PHP"},
+            {Img: "assets/icons/apache.svg",    Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",       Text: "Sistema programado en PHP"},
             {Img: "assets/icons/html-5.svg",    Text: "HTML-5"},
             {Img: "assets/icons/css-3.svg",     Text: "CSS-3"},
             {Img: "assets/icons/bootstrap.svg", Text: "Bootstrap 5"},
@@ -791,11 +838,13 @@ var proyectos = [
         IMG:         "assets/project/img_0.jpg",
         Titulo:      "Plataforma Agropraxis",
         Descripcion: "Servicio de consolidación de la carga Frutícola embarcada en contenedores. Se controla el cumplimiento de las instrucciones de carga (cargas específicas). Control de las condiciones de transporte instruidas a la naviera, estiba, sellado y registro de temperaturas. Terminada la faena se emite informe oficial de la actividad desarrollada, documento que será requerido por el seguro de carga en caso de algún siniestro.",
+        DatosTec:    "Plataforma monilítica programada en PHP puro, utiliza una base de datos MYSQL para guardar los datos, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar.",
         DescCorta:   "",
         Tipo:        "Plataforma",
         Tecnologias : [
-            {Img: "assets/icons/php.svg",        Text: "PHP"},
-            {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
+            {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",      Text: "Base de datos MYSQL"},
             {Img: "assets/icons/html-5.svg",     Text: "HTML-5"},
             {Img: "assets/icons/css-3.svg",      Text: "CSS-3"},
             {Img: "assets/icons/bootstrap.svg",  Text: "Bootstrap 3"},
@@ -813,11 +862,16 @@ var proyectos = [
         Descripcion:
                     "Plataforma diseñada para gestionar la facturación de los medidores de aguas, entre sus características se encuentran la gestión de los clientes, la gestión del medidor o los remarcadores instalados en su propiedad, historial de mediciones, facturaciones, pagos, cortes, reposiciones y retiro de medidores, además de los distintos informes."
                     +"<br/> Corre en un servidor con PHP 5.3 y no ha tenido mantención desde el 2019, pero sigue funcionando correctamente y no han reportado ninguna falla.",
+        DatosTec:    "Plataforma monilítica programada en PHP puro, utiliza una base de datos MYSQL para guardar los datos, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar."
+                    +"<br>La plataforma permite importar los datos de las mediciones a través de un archivo CSV ya estructurado, también permite exportar archivos de índole legal en los distintos formatos solicitados por las entidades."
+                    +"<br>Facturación directa de las boletas electrónica con el SII a través del servicio LibreDTE."
+                    +"<br>Notificación y envío automático de correos a los clientes (entrega de factura y aviso de término del periodo de pago).",
         DescCorta:   "",
         Tipo:        "Plataforma",
         Tecnologias : [
-            {Img: "assets/icons/php.svg",        Text: "PHP"},
-            {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
+            {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",      Text: "Base de datos MYSQL"},
             {Img: "assets/icons/html-5.svg",     Text: "HTML-5"},
             {Img: "assets/icons/css-3.svg",      Text: "CSS-3"},
             {Img: "assets/icons/bootstrap.svg",  Text: "Bootstrap 3"},
@@ -834,6 +888,7 @@ var proyectos = [
         IMG:         "assets/project/img_28.jpg",
         Titulo:      "APP Busafe",
         Descripcion: "Aplicación Android diseñada para la gestión de los pasajeros y conductores de furgones escolares, se encarga de notificar al apoderado del niño cuando el furgón está cerca y de notificarlo cuando llega a su colegio, mientras que para el chofer del furgón se encarga de notificarle los niños que no asistirán dándole nuevas rutas alternativas por el pasajero faltante.",
+        DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
         Tecnologias : [
@@ -841,8 +896,10 @@ var proyectos = [
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
             {Img: "assets/icons/java.svg",            Text: "Frontend - Java"},
             {Img: "assets/icons/sqlite.svg",          Text: "Frontend - Sqlite"},
+            {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
+            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20Busafe", Icon: "fab fa-github", Text: "Documentación"},
@@ -854,6 +911,7 @@ var proyectos = [
         Descripcion:
                     "Aplicación Android diseñada para la gestión de los contenedores desocupados en el viaje de vuelta de los camiones, ofreciendo la posibilidad de mover cargas a un costo inferior al arrendamiento de un contenedor completo."
                     +"<br/>Desgraciadamente nunca vio la luz debido a que no se ponían de acuerdo con las tasas de participación del transportista, la empresa que ofrece la APP y los socios del negocio.",
+        DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
         Tecnologias : [
@@ -861,8 +919,10 @@ var proyectos = [
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
             {Img: "assets/icons/java.svg",            Text: "Frontend - Java"},
             {Img: "assets/icons/sqlite.svg",          Text: "Frontend - Sqlite"},
+            {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
+            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20appCargo", Icon: "fab fa-github", Text: "Documentación"},
@@ -872,13 +932,17 @@ var proyectos = [
         IMG:         "assets/project/img_0.jpg",
         Titulo:      "APP CrossCrane",
         Descripcion: "Aplicación de escritorio diseñada para mostrar el estado de las grúas plumas de la plataforma gestión modular.",
+        DatosTec:    "Aplicación nativa Windows hecha con Visual Studio utilizando .NET como lenguaje de programación."
+                    +"<br>Esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
         Tecnologias : [
             {Img: "assets/icons/dotnet.svg",          Text: ".NET"},
             {Img: "assets/icons/visual-studio.svg",   Text: "Visual Studio"},
+            {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
+            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/proyectos_visual_studio/tree/main/CrossCrane", Icon: "fas fa-code", Text: "Código Fuente"},
@@ -888,12 +952,14 @@ var proyectos = [
         IMG:         "assets/project/img_14.jpg",
         Titulo:      "Sitio Web Conatacoch",
         Descripcion: "Sitio web del gremio de colectivos, es una fusión de sitio web con un blog y otros servicios. La administra el presidente del gremio.",
+        DatosTec:    "Sistema de gestión de contenidos (CMS), montado en un servidor Apache, esta programado utilizando PHP como base, tambien utiliza MYSQL como base de datos.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
         Tecnologias : [
-            {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
-            {Img: "assets/icons/php.svg",       Text: "PHP"},
-            {Img: "assets/icons/mysql.svg",     Text: "MYSQL"},
+            {Img: "assets/icons/wordpress.svg", Text: "CMS WordPress"},
+            {Img: "assets/icons/apache.svg",    Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",       Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",     Text: "Base de datos MYSQL"},
         ],
         Links : [
             {Link: "http://www.conatacoch.cl/", Icon: "fas fa-link", Text: "Sitio Web"},
@@ -905,11 +971,13 @@ var proyectos = [
         Descripcion:
                     "Plataforma que haciendo uso de las tecnologías (HTML5, CS3, Jquery, html sockets, etc.) implementaba la videoconferencia grupal hasta 4 participantes, antes de la llegada de Zoom o Google Meet."
                     +"<br/>Desgraciadamente no dispongo de ninguna captura de pantalla ni tampoco se encuentra en uso actualmente.",
+        DatosTec:    "Plataforma monilítica programada en PHP puro, utiliza una base de datos MYSQL para guardar los datos, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar.",
         DescCorta:   "",
         Tipo:        "Plataforma",
         Tecnologias : [
-            {Img: "assets/icons/php.svg",        Text: "PHP"},
-            {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
+            {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",      Text: "Base de datos MYSQL"},
             {Img: "assets/icons/html-5.svg",     Text: "HTML-5"},
             {Img: "assets/icons/css-3.svg",      Text: "CSS-3"},
             {Img: "assets/icons/bootstrap.svg",  Text: "Bootstrap 3"},
@@ -926,11 +994,13 @@ var proyectos = [
         Descripcion:
                     "Plataforma enfocada en indicar el tiempo de espera de llegada a un paradero del próximo colectivo mas cercano a este."
                     +"<br/>Desgraciadamente no dispongo de ninguna captura de pantalla ni tampoco se encuentra en uso actualmente.",
+        DatosTec:    "Plataforma monilítica programada en PHP puro, utiliza una base de datos MYSQL para guardar los datos, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar.",
         DescCorta:   "",
         Tipo:        "Plataforma",
         Tecnologias : [
-            {Img: "assets/icons/php.svg",        Text: "PHP"},
-            {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
+            {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",      Text: "Base de datos MYSQL"},
             {Img: "assets/icons/html-5.svg",     Text: "HTML-5"},
             {Img: "assets/icons/css-3.svg",      Text: "CSS-3"},
             {Img: "assets/icons/bootstrap.svg",  Text: "Bootstrap 3"},
@@ -945,11 +1015,13 @@ var proyectos = [
         IMG:         "assets/project/img_30.jpg",
         Titulo:      "Click2Call",
         Descripcion: "Plataforma diseñada para conectar una pagina web a un llamado telefónico (teléfono físico) configurado previamente, permitía varias instancias.",
+        DatosTec:    "Plataforma monilítica programada en PHP puro, utiliza una base de datos MYSQL para guardar los datos, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar.",
         DescCorta:   "",
         Tipo:        "Otros",
         Tecnologias : [
-            {Img: "assets/icons/php.svg",        Text: "PHP"},
-            {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
+            {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",      Text: "Base de datos MYSQL"},
             {Img: "assets/icons/html-5.svg",     Text: "HTML-5"},
             {Img: "assets/icons/css-3.svg",      Text: "CSS-3"},
             {Img: "assets/icons/bootstrap.svg",  Text: "Bootstrap 3"},
@@ -967,11 +1039,13 @@ var proyectos = [
         IMG:         "assets/project/img_31.jpg",
         Titulo:      "Plataforma edukAmerica",
         Descripcion: "Plataforma clon de edukclick, donde se ofrecían cursos impartidos por las estrellas del canal América TV.",
+        DatosTec:    "Plataforma monilítica programada en PHP puro, utiliza una base de datos MYSQL para guardar los datos, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar.",
         DescCorta:   "",
         Tipo:        "Plataforma",
         Tecnologias : [
-            {Img: "assets/icons/php.svg",        Text: "PHP"},
-            {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
+            {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",      Text: "Base de datos MYSQL"},
             {Img: "assets/icons/html-5.svg",     Text: "HTML-5"},
             {Img: "assets/icons/css-3.svg",      Text: "CSS-3"},
             {Img: "assets/icons/bootstrap.svg",  Text: "Bootstrap 3"},
@@ -986,11 +1060,13 @@ var proyectos = [
         IMG:         "assets/project/img_32.jpg",
         Titulo:      "Plataforma edukclick",
         Descripcion: "Plataforma de educación tipo Moddle.",
+        DatosTec:    "Plataforma monilítica programada en PHP puro, utiliza una base de datos MYSQL para guardar los datos, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar.",
         DescCorta:   "",
         Tipo:        "Plataforma",
         Tecnologias : [
-            {Img: "assets/icons/php.svg",        Text: "PHP"},
-            {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
+            {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",      Text: "Base de datos MYSQL"},
             {Img: "assets/icons/html-5.svg",     Text: "HTML-5"},
             {Img: "assets/icons/css-3.svg",      Text: "CSS-3"},
             {Img: "assets/icons/bootstrap.svg",  Text: "Bootstrap 3"},
@@ -1005,11 +1081,13 @@ var proyectos = [
         IMG:         "assets/project/img_33.jpg",
         Titulo:      "Plataforma MisionEduca",
         Descripcion: "Plataforma clon de edukclick, donde se ofrecían cursos impartidos por los pastores.",
+        DatosTec:    "Plataforma monilítica programada en PHP puro, utiliza una base de datos MYSQL para guardar los datos, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar.",
         DescCorta:   "",
         Tipo:        "Plataforma",
         Tecnologias : [
-            {Img: "assets/icons/php.svg",        Text: "PHP"},
-            {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
+            {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",      Text: "Base de datos MYSQL"},
             {Img: "assets/icons/html-5.svg",     Text: "HTML-5"},
             {Img: "assets/icons/css-3.svg",      Text: "CSS-3"},
             {Img: "assets/icons/bootstrap.svg",  Text: "Bootstrap 3"},
@@ -1026,11 +1104,13 @@ var proyectos = [
         Descripcion:
                     "Plataforma diseñada para hacer la solicitud de información a la municipalidad, mantenía un registro de las solicitudes y las respuestas a estas."
                     +"<br/>También ofrece toda la información de la persona procesada en la municipalidad.",
+        DatosTec:    "Plataforma monilítica programada en PHP puro, utiliza una base de datos MYSQL para guardar los datos, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar.",
         DescCorta:   "",
         Tipo:        "Otros",
         Tecnologias : [
-            {Img: "assets/icons/php.svg",        Text: "PHP"},
-            {Img: "assets/icons/mysql.svg",      Text: "MYSQL"},
+            {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",      Text: "Base de datos MYSQL"},
             {Img: "assets/icons/html-5.svg",     Text: "HTML-5"},
             {Img: "assets/icons/css-3.svg",      Text: "CSS-3"},
             {Img: "assets/icons/bootstrap.svg",  Text: "Bootstrap 2"},
@@ -1046,6 +1126,9 @@ var proyectos = [
         IMG:         "assets/project/img_35.jpg",
         Titulo:      "APP Aaazu",
         Descripcion: "Aplicación Android hecha para poder pagar con el celular en los puntos de la red de Pago Efectivo, además tenía una interacción con la app ClubAmerica, en donde se podían hacer apuestas utilizando el saldo de la APP.",
+        DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local."
+                    +"<br>Aplicación nativa IOS hecha con Xcode utilizando C++ como lenguaje de programación y Sqlite como base de datos local."
+                    +"<br>Estas aplicaciones obtienen los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
         Tecnologias : [
@@ -1057,8 +1140,10 @@ var proyectos = [
             {Img: "assets/icons/xcode.svg",           Text: "Xcode"},
             {Img: "assets/icons/cplusplus.svg",       Text: "Frontend - C++"},
             {Img: "assets/icons/sqlite.svg",          Text: "Frontend - Sqlite"},
+            {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
+            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20Aaazu", Icon: "fab fa-github", Text: "Documentación"},
@@ -1068,6 +1153,7 @@ var proyectos = [
         IMG:         "assets/project/img_36.jpg",
         Titulo:      "APP appBuss",
         Descripcion: "Aplicación Android hecha para que el transporte público pudiera enviarse alertas de emergencia entre ellos creando una red de seguridad, lamentablemente solo conservo los logos de la APP.",
+        DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
         Tecnologias : [
@@ -1075,8 +1161,10 @@ var proyectos = [
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
             {Img: "assets/icons/java.svg",            Text: "Frontend - Java"},
             {Img: "assets/icons/sqlite.svg",          Text: "Frontend - Sqlite"},
+            {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
+            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20AppBuss", Icon: "fab fa-github", Text: "Documentación"},
@@ -1088,6 +1176,7 @@ var proyectos = [
         Descripcion:
                     "Aplicación Android hecha para poder acceder a la información de cualquier producto de un supermercado adherido solo escaneando su código de barras, una vez escaneado mostraría su aporte energético, si tiene preservantes, etc."
                     +"<br/>El proyecto fracaso porque los supermercados no estaban interesados y porque no se podía implementar el tema de la base de datos en base al código de barras del producto, ya que, para un mismo producto, dependiendo de la zona (hablando de Perú), llevaba un código de barras distinto.",
+        DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
         Tecnologias : [
@@ -1095,8 +1184,10 @@ var proyectos = [
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
             {Img: "assets/icons/java.svg",            Text: "Frontend - Java"},
             {Img: "assets/icons/sqlite.svg",          Text: "Frontend - Sqlite"},
+            {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
+            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20Approbar", Icon: "fab fa-github", Text: "Documentación"},
@@ -1108,6 +1199,7 @@ var proyectos = [
         Descripcion:
                     "Aplicación Android de seguridad ofrecida para el público en general que se encargaba de registrar eventos en un mapa, con niveles de peligro del evento y un registro de éste, permitía indicar mediante vibraciones del celular si uno estaba entrando a un área conflictiva."
                     +"<br/>Desgraciadamente no dispongo de ninguna captura de pantalla ni tampoco se encuentra en uso actualmente.",
+        DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
         Tecnologias : [
@@ -1115,8 +1207,10 @@ var proyectos = [
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
             {Img: "assets/icons/java.svg",            Text: "Frontend - Java"},
             {Img: "assets/icons/sqlite.svg",          Text: "Frontend - Sqlite"},
+            {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
+            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Descontinuados-Android/tree/master/AppSeguridad", Icon: "fas fa-code",   Text: "Código Fuente"},
@@ -1130,6 +1224,7 @@ var proyectos = [
                     "Aplicación Android que podría ser la evolución de la APP Busafe, mezcla las características de dicha aplicación, mas las características de la aplicación SOSClick y la aplicacion AppBuss para obtener esta aplicación."
                     +"<br/>Además, ofrecía una aplicación para tablets para los choferes, con la idea de que fueran utilizadas en el Transantiago para reemplazar el sistema de seguridad que en ese tiempo lo ofrecía la empresa Sonda."
                     +"<br/>Fracaso porque en ese tiempo, Carlos Valenzuela, le presento la idea completa, más sus flujos y la lógica de funcionamiento y procesos a la persona que unos meses más tarde crearía la APP Sosafe, apoyada por el gobierno de ese entonces, matando por completo esta APP.",
+        DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
         Tecnologias : [
@@ -1137,8 +1232,10 @@ var proyectos = [
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
             {Img: "assets/icons/java.svg",            Text: "Frontend - Java"},
             {Img: "assets/icons/sqlite.svg",          Text: "Frontend - Sqlite"},
+            {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
+            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20Bussan", Icon: "fab fa-github", Text: "Documentación"},
@@ -1150,6 +1247,7 @@ var proyectos = [
         Descripcion:
                     "Aplicación Android que permitía acceder a un vademecum de un determinado remedio solo escaneando su código de barras con la cámara del celular, ver el stock de un determinado remedio de la farmacia mas cercana a tu ubicación y una agenda que te recordaba con una alarma el remedio que te tocaba."
                     +"<br/>La APP fracaso porque todas sus funciones eran irreales, la base de datos con códigos de barras iba a ser enorme, cada farmacia gestiona su stock con programas diferentes entre una y otra, por lo que se debía hacer una implementación nueva para cada una, además de que se tenía que negociar con cada una para ver si permitían el acceso a sus bases de datos, y el tema de las alarmas podía ser fácilmente reemplazado con la alarma del celular.",
+        DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
         Tecnologias : [
@@ -1157,8 +1255,10 @@ var proyectos = [
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
             {Img: "assets/icons/java.svg",            Text: "Frontend - Java"},
             {Img: "assets/icons/sqlite.svg",          Text: "Frontend - Sqlite"},
+            {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
+            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Descontinuados-Android/tree/master/click_farma", Icon: "fas fa-code",   Text: "Código Fuente"},
@@ -1169,6 +1269,9 @@ var proyectos = [
         IMG:         "assets/project/img_40.jpg",
         Titulo:      "APP ClubAmerica",
         Descripcion: "Aplicación Android hecha para poder participar en el programa del mismo nombre en el canal peruano América TV.",
+        DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local."
+                    +"<br>Aplicación nativa IOS hecha con Xcode utilizando C++ como lenguaje de programación y Sqlite como base de datos local."
+                    +"<br>Estas aplicaciones obtienen los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
         Tecnologias : [
@@ -1180,8 +1283,10 @@ var proyectos = [
             {Img: "assets/icons/xcode.svg",           Text: "Xcode"},
             {Img: "assets/icons/cplusplus.svg",       Text: "Frontend - C++"},
             {Img: "assets/icons/sqlite.svg",          Text: "Frontend - Sqlite"},
+            {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
+            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20ClubAmerica", Icon: "fab fa-github", Text: "Documentación"},
@@ -1191,6 +1296,9 @@ var proyectos = [
         IMG:         "assets/project/img_41.jpg",
         Titulo:      "APP EasyPago",
         Descripcion: "Aplicación Android que permitía pagar con el celular en todos los almacenes y bazares del Perú conectados al servicio de Pago Fácil, después se transformó en la APP Aaazu.",
+        DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local."
+                    +"<br>Aplicación nativa IOS hecha con Xcode utilizando C++ como lenguaje de programación y Sqlite como base de datos local."
+                    +"<br>Estas aplicaciones obtienen los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
         Tecnologias : [
@@ -1202,8 +1310,10 @@ var proyectos = [
             {Img: "assets/icons/xcode.svg",           Text: "Xcode"},
             {Img: "assets/icons/cplusplus.svg",       Text: "Frontend - C++"},
             {Img: "assets/icons/sqlite.svg",          Text: "Frontend - Sqlite"},
+            {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
+            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Descontinuados-Android/tree/master/EasyPago", Icon: "fas fa-code",   Text: "Código Fuente"},
@@ -1214,6 +1324,7 @@ var proyectos = [
         IMG:         "assets/project/img_42.jpg",
         Titulo:      "APP Jootes",
         Descripcion: "Aplicación Android Chat Roulette para conversar con personas del sexo opuesto durante 30 segundos.",
+        DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
         Tecnologias : [
@@ -1221,8 +1332,10 @@ var proyectos = [
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
             {Img: "assets/icons/java.svg",            Text: "Frontend - Java"},
             {Img: "assets/icons/sqlite.svg",          Text: "Frontend - Sqlite"},
+            {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
+            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Descontinuados-Android/tree/master/Jootes",     Icon: "fas fa-code",   Text: "Código Fuente v1"},
@@ -1234,6 +1347,7 @@ var proyectos = [
         IMG:         "assets/project/img_43.jpg",
         Titulo:      "APP Juntos Somos Mas",
         Descripcion: "Aplicación Android de opinión para el partido político PS, funcionaba de forma similar a un foro con algunas ligeras modificaciones.",
+        DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
         Tecnologias : [
@@ -1241,8 +1355,10 @@ var proyectos = [
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
             {Img: "assets/icons/java.svg",            Text: "Frontend - Java"},
             {Img: "assets/icons/sqlite.svg",          Text: "Frontend - Sqlite"},
+            {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
+            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20JuntosSomosMas", Icon: "fab fa-github", Text: "Documentación"},
@@ -1252,6 +1368,9 @@ var proyectos = [
         IMG:         "assets/project/img_44.jpg",
         Titulo:      "APP Llappa",
         Descripcion: "Aplicación Android mutante que mezclaba la opción de tener una sim virtual para poder hacer llamadas a un costo inferior al de las empresas chilenas y una aplicación de concursos, nunca vio la luz debido a que no se definió qué tipo de aplicación era.",
+        DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local."
+                    +"<br>Aplicación nativa IOS hecha con Xcode utilizando C++ como lenguaje de programación y Sqlite como base de datos local."
+                    +"<br>Estas aplicaciones obtienen los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
         Tecnologias : [
@@ -1263,8 +1382,10 @@ var proyectos = [
             {Img: "assets/icons/xcode.svg",           Text: "Xcode"},
             {Img: "assets/icons/cplusplus.svg",       Text: "Frontend - C++"},
             {Img: "assets/icons/sqlite.svg",          Text: "Frontend - Sqlite"},
+            {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
+            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20Llappa", Icon: "fab fa-github", Text: "Documentación"},
@@ -1274,6 +1395,7 @@ var proyectos = [
         IMG:         "assets/project/img_45.jpg",
         Titulo:      "APP PSVirtual",
         Descripcion: "Aplicación Android clon de la app Juntos Somos Mas, ofrecía exactamente lo mismo.",
+        DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
         Tecnologias : [
@@ -1281,8 +1403,10 @@ var proyectos = [
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
             {Img: "assets/icons/java.svg",            Text: "Frontend - Java"},
             {Img: "assets/icons/sqlite.svg",          Text: "Frontend - Sqlite"},
+            {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
+            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20PSVirtual", Icon: "fab fa-github", Text: "Documentación"},
@@ -1292,6 +1416,7 @@ var proyectos = [
         IMG:         "assets/project/img_46.jpg",
         Titulo:      "APP RPMClick",
         Descripcion: "Aplicación Android clon de la APP SOSClick, tiene mas o menos las mismas características.",
+        DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
         Tecnologias : [
@@ -1299,8 +1424,10 @@ var proyectos = [
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
             {Img: "assets/icons/java.svg",            Text: "Frontend - Java"},
             {Img: "assets/icons/sqlite.svg",          Text: "Frontend - Sqlite"},
+            {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
+            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20RPMClick", Icon: "fab fa-github", Text: "Documentación"},
@@ -1310,6 +1437,9 @@ var proyectos = [
         IMG:         "assets/project/img_47.jpg",
         Titulo:      "APP SOSAmerica",
         Descripcion: "Aplicación Android de seguridad ofrecida por el canal de Perú América TV.",
+        DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local."
+                    +"<br>Aplicación nativa IOS hecha con Xcode utilizando C++ como lenguaje de programación y Sqlite como base de datos local."
+                    +"<br>Estas aplicaciones obtienen los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
         Tecnologias : [
@@ -1321,8 +1451,10 @@ var proyectos = [
             {Img: "assets/icons/xcode.svg",           Text: "Xcode"},
             {Img: "assets/icons/cplusplus.svg",       Text: "Frontend - C++"},
             {Img: "assets/icons/sqlite.svg",          Text: "Frontend - Sqlite"},
+            {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
+            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Descontinuados-Android/tree/master/SosAmerica", Icon: "fas fa-code",   Text: "Código Fuente"},
@@ -1333,6 +1465,7 @@ var proyectos = [
         IMG:         "assets/project/img_48.jpg",
         Titulo:      "APP SOSBuin",
         Descripcion: "Aplicación Android clon de la APP SOSClick, ofrecida en exclusiva para la comuna de Buin.",
+        DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
         Tecnologias : [
@@ -1340,8 +1473,10 @@ var proyectos = [
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
             {Img: "assets/icons/java.svg",            Text: "Frontend - Java"},
             {Img: "assets/icons/sqlite.svg",          Text: "Frontend - Sqlite"},
+            {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
+            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20SOSBuin", Icon: "fab fa-github", Text: "Documentación"},
@@ -1353,6 +1488,7 @@ var proyectos = [
         Descripcion:
                     "Aplicación Android de seguridad ofrecida para el público en general, entre sus características estaban la de crear redes de seguridad, envío de notificaciones de seguridad y encontrar mi dispositivo."
                     +"<br/>Actualmente se le han agregado mas funcionalidades, pero mantiene las definidas en un inicio.",
+        DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
         Tecnologias : [
@@ -1360,8 +1496,10 @@ var proyectos = [
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
             {Img: "assets/icons/java.svg",            Text: "Frontend - Java"},
             {Img: "assets/icons/sqlite.svg",          Text: "Frontend - Sqlite"},
+            {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
+            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20SOSClick", Icon: "fab fa-github", Text: "Documentación"},
@@ -1371,6 +1509,7 @@ var proyectos = [
         IMG:         "assets/project/img_50.jpg",
         Titulo:      "APP SOSLaFlorida",
         Descripcion: "Aplicación Android clon de la APP SOSClick, ofrecida en exclusiva para la comuna de la Florida.",
+        DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
         Tecnologias : [
@@ -1378,8 +1517,10 @@ var proyectos = [
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
             {Img: "assets/icons/java.svg",            Text: "Frontend - Java"},
             {Img: "assets/icons/sqlite.svg",          Text: "Frontend - Sqlite"},
+            {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
+            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20SOSLaFlorida", Icon: "fab fa-github", Text: "Documentación"},
@@ -1389,6 +1530,7 @@ var proyectos = [
         IMG:         "assets/project/img_51.jpg",
         Titulo:      "APP SOSTaxi",
         Descripcion: "Aplicación Android hecha para la seguridad de los taxistas, también existe una aplicación para los pasajeros, su funcionamiento asemeja lo que hace Didi o Uber.",
+        DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
         Tecnologias : [
@@ -1396,8 +1538,10 @@ var proyectos = [
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
             {Img: "assets/icons/java.svg",            Text: "Frontend - Java"},
             {Img: "assets/icons/sqlite.svg",          Text: "Frontend - Sqlite"},
+            {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
+            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20SOSTaxi", Icon: "fab fa-github", Text: "Documentación"},
@@ -1407,6 +1551,7 @@ var proyectos = [
         IMG:         "assets/project/img_52.jpg",
         Titulo:      "APP Supega",
         Descripcion: "Aplicación Android que permite generar y aceptar ofertas de trabajo.",
+        DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
         Tecnologias : [
@@ -1414,8 +1559,10 @@ var proyectos = [
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
             {Img: "assets/icons/java.svg",            Text: "Frontend - Java"},
             {Img: "assets/icons/sqlite.svg",          Text: "Frontend - Sqlite"},
+            {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
+            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Descontinuados-Android/tree/master/supega_ofertador",  Icon: "fas fa-code",   Text: "Código Fuente Ofertador"},
@@ -1427,6 +1574,7 @@ var proyectos = [
         IMG:         "assets/project/img_53.jpg",
         Titulo:      "APP VinaSomosTodos",
         Descripcion: "Aplicación Android clon de la APP SOSClick, ofrecida en exclusiva para la comuna de Viña del Mar.",
+        DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
         Tecnologias : [
@@ -1434,8 +1582,10 @@ var proyectos = [
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
             {Img: "assets/icons/java.svg",            Text: "Frontend - Java"},
             {Img: "assets/icons/sqlite.svg",          Text: "Frontend - Sqlite"},
+            {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
+            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20VinaSomosTodos", Icon: "fab fa-github", Text: "Documentación"},
@@ -1447,12 +1597,14 @@ var proyectos = [
         Descripcion:
                     "En este sitio solo hice una mantención de plugins y correcciones visuales debido a algunas incompatibilidades entre plugins."
                     +"<br/> Actualmente fue rediseñada sobre otra arquitectura.",
+        DatosTec:    "Sistema de gestión de contenidos (CMS), montado en un servidor Apache, esta programado utilizando PHP como base, tambien utiliza MYSQL como base de datos.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
         Tecnologias : [
-            {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
-            {Img: "assets/icons/php.svg",       Text: "PHP"},
-            {Img: "assets/icons/mysql.svg",     Text: "MYSQL"},
+            {Img: "assets/icons/wordpress.svg", Text: "CMS WordPress"},
+            {Img: "assets/icons/apache.svg",    Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",       Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",     Text: "Base de datos MYSQL"},
         ],
         Links : [
             {Link: "https://www.inesbengoa.com/", Icon: "fas fa-link", Text: "Sitio Web"},
@@ -1462,12 +1614,14 @@ var proyectos = [
         IMG:         "assets/project/img_16.jpg",
         Titulo:      "Sitio Web Itinerario muralístico",
         Descripcion: "Creación del sitio en wordpress a partir de la versión antigua hecha en html y javascript.",
+        DatosTec:    "Sistema de gestión de contenidos (CMS), montado en un servidor Apache, esta programado utilizando PHP como base, tambien utiliza MYSQL como base de datos.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
         Tecnologias : [
-            {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
-            {Img: "assets/icons/php.svg",       Text: "PHP"},
-            {Img: "assets/icons/mysql.svg",     Text: "MYSQL"},
+            {Img: "assets/icons/wordpress.svg", Text: "CMS WordPress"},
+            {Img: "assets/icons/apache.svg",    Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",       Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",     Text: "Base de datos MYSQL"},
         ],
         Links : [
             {Link: "https://www.muralismopublico.com/", Icon: "fas fa-link", Text: "Sitio Web"},
@@ -1479,12 +1633,14 @@ var proyectos = [
         Descripcion:
                     "Creación del sitio en wordpress a partir de la versión antigua hecha en joomla."
                     +"<br/> Actualmente fue rediseñada sobre otra arquitectura manteniendo casi todas sus caracteristicas.",
+        DatosTec:    "Sistema de gestión de contenidos (CMS), montado en un servidor Apache, esta programado utilizando PHP como base, tambien utiliza MYSQL como base de datos.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
         Tecnologias : [
-            {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
-            {Img: "assets/icons/php.svg",       Text: "PHP"},
-            {Img: "assets/icons/mysql.svg",     Text: "MYSQL"},
+            {Img: "assets/icons/wordpress.svg", Text: "CMS WordPress"},
+            {Img: "assets/icons/apache.svg",    Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",       Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",     Text: "Base de datos MYSQL"},
         ],
         Links : [
             {Link: "https://tierrasdeiranzu.com/", Icon: "fas fa-link", Text: "Sitio Web"},
@@ -1494,12 +1650,14 @@ var proyectos = [
         IMG:         "assets/project/img_19.jpg",
         Titulo:      "Sitio Web Pizzeria del Sol",
         Descripcion: "Creación del sitio en wordpress a partir de la versión antigua hecha en HTML.",
+        DatosTec:    "Sistema de gestión de contenidos (CMS), montado en un servidor Apache, esta programado utilizando PHP como base, tambien utiliza MYSQL como base de datos.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
         Tecnologias : [
-            {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
-            {Img: "assets/icons/php.svg",       Text: "PHP"},
-            {Img: "assets/icons/mysql.svg",     Text: "MYSQL"},
+            {Img: "assets/icons/wordpress.svg", Text: "CMS WordPress"},
+            {Img: "assets/icons/apache.svg",    Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",       Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",     Text: "Base de datos MYSQL"},
         ],
         Links : [
             {Link: "https://www.pizzeriadelsol.cl/", Icon: "fas fa-link", Text: "Sitio Web"},
@@ -1509,12 +1667,14 @@ var proyectos = [
         IMG:         "assets/project/img_23.jpg",
         Titulo:      "Sitio Web Mundo raintxe",
         Descripcion: "Creación del sitio en wordpress a partir de la versión antigua hecha en wordpress, pero esta versión antigua tenia incompatibilidades con los plugins instalados, por lo que se solicitó una version hecha desde 0.",
+        DatosTec:    "Sistema de gestión de contenidos (CMS), montado en un servidor Apache, esta programado utilizando PHP como base, tambien utiliza MYSQL como base de datos.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
         Tecnologias : [
-            {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
-            {Img: "assets/icons/php.svg",       Text: "PHP"},
-            {Img: "assets/icons/mysql.svg",     Text: "MYSQL"},
+            {Img: "assets/icons/wordpress.svg", Text: "CMS WordPress"},
+            {Img: "assets/icons/apache.svg",    Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",       Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",     Text: "Base de datos MYSQL"},
         ],
         Links : [
             {Link: "https://www.mundoraintxe.com", Icon: "fas fa-link", Text: "Sitio Web"},
@@ -1524,12 +1684,14 @@ var proyectos = [
         IMG:         "assets/project/img_24.jpg",
         Titulo:      "Sitio Web Cosami",
         Descripcion: "Creación del sitio en wordpress a partir de una maqueta y utilizando otros sitios del mismo tipo como referencia.",
+        DatosTec:    "Sistema de gestión de contenidos (CMS), montado en un servidor Apache, esta programado utilizando PHP como base, tambien utiliza MYSQL como base de datos.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
         Tecnologias : [
-            {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
-            {Img: "assets/icons/php.svg",       Text: "PHP"},
-            {Img: "assets/icons/mysql.svg",     Text: "MYSQL"},
+            {Img: "assets/icons/wordpress.svg", Text: "CMS WordPress"},
+            {Img: "assets/icons/apache.svg",    Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",       Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",     Text: "Base de datos MYSQL"},
         ],
         Links : [
             {Link: "https://cosamiweb.com/", Icon: "fas fa-link", Text: "Sitio Web"},
@@ -1539,12 +1701,14 @@ var proyectos = [
         IMG:         "assets/project/img_21.jpg",
         Titulo:      "Sitio Web Rifo y Compañía Ltda",
         Descripcion: "Creación del sitio en wordpress clonando lo que ya tenia hecho en HTML.",
+        DatosTec:    "Sistema de gestión de contenidos (CMS), montado en un servidor Apache, esta programado utilizando PHP como base, tambien utiliza MYSQL como base de datos.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
         Tecnologias : [
-            {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
-            {Img: "assets/icons/php.svg",       Text: "PHP"},
-            {Img: "assets/icons/mysql.svg",     Text: "MYSQL"},
+            {Img: "assets/icons/wordpress.svg", Text: "CMS WordPress"},
+            {Img: "assets/icons/apache.svg",    Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",       Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",     Text: "Base de datos MYSQL"},
         ],
         Links : [
             {Link: "https://www.rifoseguros.cl/", Icon: "fas fa-link", Text: "Sitio Web"},
@@ -1554,12 +1718,14 @@ var proyectos = [
         IMG:         "assets/project/img_20.jpg",
         Titulo:      "Sitio Web Animaciones infantiles Payasito Cascabel",
         Descripcion: "Creación del sitio en wordpress a partir de una maqueta en jpg.",
+        DatosTec:    "Sistema de gestión de contenidos (CMS), montado en un servidor Apache, esta programado utilizando PHP como base, tambien utiliza MYSQL como base de datos.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
         Tecnologias : [
-            {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
-            {Img: "assets/icons/php.svg",       Text: "PHP"},
-            {Img: "assets/icons/mysql.svg",     Text: "MYSQL"},
+            {Img: "assets/icons/wordpress.svg", Text: "CMS WordPress"},
+            {Img: "assets/icons/apache.svg",    Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",       Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",     Text: "Base de datos MYSQL"},
         ],
         Links : [
             {Link: "https://www.payasitocascabel.cl/", Icon: "fas fa-link", Text: "Sitio Web"},
@@ -1569,12 +1735,14 @@ var proyectos = [
         IMG:         "assets/project/img_25.jpg",
         Titulo:      "Sitio Web Fonda Carrera",
         Descripcion: "Creación del sitio en wordpress a partir de reuniones y solicitudes del cliente, se reciben los bosquejos y una especie de maqueta con lo que se había negociado.",
+        DatosTec:    "Sistema de gestión de contenidos (CMS), montado en un servidor Apache, esta programado utilizando PHP como base, tambien utiliza MYSQL como base de datos.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
         Tecnologias : [
-            {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
-            {Img: "assets/icons/php.svg",       Text: "PHP"},
-            {Img: "assets/icons/mysql.svg",     Text: "MYSQL"},
+            {Img: "assets/icons/wordpress.svg", Text: "CMS WordPress"},
+            {Img: "assets/icons/apache.svg",    Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",       Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",     Text: "Base de datos MYSQL"},
         ],
         Links : [
             {Link: "https://fondacarrera.com/", Icon: "fas fa-link", Text: "Sitio Web"},
@@ -1584,11 +1752,13 @@ var proyectos = [
         IMG:         "assets/project/img_6.jpg",
         Titulo:      "Plataforma Mantenlubric",
         Descripcion: "Este sistema está enfocado a la gestión de lubricación de las máquinas y sus puntos, todo se gestiona a través de contratos donde se indica el número de lubricaciones dentro del año, además poder programas mantenciones preventivas o de emergencia. Posee transacciones para gestionar a los usuarios (con un control de permisos según sus roles), las máquinas, los trabajadores, las bodegas, las compras y ventas, los vendedores y sus negociaciones, entre otras.",
+        DatosTec:    "Plataforma monilítica programada en PHP puro, utiliza una base de datos MYSQL para guardar los datos, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar.",
         DescCorta:   "",
         Tipo:        "Plataforma",
         Tecnologias : [
-            {Img: "assets/icons/php.svg",       Text: "PHP"},
-            {Img: "assets/icons/mysql.svg",     Text: "MYSQL"},
+            {Img: "assets/icons/apache.svg",    Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",       Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",     Text: "Base de datos MYSQL"},
             {Img: "assets/icons/html-5.svg",    Text: "HTML-5"},
             {Img: "assets/icons/css-3.svg",     Text: "CSS-3"},
             {Img: "assets/icons/bootstrap.svg", Text: "Bootstrap 3"},
@@ -1604,12 +1774,14 @@ var proyectos = [
         IMG:         "assets/project/img_22.jpg",
         Titulo:      "Sitio Web Simyl",
         Descripcion: "Creación del sitio en wordpress a partir de la versión antigua hecha también en wordpress.",
+        DatosTec:    "Sistema de gestión de contenidos (CMS), montado en un servidor Apache, esta programado utilizando PHP como base, tambien utiliza MYSQL como base de datos.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
         Tecnologias : [
-            {Img: "assets/icons/wordpress.svg", Text: "WordPress"},
-            {Img: "assets/icons/php.svg",       Text: "PHP"},
-            {Img: "assets/icons/mysql.svg",     Text: "MYSQL"},
+            {Img: "assets/icons/wordpress.svg", Text: "CMS WordPress"},
+            {Img: "assets/icons/apache.svg",    Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",       Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",     Text: "Base de datos MYSQL"},
         ],
         Links : [
             {Link: "https://www.simyl.cl/", Icon: "fas fa-link", Text: "Sitio Web"},
@@ -1619,13 +1791,14 @@ var proyectos = [
         IMG:         "assets/project/img_54.jpg",
         Titulo:      "Informe 5 Minutos",
         Descripcion: "Informe que permite descargar la información en bruto generada por la plantilla Inforturno, para su posterior uso en la generación de tablas dinámicas y gráficos, este archivo se conecta a una base de datos access a través del servicio de Origenes de bases de Datos (ODBC) del sistema operativo para obtener los datos.",
+        DatosTec:    "Planilla que obtiene sus datos desde una base de datos access a través del ODBC de windows, luego organiza los datos, crea graficos, tablas y otras funcionalidades programadas utilizando Visual Basic.",
         DescCorta:   "",
         Tipo:        "Excel",
         Tecnologias : [
             {Img: "assets/icons/excel.svg",   Text: "Excel"},
-            {Img: "assets/icons/access.svg",  Text: "Access"},
-            {Img: "assets/icons/macros.svg",  Text: "Macros"},
-            {Img: "assets/icons/vb.svg",      Text: "Visual Basic"},
+            {Img: "assets/icons/access.svg",  Text: "Conexion de BD Access"},
+            {Img: "assets/icons/macros.svg",  Text: "Uso de Macros"},
+            {Img: "assets/icons/vb.svg",      Text: "Funcionalidad programada en Visual Basic"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/InfoTurno", Icon: "fab fa-github", Text: "Documentación"},
@@ -1635,13 +1808,14 @@ var proyectos = [
         IMG:         "assets/project/img_55.jpg",
         Titulo:      "Horas extras",
         Descripcion: "Archivo para cotejar las horas extras informadas con las horas extras de la plataforma de marcaje, este archivo se conecta a una base de datos access a través del servicio de Origenes de bases de Datos (ODBC) del sistema operativo para obtener los datos.",
+        DatosTec:    "Planilla que obtiene sus datos desde una base de datos access a través del ODBC de windows, luego organiza los datos, crea graficos, tablas y otras funcionalidades programadas utilizando Visual Basic.",
         DescCorta:   "",
         Tipo:        "Excel",
         Tecnologias : [
             {Img: "assets/icons/excel.svg",   Text: "Excel"},
-            {Img: "assets/icons/access.svg",  Text: "Access"},
-            {Img: "assets/icons/macros.svg",  Text: "Macros"},
-            {Img: "assets/icons/vb.svg",      Text: "Visual Basic"},
+            {Img: "assets/icons/access.svg",  Text: "Conexion de BD Access"},
+            {Img: "assets/icons/macros.svg",  Text: "Uso de Macros"},
+            {Img: "assets/icons/vb.svg",      Text: "Funcionalidad programada en Visual Basic"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/InfoTurno", Icon: "fab fa-github", Text: "Documentación"},
@@ -1651,11 +1825,13 @@ var proyectos = [
         IMG:         "assets/project/img_56.jpg",
         Titulo:      "Info Roquefort",
         Descripcion: "Archivo con el cual la empresa Roquefort le facturaba a Viña Concha y Toro.",
+        DatosTec:    "Planilla resumen que entrega resumenes en base de los datos ingresados manualmente.",
         DescCorta:   "",
         Tipo:        "Excel",
         Tecnologias : [
             {Img: "assets/icons/excel.svg",   Text: "Excel"},
-            {Img: "assets/icons/access.svg",  Text: "Access"},
+            {Img: "assets/icons/macros.svg",  Text: "Uso de Macros"},
+            {Img: "assets/icons/vb.svg",      Text: "Funcionalidad programada en Visual Basic"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/InfoTurno", Icon: "fab fa-github", Text: "Documentación"},
@@ -1665,13 +1841,14 @@ var proyectos = [
         IMG:         "assets/project/img_57.jpg",
         Titulo:      "Infoturno",
         Descripcion: "Plantilla para hacer el ingreso de las detenciones de las lineas de produccion al interior de la planta, este archivo se conecta a una base de datos access a través del servicio de Origenes de bases de Datos (ODBC) del sistema operativo para obtener y guardar los datos.",
+        DatosTec:    "Planilla que obtiene sus datos desde una base de datos access a través del ODBC de windows, luego organiza los datos, crea graficos, tablas y otras funcionalidades programadas utilizando Visual Basic.",
         DescCorta:   "",
         Tipo:        "Excel",
         Tecnologias : [
             {Img: "assets/icons/excel.svg",   Text: "Excel"},
-            {Img: "assets/icons/access.svg",  Text: "Access"},
-            {Img: "assets/icons/macros.svg",  Text: "Macros"},
-            {Img: "assets/icons/vb.svg",      Text: "Visual Basic"},
+            {Img: "assets/icons/access.svg",  Text: "Conexion de BD Access"},
+            {Img: "assets/icons/macros.svg",  Text: "Uso de Macros"},
+            {Img: "assets/icons/vb.svg",      Text: "Funcionalidad programada en Visual Basic"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/InfoTurno", Icon: "fab fa-github", Text: "Documentación"},
@@ -1681,13 +1858,14 @@ var proyectos = [
         IMG:         "assets/project/img_58.jpg",
         Titulo:      "Resumen",
         Descripcion: "Informe de analisis gerencial con distintas vistas, donde muestra gráficos por tipo de detenciones, por tipos de cambios, producción por tipo de envase, etc. Este archivo se conecta a una base de datos access a través del servicio de Origenes de bases de Datos (ODBC) del sistema operativo para obtener los datos.",
+        DatosTec:    "Planilla que obtiene sus datos desde una base de datos access a través del ODBC de windows, luego organiza los datos, crea graficos, tablas y otras funcionalidades programadas utilizando Visual Basic.",
         DescCorta:   "",
         Tipo:        "Excel",
         Tecnologias : [
             {Img: "assets/icons/excel.svg",   Text: "Excel"},
-            {Img: "assets/icons/access.svg",  Text: "Access"},
-            {Img: "assets/icons/macros.svg",  Text: "Macros"},
-            {Img: "assets/icons/vb.svg",      Text: "Visual Basic"},
+            {Img: "assets/icons/access.svg",  Text: "Conexion de BD Access"},
+            {Img: "assets/icons/macros.svg",  Text: "Uso de Macros"},
+            {Img: "assets/icons/vb.svg",      Text: "Funcionalidad programada en Visual Basic"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/InfoTurno", Icon: "fab fa-github", Text: "Documentación"},
@@ -1697,13 +1875,14 @@ var proyectos = [
         IMG:         "assets/project/img_59.jpg",
         Titulo:      "Resumen Linea",
         Descripcion: "Informe de análisis gerencial, muestra los datos agrupados de distintas formas (tipos de tiempo, tipo de produccion, tipo de enevase, tipo de caja, etc) representado en valores y porcentajes. . Este archivo se conecta a una base de datos access a través del servicio de Origenes de bases de Datos (ODBC) del sistema operativo para obtener los datos.",
+        DatosTec:    "Planilla que obtiene sus datos desde una base de datos access a través del ODBC de windows, luego organiza los datos, crea graficos, tablas y otras funcionalidades programadas utilizando Visual Basic.",
         DescCorta:   "",
         Tipo:        "Excel",
         Tecnologias : [
             {Img: "assets/icons/excel.svg",   Text: "Excel"},
-            {Img: "assets/icons/access.svg",  Text: "Access"},
-            {Img: "assets/icons/macros.svg",  Text: "Macros"},
-            {Img: "assets/icons/vb.svg",      Text: "Visual Basic"},
+            {Img: "assets/icons/access.svg",  Text: "Conexion de BD Access"},
+            {Img: "assets/icons/macros.svg",  Text: "Uso de Macros"},
+            {Img: "assets/icons/vb.svg",      Text: "Funcionalidad programada en Visual Basic"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/InfoTurno", Icon: "fab fa-github", Text: "Documentación"},
@@ -1713,13 +1892,14 @@ var proyectos = [
         IMG:         "assets/project/img_60.jpg",
         Titulo:      "Informe Supervisión",
         Descripcion: "Informe con varios resúmenes orientados a la supervisión, básicamente muestra resúmenes de velocidades, produccion, tiempos de cambios, tiempos muertos y las distintas mermas generadas durante la producción.",
+        DatosTec:    "Planilla que obtiene sus datos desde una base de datos access a través del ODBC de windows, luego organiza los datos, crea graficos, tablas y otras funcionalidades programadas utilizando Visual Basic.",
         DescCorta:   "",
         Tipo:        "Excel",
         Tecnologias : [
             {Img: "assets/icons/excel.svg",   Text: "Excel"},
-            {Img: "assets/icons/access.svg",  Text: "Access"},
-            {Img: "assets/icons/macros.svg",  Text: "Macros"},
-            {Img: "assets/icons/vb.svg",      Text: "Visual Basic"},
+            {Img: "assets/icons/access.svg",  Text: "Conexion de BD Access"},
+            {Img: "assets/icons/macros.svg",  Text: "Uso de Macros"},
+            {Img: "assets/icons/vb.svg",      Text: "Funcionalidad programada en Visual Basic"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Descontinuados-Excel", Icon: "fab fa-github", Text: "Documentación"},
@@ -1729,13 +1909,14 @@ var proyectos = [
         IMG:         "assets/project/img_61.jpg",
         Titulo:      "Informe MTBC",
         Descripcion: "Informe enfocado en los atrasos en la producción respecto a la planificación de programación.",
+        DatosTec:    "Planilla que obtiene sus datos desde una base de datos access a través del ODBC de windows, luego organiza los datos, crea graficos, tablas y otras funcionalidades programadas utilizando Visual Basic.",
         DescCorta:   "",
         Tipo:        "Excel",
         Tecnologias : [
             {Img: "assets/icons/excel.svg",   Text: "Excel"},
-            {Img: "assets/icons/access.svg",  Text: "Access"},
-            {Img: "assets/icons/macros.svg",  Text: "Macros"},
-            {Img: "assets/icons/vb.svg",      Text: "Visual Basic"},
+            {Img: "assets/icons/access.svg",  Text: "Conexion de BD Access"},
+            {Img: "assets/icons/macros.svg",  Text: "Uso de Macros"},
+            {Img: "assets/icons/vb.svg",      Text: "Funcionalidad programada en Visual Basic"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Descontinuados-Excel", Icon: "fab fa-github", Text: "Documentación"},
@@ -1745,13 +1926,14 @@ var proyectos = [
         IMG:         "assets/project/img_62.jpg",
         Titulo:      "Informe IPP",
         Descripcion: "Informe con el indice de pedido perfecto, es un informe enfocado en la gestión de los pedidos completos y los pedidos incompletos, verificando el motivo por el cual no pudieron ser completados, para asi a futuro no volver a cometer ese error (relacionado a la metodologia TPM).",
+        DatosTec:    "Planilla que obtiene sus datos desde una base de datos access a través del ODBC de windows, luego organiza los datos, crea graficos, tablas y otras funcionalidades programadas utilizando Visual Basic.",
         DescCorta:   "",
         Tipo:        "Excel",
         Tecnologias : [
             {Img: "assets/icons/excel.svg",   Text: "Excel"},
-            {Img: "assets/icons/access.svg",  Text: "Access"},
-            {Img: "assets/icons/macros.svg",  Text: "Macros"},
-            {Img: "assets/icons/vb.svg",      Text: "Visual Basic"},
+            {Img: "assets/icons/access.svg",  Text: "Conexion de BD Access"},
+            {Img: "assets/icons/macros.svg",  Text: "Uso de Macros"},
+            {Img: "assets/icons/vb.svg",      Text: "Funcionalidad programada en Visual Basic"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Descontinuados-Excel", Icon: "fab fa-github", Text: "Documentación"},
@@ -1761,13 +1943,14 @@ var proyectos = [
         IMG:         "assets/project/img_63.jpg",
         Titulo:      "Resumen Averias",
         Descripcion: "Informe hecho para el área de taller mecánico y eléctrico, mostrando la cantidad de tiempos por avería, el motivo y su solución.",
+        DatosTec:    "Planilla que obtiene sus datos desde una base de datos access a través del ODBC de windows, luego organiza los datos, crea graficos, tablas y otras funcionalidades programadas utilizando Visual Basic.",
         DescCorta:   "",
         Tipo:        "Excel",
         Tecnologias : [
             {Img: "assets/icons/excel.svg",   Text: "Excel"},
-            {Img: "assets/icons/access.svg",  Text: "Access"},
-            {Img: "assets/icons/macros.svg",  Text: "Macros"},
-            {Img: "assets/icons/vb.svg",      Text: "Visual Basic"},
+            {Img: "assets/icons/access.svg",  Text: "Conexion de BD Access"},
+            {Img: "assets/icons/macros.svg",  Text: "Uso de Macros"},
+            {Img: "assets/icons/vb.svg",      Text: "Funcionalidad programada en Visual Basic"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Descontinuados-Excel", Icon: "fab fa-github", Text: "Documentación"},
