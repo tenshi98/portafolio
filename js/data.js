@@ -899,7 +899,7 @@ var proyectos = [
             {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
-            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
+            {Img: "assets/icons/rest-api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20Busafe", Icon: "fab fa-github", Text: "Documentación"},
@@ -922,7 +922,7 @@ var proyectos = [
             {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
-            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
+            {Img: "assets/icons/rest-api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20appCargo", Icon: "fab fa-github", Text: "Documentación"},
@@ -942,7 +942,7 @@ var proyectos = [
             {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
-            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
+            {Img: "assets/icons/rest-api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/proyectos_visual_studio/tree/main/CrossCrane", Icon: "fas fa-code", Text: "Código Fuente"},
@@ -1143,7 +1143,7 @@ var proyectos = [
             {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
-            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
+            {Img: "assets/icons/rest-api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20Aaazu", Icon: "fab fa-github", Text: "Documentación"},
@@ -1164,7 +1164,7 @@ var proyectos = [
             {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
-            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
+            {Img: "assets/icons/rest-api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20AppBuss", Icon: "fab fa-github", Text: "Documentación"},
@@ -1187,7 +1187,7 @@ var proyectos = [
             {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
-            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
+            {Img: "assets/icons/rest-api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20Approbar", Icon: "fab fa-github", Text: "Documentación"},
@@ -1210,7 +1210,7 @@ var proyectos = [
             {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
-            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
+            {Img: "assets/icons/rest-api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Descontinuados-Android/tree/master/AppSeguridad", Icon: "fas fa-code",   Text: "Código Fuente"},
@@ -1235,7 +1235,7 @@ var proyectos = [
             {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
-            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
+            {Img: "assets/icons/rest-api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20Bussan", Icon: "fab fa-github", Text: "Documentación"},
@@ -1258,7 +1258,7 @@ var proyectos = [
             {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
-            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
+            {Img: "assets/icons/rest-api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Descontinuados-Android/tree/master/click_farma", Icon: "fas fa-code",   Text: "Código Fuente"},
@@ -1286,7 +1286,7 @@ var proyectos = [
             {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
-            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
+            {Img: "assets/icons/rest-api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20ClubAmerica", Icon: "fab fa-github", Text: "Documentación"},
@@ -1313,7 +1313,7 @@ var proyectos = [
             {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
-            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
+            {Img: "assets/icons/rest-api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Descontinuados-Android/tree/master/EasyPago", Icon: "fas fa-code",   Text: "Código Fuente"},
@@ -1335,7 +1335,7 @@ var proyectos = [
             {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
-            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
+            {Img: "assets/icons/rest-api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Descontinuados-Android/tree/master/Jootes",     Icon: "fas fa-code",   Text: "Código Fuente v1"},
@@ -1358,7 +1358,7 @@ var proyectos = [
             {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
-            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
+            {Img: "assets/icons/rest-api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20JuntosSomosMas", Icon: "fab fa-github", Text: "Documentación"},
@@ -1385,7 +1385,7 @@ var proyectos = [
             {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
-            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
+            {Img: "assets/icons/rest-api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20Llappa", Icon: "fab fa-github", Text: "Documentación"},
@@ -1406,7 +1406,7 @@ var proyectos = [
             {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
-            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
+            {Img: "assets/icons/rest-api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20PSVirtual", Icon: "fab fa-github", Text: "Documentación"},
@@ -1427,7 +1427,7 @@ var proyectos = [
             {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
-            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
+            {Img: "assets/icons/rest-api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20RPMClick", Icon: "fab fa-github", Text: "Documentación"},
@@ -1454,7 +1454,7 @@ var proyectos = [
             {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
-            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
+            {Img: "assets/icons/rest-api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Descontinuados-Android/tree/master/SosAmerica", Icon: "fas fa-code",   Text: "Código Fuente"},
@@ -1476,7 +1476,7 @@ var proyectos = [
             {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
-            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
+            {Img: "assets/icons/rest-api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20SOSBuin", Icon: "fab fa-github", Text: "Documentación"},
@@ -1499,7 +1499,7 @@ var proyectos = [
             {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
-            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
+            {Img: "assets/icons/rest-api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20SOSClick", Icon: "fab fa-github", Text: "Documentación"},
@@ -1520,7 +1520,7 @@ var proyectos = [
             {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
-            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
+            {Img: "assets/icons/rest-api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20SOSLaFlorida", Icon: "fab fa-github", Text: "Documentación"},
@@ -1541,7 +1541,7 @@ var proyectos = [
             {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
-            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
+            {Img: "assets/icons/rest-api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20SOSTaxi", Icon: "fab fa-github", Text: "Documentación"},
@@ -1562,7 +1562,7 @@ var proyectos = [
             {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
-            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
+            {Img: "assets/icons/rest-api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Descontinuados-Android/tree/master/supega_ofertador",  Icon: "fas fa-code",   Text: "Código Fuente Ofertador"},
@@ -1585,7 +1585,7 @@ var proyectos = [
             {Img: "assets/icons/apache.svg",          Text: "Backend - Servidor Apache"},
             {Img: "assets/icons/php.svg",             Text: "Backend - PHP"},
             {Img: "assets/icons/mysql.svg",           Text: "Backend - MYSQL"},
-            {Img: "assets/icons/REST Api.svg",        Text: "Backend - REST Api"},
+            {Img: "assets/icons/rest-api.svg",        Text: "Backend - REST Api"},
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/APP%20VinaSomosTodos", Icon: "fab fa-github", Text: "Documentación"},
