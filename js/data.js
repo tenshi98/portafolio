@@ -27,6 +27,7 @@ var cursos = [
     {
         Ano: "2025",
         Cursos : [
+            {Nombre: "UX Research desde Cero",                                                            Link: "https://ude.my/UC-0a28b3e5-740f-4a8c-a316-ae2c033d371c/",                       TextLink: "(Ver certificado en Udemy)",            Contenido: "<strong>Temario: </strong><br> - Sección 1: Introducción<br> - Sección 2: Métodos de UX Research<br> - Sección 3: Ejecución de investigaciones de UX<br> - Sección 4: Análisis de la investigación de UX<br> - Sección 5: Ética y sesgos en UX Research<br> - Sección 6: Comprendiendo a los usuarios<br> - Sección 7: Cierre y felicitaciones"},
             {Nombre: "Curso de Machine Learning con ScikitLearn",                                         Link: "https://codigofacilito.com/certificates/d7b26cbd-b897-4b5d-863a-4c2fdc826afc",  TextLink: "(Ver certificado en Código Facilito)",  Contenido: "<strong>Temario: </strong><br> - Módulo 1 - Introducción a Scikit Learn<br> - Módulo  2 - Ingeniería de Características<br> - Módulo  3 - Utilidades para la Creación de Modelos<br> - Módulo  4 - Aprendizaje Supervisado<br> - Módulo  5 - Aprendizaje No Supervisado<br> - Módulo  6 - Otros Temas"},
             {Nombre: "Curso Apps de Inteligencia Artificial con C# y Azure",                              Link: "https://codigofacilito.com/certificates/29413256-d435-485d-b20a-6ea5464f1db1",  TextLink: "(Ver certificado en Código Facilito)",  Contenido: "<strong>Temario: </strong><br> - Módulo 1 - Introducción<br> - Módulo  2 - Conceptos fundamentales de Inteligencia Artificial<br> - Módulo  3 - IA Generativa en Azure Open AI<br> - Módulo  4 - Desarrollo de aplicaciones de IA generativa con .NET<br> - Módulo  5 - Conversando con tus propios datos<br> - Módulo  6 - Automatización Inteligente con Azure Open AI y Kernel Semántico<br> - Módulo  7 - Despedida y Cierre<br> - Módulo  8 - Generación de imágenes con Azure OpenAI - DALL-E 3"},
             {Nombre: "Curso de Anotaciones y type hints con Python",                                      Link: "https://codigofacilito.com/certificates/8422eb43-9fce-43f5-a941-9fa0fe00fe50",  TextLink: "(Ver certificado en Código Facilito)",  Contenido: "<strong>Temario: </strong><br> - Módulo 1 - Introducción<br> - Módulo  2 - Clases"},
@@ -332,7 +333,7 @@ var estudios = [
 var experiencia = [
     {
         Fechas:      "Junio 2016 - Presente",
-        Empresa:     "Exilon 360 SPA - Crosstech - Simplytech",
+        Empresa:     "Exilon 360 SPA - Crosstech - Simplytech - 1Tek",
         Puesto:      "FullStack Developer",
         Descripcion:
                     "•	Creación de plataforma de administración de equipos, clientes y contratos."
@@ -383,7 +384,7 @@ var experiencia = [
                     + "<br/>•	Diseño y retoque de imágenes, portadas y otras artes."
                     + "<br/>•	Implementación de SEO y SEM en los sitios.",
         proyectos : [
-            {Link: "https://web.deimoscorp.cl/",  Nombre: "Creación sitio web Deimos Corp"},
+            {Link: "https://deimoscorp.cl/",  Nombre: "Creación sitio web Deimos Corp"},
         ]
     },
     {
@@ -407,7 +408,7 @@ var experiencia = [
             {Link: "https://casascolmena.cl/",                                                          Nombre: "Creación sitio web Casas Colmena"},
             {Link: "https://web.lomasdelambert.cl/",                                                    Nombre: "Creación sitio web Lomas de Lambert"},
             {Link: "https://web.terrania.cl/",                                                          Nombre: "Creación sitio web Terrania"},
-            {Link: "https://web.somosteatro.cl/",                                                       Nombre: "Creación sitio web Somos Teatro"},
+            {Link: "https://web.somosteatro.cl/",                                                       Nombre: "Creación sitio web Somos Teatro (Offline)"},
         ]
     },
     {
@@ -576,6 +577,82 @@ var experiencia = [
 /***********************************************/
 var proyectos = [
     {
+        IMG:         "assets/project/img_66.jpg",
+        Titulo:      "Plataforma Campañas",
+        Descripcion:
+                    "Plataforma de administración enfocada en la administración de clientes, bodegas, productos, stocks, documentos mercantiles de compra y venta, campañas y partidas."
+                    +"Ésta plataforma se centra en el negocio despacho de productos mediante campañas, ingresando sus costos y las partidas a dichas campañas, la generacion de las partidas permite la programacion de rutas por sectores gracias al envio de whatsapp personalizados a cada cliente para su previa confirmacion o rechazo de la reserva de cantidades de producto dentro de la partida."
+                    +"La plataforma cuenta con informes que permiten ver las utilidades generadas de cada campaña, gestionar el envio de notificaciones de cobranza y gestionar el ingreso de pagos entre otras caracteristicas.",
+        DatosTec:   "Plataforma monolítica programada sobre el Framework PHP Fat Free Framework, utiliza una base de datos MYSQL para guardar los datos, se utiliza Bootstrap 5 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar."
+                    +"<br>La Plataforma tiene un sistema de notificaciones a traves de whatsapp."
+                    +"Tambien permite la exportación de datos (PDF, Excel, Word).",
+        DescCorta:  "Plataforma de administración enfocada en la administración de clientes, bodegas, productos, stocks, documentos mercantiles de compra y venta, campañas y partidas.",
+        Tipo:       "Plataforma",
+        Tecnologias : [
+            {Img: "assets/icons/apache.svg",              Text: "Servidor Apache"},
+            {Img: "assets/icons/fat-free-framework.png",  Text: "Fat Free Framework"},
+            {Img: "assets/icons/php.svg",                 Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",               Text: "Base de datos MYSQL"},
+            {Img: "assets/icons/html-5.svg",              Text: "HTML-5"},
+            {Img: "assets/icons/css-3.svg",               Text: "CSS-3"},
+            {Img: "assets/icons/bootstrap.svg",           Text: "Bootstrap 5"},
+            {Img: "assets/icons/js.svg",                  Text: "Javascript"},
+            {Img: "assets/icons/jquery.svg",              Text: "Jquery"},
+            {Img: "assets/icons/email.svg",               Text: "Email"},
+            {Img: "assets/icons/whatsapp.svg",            Text: "Whatsapp"},
+        ],
+        Links : [
+            {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma%20Campa%C3%B1as", Icon: "fab fa-github", Text: "Documentación"},
+        ]
+    },
+    {
+        IMG:         "assets/project/img_65.jpg",
+        Titulo:      "Sitio Web FrutiHass",
+        Descripcion: "Sitio web de una empresa familiar que distribuye y vende productos hortofruticolas de excelencia, con parámetros de calidad y condiciones de alto nivel.",
+        DatosTec:    "Página web programada sobre el Framework PHP Fat Free Framework, se utiliza Bootstrap 5 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar."
+                    +"El sitio esta conectado a la plataforma de Gestion interna, la cual es accedida gracias a un mensaje via whatsapp en el cual se consulta la reserva de paltas, una vez aceptado se envia correo automatico al administrador avisando de la reserva.Utiliza el servicio interno del servidor para el envio de los correos del formulario de contacto.",
+        DescCorta:   "Sitio web de una empresa familiar que distribuye y vende productos hortofruticolas de excelencia, con parámetros de calidad y condiciones de alto nivel.",
+        Tipo:        "SitioWeb",
+        Tecnologias : [
+            {Img: "assets/icons/apache.svg",              Text: "Servidor Apache"},
+            {Img: "assets/icons/fat-free-framework.png",  Text: "Fat Free Framework"},
+            {Img: "assets/icons/php.svg",                 Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",               Text: "Base de datos MYSQL"},
+            {Img: "assets/icons/html-5.svg",              Text: "HTML-5"},
+            {Img: "assets/icons/css-3.svg",               Text: "CSS-3"},
+            {Img: "assets/icons/bootstrap.svg",           Text: "Bootstrap 5"},
+            {Img: "assets/icons/js.svg",                  Text: "Javascript"},
+            {Img: "assets/icons/jquery.svg",              Text: "Jquery"},
+            {Img: "assets/icons/email.svg",               Text: "Email"},
+        ],
+        Links : [
+            {Link: "https://frucomex.cl/",  Icon: "fas fa-link", Text: "Sitio Web"},
+        ]
+    },
+    {
+        IMG:         "assets/project/img_64.jpg",
+        Titulo:      "Sitio Web Comercial San Joaquin",
+        Descripcion: "Sitio web de Soluciones técnicas de alto rendimiento en automatización, metrología y control industrial.",
+        DatosTec:    "Página web programada sobre el Framework PHP Fat Free Framework, se utiliza Bootstrap 5 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar."
+                    +"Utiliza el servicio interno del servidor para el envio de los correos del formulario de contacto.",
+        DescCorta:   "Sitio web de Soluciones técnicas de alto rendimiento en automatización, metrología y control industrial.",
+        Tipo:        "SitioWeb",
+        Tecnologias : [
+            {Img: "assets/icons/apache.svg",              Text: "Servidor Apache"},
+            {Img: "assets/icons/fat-free-framework.png",  Text: "Fat Free Framework"},
+            {Img: "assets/icons/php.svg",                 Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/html-5.svg",              Text: "HTML-5"},
+            {Img: "assets/icons/css-3.svg",               Text: "CSS-3"},
+            {Img: "assets/icons/bootstrap.svg",           Text: "Bootstrap 5"},
+            {Img: "assets/icons/js.svg",                  Text: "Javascript"},
+            {Img: "assets/icons/jquery.svg",              Text: "Jquery"},
+            {Img: "assets/icons/email.svg",               Text: "Email"},
+        ],
+        Links : [
+            {Link: "https://csjpro.cl/",  Icon: "fas fa-link", Text: "Sitio Web"},
+        ]
+    },
+    {
         IMG:         "assets/project/img_27.jpg",
         Titulo:      "Plataforma Bienestar Inacap",
         Descripcion:
@@ -607,22 +684,24 @@ var proyectos = [
         IMG:         "assets/project/img_26.jpg",
         Titulo:      "Sitio Web Deimos Corp",
         Descripcion: "Sitio web de Soluciones de ingeniería y gestión de proyectos para diversas industrias.",
-        DatosTec:    "Página web programada en PHP puro, se utiliza Bootstrap 5 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar."
-                    +"Utiliza el servicio postmail para el envio de los correos del formulario de contacto.",
+        DatosTec:    "Página web programada sobre el Framework PHP Fat Free Framework, se utiliza Bootstrap 5 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar."
+                    +"Utiliza el servicio interno del servidor para el envio de los correos del formulario de contacto.",
         DescCorta:   "Sitio web de Soluciones de ingeniería y gestión de proyectos para diversas industrias.",
         Tipo:        "SitioWeb",
         Tecnologias : [
-            {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
-            {Img: "assets/icons/html-5.svg",       Text: "HTML-5"},
-            {Img: "assets/icons/css-3.svg",        Text: "CSS-3"},
-            {Img: "assets/icons/bootstrap.svg",    Text: "Bootstrap 5"},
-            {Img: "assets/icons/js.svg",           Text: "Javascript"},
-            {Img: "assets/icons/jquery.svg",       Text: "Jquery"},
-            {Img: "assets/icons/mailed-mail.svg",  Text: "Postmail"},
+            {Img: "assets/icons/apache.svg",              Text: "Servidor Apache"},
+            {Img: "assets/icons/fat-free-framework.png",  Text: "Fat Free Framework"},
+            {Img: "assets/icons/php.svg",                 Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/html-5.svg",              Text: "HTML-5"},
+            {Img: "assets/icons/css-3.svg",               Text: "CSS-3"},
+            {Img: "assets/icons/bootstrap.svg",           Text: "Bootstrap 5"},
+            {Img: "assets/icons/js.svg",                  Text: "Javascript"},
+            {Img: "assets/icons/jquery.svg",              Text: "Jquery"},
+            {Img: "assets/icons/email.svg",               Text: "Email"},
         ],
         Links : [
-            {Link: "https://github.com/tenshi98/sites_deimoscorp", Icon: "fas fa-code", Text: "Código Fuente"},
-            {Link: "https://web.deimoscorp.cl/",                   Icon: "fas fa-link", Text: "Sitio Web"},
+            {Link: "https://github.com/tenshi98/sites_deimoscorp", Icon: "fas fa-code", Text: "Código Fuente (Version antigua)"},
+            {Link: "https://deimoscorp.cl/",                       Icon: "fas fa-link", Text: "Sitio Web"},
         ]
     },
     {
@@ -667,12 +746,12 @@ var proyectos = [
         Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
-            {Img: "assets/icons/php.svg",       Text: "Sistema programado en PHP"},
-            {Img: "assets/icons/html-5.svg",    Text: "HTML-5"},
-            {Img: "assets/icons/css-3.svg",     Text: "CSS-3"},
-            {Img: "assets/icons/bootstrap.svg", Text: "Bootstrap 5"},
-            {Img: "assets/icons/js.svg",        Text: "Javascript"},
-            {Img: "assets/icons/jquery.svg",    Text: "Jquery"},
+            {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/html-5.svg",     Text: "HTML-5"},
+            {Img: "assets/icons/css-3.svg",      Text: "CSS-3"},
+            {Img: "assets/icons/bootstrap.svg",  Text: "Bootstrap 5"},
+            {Img: "assets/icons/js.svg",         Text: "Javascript"},
+            {Img: "assets/icons/jquery.svg",     Text: "Jquery"},
         ],
         Links : [
             {Link: "https://simplivet.cl/", Icon: "fas fa-link", Text: "Sitio Web"},
@@ -716,7 +795,7 @@ var proyectos = [
         DescCorta:   "",
         Tipo:        "Plataforma",
         Tecnologias : [
-            {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
+            {Img: "assets/icons/apache.svg",      Text: "Servidor Apache"},
             {Img: "assets/icons/php.svg",         Text: "Sistema programado en PHP"},
             {Img: "assets/icons/mysql.svg",       Text: "Base de datos MYSQL"},
             {Img: "assets/icons/html-5.svg",      Text: "HTML-5"},
@@ -835,7 +914,7 @@ var proyectos = [
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma%20Somos%20Teatro", Icon: "fab fa-github", Text: "Documentación"},
-            {Link: "https://web.somosteatro.cl/",                                                        Icon: "fas fa-link",   Text: "Sitio web de la empresa"},
+            {Link: "https://web.somosteatro.cl/",                                                        Icon: "fas fa-link",   Text: "Sitio web de la empresa (Offline)"},
         ]
     },
     {
@@ -848,16 +927,16 @@ var proyectos = [
         Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
-            {Img: "assets/icons/php.svg",       Text: "Sistema programado en PHP"},
-            {Img: "assets/icons/mysql.svg",     Text: "Base de datos MYSQL"},
-            {Img: "assets/icons/html-5.svg",    Text: "HTML-5"},
-            {Img: "assets/icons/css-3.svg",     Text: "CSS-3"},
-            {Img: "assets/icons/bootstrap.svg", Text: "Bootstrap 5"},
-            {Img: "assets/icons/js.svg",        Text: "Javascript"},
-            {Img: "assets/icons/jquery.svg",    Text: "Jquery"},
+            {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",      Text: "Base de datos MYSQL"},
+            {Img: "assets/icons/html-5.svg",     Text: "HTML-5"},
+            {Img: "assets/icons/css-3.svg",      Text: "CSS-3"},
+            {Img: "assets/icons/bootstrap.svg",  Text: "Bootstrap 5"},
+            {Img: "assets/icons/js.svg",         Text: "Javascript"},
+            {Img: "assets/icons/jquery.svg",     Text: "Jquery"},
         ],
         Links : [
-            {Link: "https://web.somosteatro.cl/", Icon: "fas fa-link", Text: "Sitio Web"},
+            {Link: "https://web.somosteatro.cl/", Icon: "fas fa-link", Text: "Sitio Web (Offline)"},
         ]
     },
     {
