@@ -113,7 +113,7 @@ dataEstudios += '<li class="timeline-item"><div class="timeline-info"></div></li
 
 /***************************************/
 // Muestra hasta 3 experiencia destacados
-dataExperiencia = experiencia.slice(0, 4).map(item =>
+dataExperiencia = experiencia.slice(0, 5).map(item =>
   `<li class="timeline-item">
     <div class="timeline-info"><span>${item.Fechas}</span></div>
     <div class="timeline-marker"></div>
