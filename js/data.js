@@ -378,6 +378,19 @@ var experiencia = [
         ]
     },
     {
+        Fechas:      "Julio 2025 - Presente",
+        Empresa:     "Frucomex - Frutihass. (Freelance)",
+        Puesto:      "FullStack Developer",
+        Descripcion:
+                    "•	Diseño e implementación de sistema integral para la gestión de clientes, bodegas, productos, inventarios y documentos mercantiles de compra y venta. La plataforma está orientada al despacho de productos mediante campañas, permitiendo la asignación de costos y partidas, así como la programación de rutas por sectores."
+                    + "<br/>•	Incluye funcionalidades como envío automatizado de notificaciones vía WhatsApp, generación de informes de utilidad por campaña, gestión de cobranza y registro de pagos."
+                    ,
+        proyectos : [
+            {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma%20Campa%C3%B1as",  Nombre: "Plataforma Campañas"},
+            {Link: "https://frucomex.cl/",                                                               Nombre: "Creación Sitio Web FrutiHass"},
+        ]
+    },
+    {
         Fechas:      "Junio 2016 - Julio 2025",
         Empresa:     "Exilon 360 SPA - Crosstech - Simplytech",
         Puesto:      "FullStack Developer",
