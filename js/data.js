@@ -27,6 +27,10 @@ var cursos = [
     {
         Ano: "2025",
         Cursos : [
+            {Nombre: "Agentes GPT: Crea, Entrena y Automatiza. Se más Productivo",                        Link: "https://ude.my/UC-399f2eac-5f48-4a2a-80af-427ee0a69d74/",                       TextLink: "(Ver certificado en Udemy)",            Contenido: "<strong>Temario: </strong><br> - Sección 1: Introducción a la Creación de Agentes GPT en ChatGPT<br> - Sección 2: La estructura de los Prompts para GPT<br> - Sección 3: Elementos de un Prompt [Practica]<br> - Sección 4: Estructuras para la creación de un Agente GPT<br> - Sección 5: GPT para generar rutinas de estudio personalizadas.<br> - Sección 6: GPT Mentor de Entrevistas con Análisis Conversacional<br> - Sección 7: Asistencia Inteligente para Atención al Cliente con GPT<br> - Sección 8: Estrategias Creativas con GPT para Generación de Contenido<br> - Sección 9: Automatización de Procedimientos con GPT para Gestión de Tareas Repetitivas<br> - Sección 10: Impulsa tu Marca Personal en LinkedIn con GPT<br> - Sección 11: Redacción Profesional de Emails con GPT<br> - Sección 12: Gestión Inteligente de Finanzas Personales con GPT<br> - Sección 13: Creación de CVs Inteligentes con GPT y Optimización para IA (ATS)<br> - Sección 14: Producción de Contenido para YouTube con GPT + Miniaturas IA<br> - Sección 15: Despedida<br> - Sección 16: Bonus extra"},
+            {Nombre: "Crear un sistema de control escolar con el patrón MVC",                             Link: "https://ude.my/UC-8cfe0521-118e-4675-b2e3-bd970dbac7b6/",                       TextLink: "(Ver certificado en Udemy)",            Contenido: "<strong>Temario: </strong><br> - Sección 1: Introducción al curso para crear un sistema de control escolar con el patrón MVC<br> - Sección 2: Configurar el patrón de diseño MVC<br> - Sección 3: Crear el objeto Login<br> - Sección 4: Carreras<br> - Sección 5: Materias<br> - Sección 6: Catálogos<br> - Sección 7: Creación de usuarios: administradores, profesores y alumnos<br> - Sección 8: Crear los salones y los materiales<br> - Sección 9: Crear los cursos<br> - Sección 10: Crear y manejar a los profesores<br> - Sección 11: Estudiantes, integridad relacionar y respaldo de la base de datos<br> - Sección 12: Modificar la apariencia de la aplicación<br> - Sección 13: A manera de conclusión"},
+            {Nombre: "De la Receta al Chef: Conviértete en Ingeniero de LLM",                             Link: "https://ude.my/UC-a1990129-0e9e-48e5-8656-8b0547a1b9de/",                       TextLink: "(Ver certificado en Udemy)",            Contenido: "<strong>Temario: </strong><br> - Sección 1: ¿Qué se está cocinando? Introducción a los LLMs<br> - Sección 2: Los ingredientes importan - Entendiendo los datos<br> - Sección 3: Cocinar a gran escala - Fundamentos del entrenamiento de modelos<br> - Sección 4: Ingeniería de Prompts - Sazonando para el resultado perfecto<br> - Sección 5: Fine-Tuning - Personalizando la receta<br> - Sección 6: Evaluar LLMs - Prueba de sabor<br> - Sección 7: Servir tu plato - Implementación de LLMs<br> - Sección 8: Crear apps con LLM - Tu propio food truck<br> - Sección 9: Mantenerlo fresco - Monitoreo y mejora<br> - Sección 10: Convertirse en un chef maestro - Carrera en ingeniería de LLM<br> - Sección 11: 101 Proyectos"},
+            {Nombre: "Aprender a subir archivos a un servidor con Dropzone.js",                           Link: "https://ude.my/UC-6094d94f-04d5-4feb-a5a3-f0e51771f802/",                       TextLink: "(Ver certificado en Udemy)",            Contenido: "<strong>Temario: </strong><br> - Sección 1: Introducción<br> - Sección 2: Grupos para dudas y consultas<br> - Sección 3: Ruta de Aprendizaje Recomendada<br> - Sección 4: Recursos Necesarios<br> - Sección 5: Esquema del Proyecto<br> - Sección 6: Agregando Dropzone.js<br> - Sección 7: Creación de Base de Datos<br> - Sección 8: Creación de Modelo<br> - Sección 9: Mejorando Vista<br> - Sección 10: Registro de Información en BD"},
             {Nombre: "Curso DevOps profesional",                                                          Link: "https://codigofacilito.com/certificates/2c1717d1-4fb7-4fd7-8945-55bad84e4565",  TextLink: "(Ver certificado en Código Facilito)",  Contenido: "<strong>Temario: </strong><br> - Fundamentos DevOps<br> - Herramientas más comunes<br> - Infraestructura como Código<br> - DevOps y la Nube<br> - Automatización de flujos de trabajo"},
             {Nombre: "Curso de Kubernetes",                                                               Link: "https://codigofacilito.com/certificates/3b5adc9a-434c-4eb7-8693-a86d6bbfd94b",  TextLink: "(Ver certificado en Código Facilito)",  Contenido: "<strong>Temario: </strong><br> - Fundamentos de Contenedores y Docker<br> - Introducción y Administración de Kubernetes<br> - Herramientas adicionales"},
             {Nombre: "Curso de GitHub Actions",                                                           Link: "https://codigofacilito.com/certificates/2857f8f4-ca21-4d04-a15a-ec87d9a4928b",  TextLink: "(Ver certificado en Código Facilito)",  Contenido: "<strong>Temario: </strong><br> - Módulo 1: Introducción a GitHub Actions<br> - Módulo 2: Configuración Básica<br> - Módulo 3: Variables y secretos<br> - Módulo 4: Building workflows for CI/CD<br> - Módulo 5: Workflow Runners<br> - Módulo 6: Despliegues<br> - Módulo 7: Monitoreo y Notificaciones"},
@@ -712,6 +716,72 @@ var proyectos = [
         ]
     },
     {
+        IMG:         "assets/project/img_68.png",
+        Titulo:      "Sitio Web 1Tek",
+        Descripcion: "Sitio con información de la empresa, da acceso directo a los clientes a su plataforma, posee funcionamiento estandar de un sitio web de este tipo.",
+        DatosTec:    "Página web programada sobre el Framework PHP Fat Free Framework, se utiliza Bootstrap 5 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar."
+                    +"El sitio se encuantra incompleto debido a que no han brindado toda la informacion solicitada para poder terminarlo.",
+        DescCorta:   "Sitio con información de la empresa, da acceso directo a los clientes a su plataforma, posee funcionamiento estandar de un sitio web de este tipo.",
+        Tipo:        "SitioWeb",
+        Tecnologias : [
+            {Img: "assets/icons/apache.svg",              Text: "Servidor Apache"},
+            {Img: "assets/icons/fat-free-framework.png",  Text: "Fat Free Framework"},
+            {Img: "assets/icons/php.svg",                 Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",               Text: "Base de datos MYSQL"},
+            {Img: "assets/icons/html-5.svg",              Text: "HTML-5"},
+            {Img: "assets/icons/css-3.svg",               Text: "CSS-3"},
+            {Img: "assets/icons/bootstrap.svg",           Text: "Bootstrap 5"},
+            {Img: "assets/icons/js.svg",                  Text: "Javascript"},
+            {Img: "assets/icons/jquery.svg",              Text: "Jquery"},
+            {Img: "assets/icons/email.svg",               Text: "Email"},
+        ],
+        Links : [
+            {Link: "https://web.1tek.cl/",  Icon: "fas fa-link", Text: "Sitio Web"},
+        ]
+    },
+    {
+        IMG:         "assets/project/img_67.png",
+        Titulo:      "Plataforma Telemetría",
+        Descripcion: "Plataforma enfocada a gestionar las mediciones de telemetría a través de sus distintas interfaces para cada clientes de la empresa. Ofrece la administración de usuarios, de equipos de telemetría, gestión de mantenciones preventivas y de urgencia a los equipos de telemetría, informes agrupados al tipo de servicio ofrecido (medición temperaturas, GPS y niveles de riego en los campos, voltajes de equipo, etc.), entre otras características.",
+        DatosTec:    "Plataforma monolítica programada en PHP puro, utiliza una base de datos MYSQL para guardar los datos, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar."
+                    +"<br>La Plataforma implementa tecnologías como telemetría y geolocalización GPS en tiempo real basado en tecnología propia (placas Arduino y sensores GPS)"
+                    +", notificación masiva con whatsapp a través de la API de WhatsApp Business"
+                    +", envío de emails masivos a través del servicio de correos del servidor"
+                    +", utilización gráficos simples utilizando la librería charts.js"
+                    +", gráficos de mayor complejidad utilizando la librería plotly.js para crear gráficos con unos 10.000 datos a mostrar"
+                    +", visualización de los límites de los campos de arado, áreas fumigadas, ruta de los tractores u otros vehículos, etc. gracias a los mapas dinámicos a través de la API de Google Maps"
+                    +", previsión meteorológica utilizando la librería PHP ML (Machine Learning)"
+                    +", exportación de los datos a archivos (PDF, Excel, Word, Xml)"
+                    +", importación de datos masivos a través de archivos CVS o XML"
+                    +" y la integración con el SII a través de la API de LibreDTE.",
+        DescCorta:   "",
+        Tipo:        "Plataforma",
+        Tecnologias : [
+            {Img: "assets/icons/apache.svg",      Text: "Servidor Apache"},
+            {Img: "assets/icons/php.svg",         Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/mysql.svg",       Text: "Base de datos MYSQL"},
+            {Img: "assets/icons/html-5.svg",      Text: "HTML-5"},
+            {Img: "assets/icons/css-3.svg",       Text: "CSS-3"},
+            {Img: "assets/icons/bootstrap.svg",   Text: "Bootstrap 3"},
+            {Img: "assets/icons/js.svg",          Text: "Javascript"},
+            {Img: "assets/icons/jquery.svg",      Text: "Jquery"},
+            {Img: "assets/icons/android.svg",     Text: "Android"},
+            {Img: "assets/icons/chartjs.svg",     Text: "Chart js"},
+            {Img: "assets/icons/plotly.svg",      Text: "Plotly js"},
+            {Img: "assets/icons/php-ml.png",      Text: "PHP ML"},
+            {Img: "assets/icons/arduino.svg",     Text: "Arduino"},
+            {Img: "assets/icons/whatsapp.svg",    Text: "Whatsapp"},
+            {Img: "assets/icons/email.svg",       Text: "Email"},
+            {Img: "assets/icons/php-office.jpg",  Text: "PHP office"},
+            {Img: "assets/icons/cplusplus.svg",   Text: "C++"},
+        ],
+        Links : [
+            {Link: "https://github.com/tenshi98/Trabajo_1tek",                                               Icon: "fas fa-code",   Text: "Código Fuente"},
+            {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma Gesti%C3%B3n Modular", Icon: "fab fa-github", Text: "Documentación"},
+            {Link: "https://web.1tek.cl/",                                                                   Icon: "fas fa-link",   Text: "Sitio web de la empresa"},
+        ]
+    },
+    {
         IMG:         "assets/project/img_27.jpg",
         Titulo:      "Plataforma Bienestar Inacap",
         Descripcion:
@@ -873,6 +943,7 @@ var proyectos = [
             {Img: "assets/icons/cplusplus.svg",   Text: "C++"},
         ],
         Links : [
+            {Link: "https://github.com/tenshi98/Trabajo_Simplytech",                                         Icon: "fas fa-code",   Text: "Código Fuente"},
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma Gesti%C3%B3n Modular", Icon: "fab fa-github", Text: "Documentación"},
             {Link: "https://www.simplytech.cl/",                                                             Icon: "fas fa-link",   Text: "Sitio web de la empresa"},
         ]
