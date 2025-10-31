@@ -360,7 +360,7 @@ var cursos = [
 
 /***********************************************/
 var estudios = [
-    {Fechas: "2012 - 2016", Colegio: "Uniacc",                                                               Titulo: "Ingeniería en Informática"},
+    {Fechas: "2012 - 2014", Colegio: "Uniacc",                                                               Titulo: "Ingeniería en Informática"},
     {Fechas: "1999 - 2002", Colegio: "Colegio Politécnico Particular Eyzaguirre<br/>Egresado como Contador", Titulo: "Enseñanza Media"},
     {Fechas: "1991 - 1998", Colegio: "Escuela Domingo Matte Mesías",                                         Titulo: "Enseñanza Básica"},
 ];
