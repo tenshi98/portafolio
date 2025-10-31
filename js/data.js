@@ -360,7 +360,7 @@ var cursos = [
 
 /***********************************************/
 var estudios = [
-    {Fechas: "2012 - 2014", Colegio: "Uniacc",                                                               Titulo: "Ingeniería en Informática"},
+    {Fechas: "2012 - 2016", Colegio: "Uniacc",                                                               Titulo: "Ingeniería en Informática"},
     {Fechas: "1999 - 2002", Colegio: "Colegio Politécnico Particular Eyzaguirre<br/>Egresado como Contador", Titulo: "Enseñanza Media"},
     {Fechas: "1991 - 1998", Colegio: "Escuela Domingo Matte Mesías",                                         Titulo: "Enseñanza Básica"},
 ];
@@ -720,7 +720,7 @@ var proyectos = [
         Titulo:      "Sitio Web 1Tek",
         Descripcion: "Sitio con información de la empresa, da acceso directo a los clientes a su plataforma, posee funcionamiento estandar de un sitio web de este tipo.",
         DatosTec:    "Página web programada sobre el Framework PHP Fat Free Framework, se utiliza Bootstrap 5 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar."
-                    +"El sitio se encuantra incompleto debido a que no han brindado toda la informacion solicitada para poder terminarlo.",
+                    +"El sitio se encuentra incompleto debido a que no han brindado toda la informacion solicitada para poder terminarlo.",
         DescCorta:   "Sitio con información de la empresa, da acceso directo a los clientes a su plataforma, posee funcionamiento estandar de un sitio web de este tipo.",
         Tipo:        "SitioWeb",
         Tecnologias : [
