@@ -377,7 +377,7 @@ var estudios = [
 /***********************************************/
 var experiencia = [
     {
-        Fechas:      "Agosto 2025 - Presente",
+        Fechas:      "Agosto 2025 - Octubre 2025",
         Empresa:     "1Tek. (Freelance)",
         Puesto:      "FullStack Developer",
         Descripcion:
