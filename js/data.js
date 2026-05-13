@@ -673,10 +673,10 @@ var proyectos = [
     {
         IMG:         "assets/project/img_70.png",
         Titulo:      "Sitio Web Orionix",
-        Descripcion: "Sitio web de una empresa PMO Digital Completa que integra una plataforma tecnológica PMI-compliant, consultoría estratégica de expertos PMP e Inteligencia Artificial predictiva.",
+        Descripcion: "Sitio web de una empresa PMO Digital Completa que integra una plataforma tecnológica PMI-compliant, consultoría estratégica de expertos PMP e Inteligencia Artificial predictiva. Optimiza tus proyectos, reduce riesgos y escala tu madurez organizacional sin los costos ni tiempos de una oficina de proyectos tradicional.",
         DatosTec:    "Página web programada sobre el Framework PHP Fat Free Framework, se utiliza Bootstrap 5 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar."
                     +"Utiliza el servicio interno del servidor para el envio de los correos del formulario de contacto.",
-        DescCorta:   "Sitio web de una empresa PMO Digital Completa que integra una plataforma tecnológica PMI-compliant, consultoría estratégica de expertos PMP e Inteligencia Artificial predictiva. Optimiza tus proyectos, reduce riesgos y escala tu madurez organizacional sin los costos ni tiempos de una oficina de proyectos tradicional.",
+        DescCorta:   "Sitio web de una empresa PMO Digital Completa que integra una plataforma tecnológica PMI-compliant, consultoría estratégica de expertos PMP e Inteligencia Artificial predictiva.",
         Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",              Text: "Servidor Apache"},
@@ -690,16 +690,16 @@ var proyectos = [
             {Img: "assets/icons/email.svg",               Text: "Email"},
         ],
         Links : [
-            {Link: "https://frucomex.cl/",  Icon: "fas fa-link", Text: "Sitio Web"},
+            {Link: "https://orionix.cl/",  Icon: "fas fa-link", Text: "Sitio Web"},
         ]
     },
     {
         IMG:         "assets/project/img_69.png",
         Titulo:      "Sitio Web Deimos Metrics (Incompleto por parte del cliente)",
-        Descripcion: "Sitio web de una empresa especializada en soluciones integrales de metrología, enfocada en garantizar precisión, confiabilidad y cumplimiento normativo para la industria.",
+        Descripcion: "Sitio web de una empresa especializada en soluciones integrales de metrología, enfocada en garantizar precisión, confiabilidad y cumplimiento normativo para la industria. Cuenta con amplia experiencia en servicios de calibración en 5 magnitudes metrológicas, ejecutados conforme a normas nacionales e internacionales, asegurando trazabilidad y exactitud en cada proceso.",
         DatosTec:    "Página web programada sobre el Framework PHP Fat Free Framework, se utiliza Bootstrap 5 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar."
                     +"El sitio se encuentra incompleto debido a que no han brindado toda la informacion solicitada para poder terminarlo.",
-        DescCorta:   "Sitio web de una empresa especializada en soluciones integrales de metrología, enfocada en garantizar precisión, confiabilidad y cumplimiento normativo para la industria. Cuenta con amplia experiencia en servicios de calibración en 5 magnitudes metrológicas, ejecutados conforme a normas nacionales e internacionales, asegurando trazabilidad y exactitud en cada proceso.",
+        DescCorta:   "Sitio web de una empresa especializada en soluciones integrales de metrología, enfocada en garantizar precisión, confiabilidad y cumplimiento normativo para la industria.",
         Tipo:        "SitioWeb",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",              Text: "Servidor Apache"},
@@ -713,7 +713,7 @@ var proyectos = [
             {Img: "assets/icons/email.svg",               Text: "Email"},
         ],
         Links : [
-            {Link: "https://frucomex.cl/",  Icon: "fas fa-link", Text: "Sitio Web"},
+            {Link: "https://deimosmetrics.com/",  Icon: "fas fa-link", Text: "Sitio Web"},
         ]
     },
     {
