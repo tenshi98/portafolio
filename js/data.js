@@ -671,7 +671,7 @@ var experiencia = [
 /***********************************************/
 var proyectos = [
     {
-        IMG:         "assets/project/img_70.jpg",
+        IMG:         "assets/project/img_70.png",
         Titulo:      "Sitio Web Orionix",
         Descripcion: "Sitio web de una empresa PMO Digital Completa que integra una plataforma tecnológica PMI-compliant, consultoría estratégica de expertos PMP e Inteligencia Artificial predictiva.",
         DatosTec:    "Página web programada sobre el Framework PHP Fat Free Framework, se utiliza Bootstrap 5 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar."
@@ -694,7 +694,7 @@ var proyectos = [
         ]
     },
     {
-        IMG:         "assets/project/img_69.jpg",
+        IMG:         "assets/project/img_69.png",
         Titulo:      "Sitio Web Deimos Metrics (Incompleto por parte del cliente)",
         Descripcion: "Sitio web de una empresa especializada en soluciones integrales de metrología, enfocada en garantizar precisión, confiabilidad y cumplimiento normativo para la industria.",
         DatosTec:    "Página web programada sobre el Framework PHP Fat Free Framework, se utiliza Bootstrap 5 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar."
