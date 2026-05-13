@@ -386,6 +386,19 @@ var estudios = [
 /***********************************************/
 var experiencia = [
     {
+        Fechas:      "Noviembre 2025 - A la fecha",
+        Empresa:     "Gotruck SPA",
+        Puesto:      "FullStack Developer",
+        Descripcion:
+                    "•	Mantencion de la plataforma Gotruck en general."
+                    + "<br/>•	Mantención de las funcionalidades ya presentes."
+                    + "<br/>•	Creación e integración de nuevas funcionalidades a solicitud de los clientes."
+                    + "<br/>•	Mantención de las App relacionadas a Gotruck."
+                    + "<br/>•	Creación e integración de nuevas App de Gotruck."
+                    ,
+        proyectos : []
+    },
+    {
         Fechas:      "Agosto 2025 - Octubre 2025",
         Empresa:     "1Tek. (Freelance)",
         Puesto:      "FullStack Developer",
@@ -657,6 +670,52 @@ var experiencia = [
 
 /***********************************************/
 var proyectos = [
+    {
+        IMG:         "assets/project/img_70.jpg",
+        Titulo:      "Sitio Web Orionix",
+        Descripcion: "Sitio web de una empresa PMO Digital Completa que integra una plataforma tecnológica PMI-compliant, consultoría estratégica de expertos PMP e Inteligencia Artificial predictiva.",
+        DatosTec:    "Página web programada sobre el Framework PHP Fat Free Framework, se utiliza Bootstrap 5 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar."
+                    +"Utiliza el servicio interno del servidor para el envio de los correos del formulario de contacto.",
+        DescCorta:   "Sitio web de una empresa PMO Digital Completa que integra una plataforma tecnológica PMI-compliant, consultoría estratégica de expertos PMP e Inteligencia Artificial predictiva. Optimiza tus proyectos, reduce riesgos y escala tu madurez organizacional sin los costos ni tiempos de una oficina de proyectos tradicional.",
+        Tipo:        "SitioWeb",
+        Tecnologias : [
+            {Img: "assets/icons/apache.svg",              Text: "Servidor Apache"},
+            {Img: "assets/icons/fat-free-framework.png",  Text: "Fat Free Framework"},
+            {Img: "assets/icons/php.svg",                 Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/html-5.svg",              Text: "HTML-5"},
+            {Img: "assets/icons/css-3.svg",               Text: "CSS-3"},
+            {Img: "assets/icons/bootstrap.svg",           Text: "Bootstrap 5"},
+            {Img: "assets/icons/js.svg",                  Text: "Javascript"},
+            {Img: "assets/icons/jquery.svg",              Text: "Jquery"},
+            {Img: "assets/icons/email.svg",               Text: "Email"},
+        ],
+        Links : [
+            {Link: "https://frucomex.cl/",  Icon: "fas fa-link", Text: "Sitio Web"},
+        ]
+    },
+    {
+        IMG:         "assets/project/img_69.jpg",
+        Titulo:      "Sitio Web Deimos Metrics (Incompleto por parte del cliente)",
+        Descripcion: "Sitio web de una empresa especializada en soluciones integrales de metrología, enfocada en garantizar precisión, confiabilidad y cumplimiento normativo para la industria.",
+        DatosTec:    "Página web programada sobre el Framework PHP Fat Free Framework, se utiliza Bootstrap 5 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar."
+                    +"El sitio se encuentra incompleto debido a que no han brindado toda la informacion solicitada para poder terminarlo.",
+        DescCorta:   "Sitio web de una empresa especializada en soluciones integrales de metrología, enfocada en garantizar precisión, confiabilidad y cumplimiento normativo para la industria. Cuenta con amplia experiencia en servicios de calibración en 5 magnitudes metrológicas, ejecutados conforme a normas nacionales e internacionales, asegurando trazabilidad y exactitud en cada proceso.",
+        Tipo:        "SitioWeb",
+        Tecnologias : [
+            {Img: "assets/icons/apache.svg",              Text: "Servidor Apache"},
+            {Img: "assets/icons/fat-free-framework.png",  Text: "Fat Free Framework"},
+            {Img: "assets/icons/php.svg",                 Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/html-5.svg",              Text: "HTML-5"},
+            {Img: "assets/icons/css-3.svg",               Text: "CSS-3"},
+            {Img: "assets/icons/bootstrap.svg",           Text: "Bootstrap 5"},
+            {Img: "assets/icons/js.svg",                  Text: "Javascript"},
+            {Img: "assets/icons/jquery.svg",              Text: "Jquery"},
+            {Img: "assets/icons/email.svg",               Text: "Email"},
+        ],
+        Links : [
+            {Link: "https://frucomex.cl/",  Icon: "fas fa-link", Text: "Sitio Web"},
+        ]
+    },
     {
         IMG:         "assets/project/img_66.jpg",
         Titulo:      "Plataforma Campañas",
