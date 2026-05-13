@@ -386,7 +386,7 @@ var estudios = [
 /***********************************************/
 var experiencia = [
     {
-        Fechas:      "Noviembre 2025 - A la fecha",
+        Fechas:      "Noviembre 2025 - Presente",
         Empresa:     "Gotruck SPA",
         Puesto:      "FullStack Developer",
         Descripcion:
