@@ -442,7 +442,11 @@ var experiencia = [
                     + "<br/>•	Mantención de las App relacionadas a Gotruck."
                     + "<br/>•	Creación e integración de nuevas App de Gotruck."
                     ,
-        proyectos : []
+        proyectos : [
+            {Link: "https://github.com/tenshi98/gotruckLite",        Nombre: "Plataforma GoTruck Lite - Core Engine Modular"},
+            {Link: "https://github.com/tenshi98/ApiRestfull-demo",   Nombre: "ApiRestful - Backend para Power BI"},
+            {Link: "https://github.com/tenshi98/flutter_test",       Nombre: "APP Movil - Proyecto base"},
+        ]
     },
     {
         Fechas:      "Agosto 2025 - Octubre 2025",
