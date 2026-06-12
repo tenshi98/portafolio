@@ -709,9 +709,29 @@ var experiencia = [
     {
         Fechas:      "Marzo 2003 - Junio 2011",
         Empresa:     "Viña Concha y Toro",
-        Puesto:      "Soporte de Gerencia",
+        Puesto:      "Puestos Variados",
         Descripcion:
-                    "•	Responsable de la creación de distintas mejoras para la optimización de la información de los distintos departamentos."
+                    "<strong>Analista de tiempos:</strong>"
+                    + "<br/>•	Responsable del ingreso de datos en sistema Sap de la empresa."
+                    + "<br/>•	Notificación, anulación y retención de las órdenes producidas en las líneas."
+                    + "<br/>•	Ingreso de datos a bases de datos Access a través de planillas Excel."
+                    + "<br/>•	Administración de base de datos Access."
+                    + "<br/>•	Participación en distintos proyectos con metodología TPM."
+                    + "<br/><strong>Analista Gestión y Control de la Producción:</strong>"
+                    + "<br/>•	Responsable del control de la producción."
+                    + "<br/>•	Responsable de la creación de reportes de indicadores de Gestión Total (OEE)."
+                    + "<br/>•	Responsable del cierre del periodo de las plantas productivas."
+                    + "<br/>•	Responsable del gasto de la actividad, validación de status y cierre técnico de las of del periodo ledger."
+                    + "<br/>•	Mantención del sistema de control de tiempos de la empresa, con el cual se controla todo el proceso productivo de la planta, mediante planillas Excel optimizadas con Visual Basic para poder guardar y extraer datos de bases de datos Access."
+                    + "<br/>•	Implementación de nuevos informes gerenciales (Resúmenes, Gráficos dinámicos, KPI, OE, OEE, Infoturno) con cruce de información Sap-Access."
+                    + "<br/><strong>Analista Mermas proceso productivo:</strong>"
+                    + "<br/>•	Responsable de la revisión diaria de las mermas generadas en las líneas."
+                    + "<br/>•	Cuadrar informes de winpack y empack en relación a la producción de las líneas."
+                    + "<br/>•	Generar y enviar los reportes de las mermas imputadas a las líneas a las distintas aéreas."
+                    + "<br/>•	Supervisar y administrar el sistema de productos no conformes vía Sap."
+                    + "<br/>•	Generar, analizar y controlar el proceso estadístico de los productos terminados en forma cuantitativa y cualitativa."
+                    + "<br/><strong>Soporte Gerencia:</strong>"
+                    + "<br/>•	Responsable de la creación de distintas mejoras para la optimización de la información de los distintos departamentos."
                     + "<br/>•	Responsable de la mantención y optimización de las distintas bases de datos usadas en la planta."
                     + "<br/>•	Relator de cursos de capacitación en relación a las mejoras implementadas."
                     + "<br/>•	Gestión del orden en que las órdenes de fabricación son liberadas en relación a la disponibilidad de materiales y el índice de liberación de las órdenes."
