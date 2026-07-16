@@ -1033,7 +1033,7 @@ var proyectos = [
         ],
         Links : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma%20SimpliVet", Icon: "fab fa-github", Text: "Documentación"},
-            {Link: "https://simplivet.cl/",                                                         Icon: "fas fa-link",   Text: "Sitio web de la empresa"},
+            {Link: "https://simplivet.cl/",                                                         Icon: "fas fa-link",   Text: "Sitio web de la empresa (Offline)"},
             {Link: "https://github.com/tenshi98/Trabajo_Propios_Demos/tree/main/SimpliVet",         Icon: "fas fa-cogs",   Text: "Demo"},
         ]
     },
@@ -1054,7 +1054,7 @@ var proyectos = [
             {Img: "assets/icons/jquery.svg",     Text: "Jquery"},
         ],
         Links : [
-            {Link: "https://simplivet.cl/", Icon: "fas fa-link", Text: "Sitio Web"},
+            {Link: "https://simplivet.cl/", Icon: "fas fa-link", Text: "Sitio Web (Offline)"},
         ]
     },
     {
