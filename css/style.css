@@ -338,7 +338,7 @@ body::-webkit-scrollbar-thumb {background-color: #aab7cf;}
   }
 
   /*----- TIMELINE PERIOD -----*/
-  
+
   .period {
       padding: 0;
       .timeline-info {
@@ -446,7 +446,7 @@ body::-webkit-scrollbar-thumb {background-color: #aab7cf;}
                   float: right;
                   text-align: left;
                   padding-left: 30px;
-              }    
+              }
               > .timeline-item:nth-child(even) .timeline-info {
                   float: right;
                   text-align: left;
@@ -480,7 +480,7 @@ body::-webkit-scrollbar-thumb {background-color: #aab7cf;}
   /*----------------------------------------------
       MOD: MARKER OUTLINE
   ----------------------------------------------*/
-      
+
       .marker-outline {
           .timeline-marker {
               &:before {
@@ -493,3 +493,11 @@ body::-webkit-scrollbar-thumb {background-color: #aab7cf;}
           }
       }
 
+.radio-group {margin: 0;}
+.radio-group .radio-label {cursor: pointer;display: inline-flex;justify-content: center;align-items: center;padding: 0 5px;}
+.radio-group .radio-label input[type="radio"] {display: none;}
+.radio-group .radio-text {color: var(--text-text3-color); /* Gris en reposo */font-size: 16px;padding-bottom: 5px;position: relative;transition: color 0.3s ease;}
+.radio-group .radio-text::after {content: '';position: absolute;bottom: 0;left: 50%;width: 0;height: 2px;background-color: transparent;transition: all 0.3s ease;transform: translateX(-50%);}
+.radio-group .radio-label:hover .radio-text {color: var(--btn-colorbg-hover);}
+.radio-group .radio-label input[type="radio"]:checked + .radio-text {color: var(--btn-colorbg);}
+.radio-group .radio-label input[type="radio"]:checked + .radio-text::after {width: 100%;background-color: var(--btn-colorbg);}

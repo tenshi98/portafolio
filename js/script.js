@@ -202,16 +202,16 @@ async function load_proyectos() {
   // Botones de filtro
   const filters = [
     { label: "Mostrar Todos", value: "all" },
-    { label: "Plataformas", value: "Plataforma" },
-    { label: "Sitio Web", value: "SitioWeb" },
-    { label: "APP", value: "APP" },
-    { label: "Excel", value: "Excel" },
-    { label: "Otros", value: "Otros" }
+    { label: "Plataformas",   value: "Plataforma" },
+    { label: "Sitio Web",     value: "SitioWeb" },
+    { label: "APP",           value: "APP" },
+    { label: "Excel",         value: "Excel" },
+    { label: "Otros",         value: "Otros" }
   ];
   const filterBtns = filters
     .map(
       f =>
-        `<a class="btn btn-primary" onclick="filterSelection('${f.value}')"> ${f.label}</a>`
+        `<label class="radio-label"><input type="radio" name="optionFilter" onclick="filterSelection('${f.value}')"><span class="radio-text">${f.label}</span></label>`
     )
     .join(" ");
 
@@ -263,8 +263,8 @@ async function load_proyectos() {
         <h2><i class="fas fa-code"></i> Proyectos</h2>
         <h3>Revisa todos mis Proyectos Realizados.</h3>
       </div>
-      <div id="myBtnContainer">${filterBtns}</div>
-      <article class="content-box">
+      <div class="radio-group">${filterBtns}</div>
+      <article class="content-box" style="margin-top:25px;">
         <ul class="list img-list">
           ${proyectosHtml}
         </ul>
@@ -329,13 +329,53 @@ async function load_cursos() {
   const contentDiv = document.getElementById("modal-display");
   contentDiv.innerHTML = "";
 
+  // Botones de filtro
+  const filters = [
+    { label: "Mostrar Todos",             value: "all" },
+    { label: "IA Generativa",             value: "IAGenerativa" },
+    { label: "Agentes IA",                value: "AgentesIA" },
+    { label: "LLM Engineering",           value: "LLMEngineering" },
+    { label: "Ciencia de Datos",          value: "CienciaDatos" },
+    { label: "Business Intelligence",     value: "BusinessIntelligence" },
+    { label: "Python",                    value: "Python" },
+    { label: "PHP",                       value: "PHP" },
+    { label: "Frontend",                  value: "Frontend" },
+    { label: "Backend",                   value: "Backend" },
+    { label: "Bases de Datos",            value: "BasesDatos" },
+    { label: "Desarrollo Móvil",          value: "DesarrolloMovil" },
+    { label: "Cloud Computing",           value: "CloudComputing" },
+    { label: "DevOps",                    value: "DevOps" },
+    { label: "CI/CD",                     value: "CICD" },
+    { label: "Git & GitHub",              value: "GitGitHub" },
+    { label: "Ciberseguridad",            value: "Ciberseguridad" },
+    { label: "Testing & QA",              value: "TestingQA" },
+    { label: "Arquitectura de Software",  value: "ArquitecturaSoftware" },
+    { label: "Frameworks",                value: "Frameworks" },
+    { label: "Sistemas Operativos",       value: "SistemasOperativos" },
+    { label: "Herramientas",              value: "Herramientas" },
+    { label: "Ofimática",                 value: "Ofimatica" },
+    { label: "UX/UI",                     value: "UXUI" },
+    { label: "Productividad",             value: "Productividad" },
+    { label: "Metodologías",              value: "Metodologias" },
+    { label: "Gestión Industrial",        value: "GestionIndustrial" },
+    { label: "Ingeniería",                value: "Ingenieria" },
+    { label: "Otros",                     value: "Otros" },
+  ];
+  const filterBtns = filters
+    .map(
+      f =>
+        `<label class="radio-label"><input type="radio" name="optionFilterCourse" onclick="filterSelectionCursos('${f.value}')"><span class="radio-text">${f.label}</span></label>`
+    )
+    .join(" ");
+
   let dataCursosModal = `
-    <section id="estudios" class="project-container container">
+    <section id="estudios" class="project-container">
       <div class="content-text">
         <h2><i class="fas fa-school"></i> Cursos y Capacitaciones</h2>
         <h3>Revisa los últimos cursos y capacitaciones que he realizado.</h3>
       </div>
-      <article>
+      <div class="radio-group">${filterBtns}</div>
+      <article style="padding:25px;">
         <div class="row example-basic">
           <ul class="timeline" id="IDCursosModal">
             ${cursos
@@ -354,16 +394,19 @@ async function load_cursos() {
                             ? `<strong>${curso.TextLink}</strong>`
                             : "";
                           const linkClose = curso.Link ? "</a>" : "";
+                          const categorias = Array.isArray(curso.Categoria)
+                            ? curso.Categoria.join(" ")
+                            : curso.Categoria;
                           if (curso.Contenido && curso.Contenido.trim() !== "") {
                             return `
-                              <details>
+                              <details class="curso ${categorias}">
                                 <summary>${curso.Nombre}. ${link}${textLink}${linkClose}.</summary>
                                 <p>${curso.Contenido}</p><br/>
                               </details>
                             `;
                           } else {
                             return `
-                              <p>• ${curso.Nombre}. ${link}${textLink}${linkClose}.</p>
+                              <p class="curso ${categorias}">• ${curso.Nombre}. ${link}${textLink}${linkClose}.</p>
                             `;
                           }
                         })
@@ -397,6 +440,30 @@ function filterSelection(c) {
   }
 }
 
+function filterSelectionCursos(categoria) {
+
+    document.querySelectorAll("#IDCursosModal .timeline-item").forEach(item => {
+
+        const cursos = item.querySelectorAll(".curso");
+        let visible  = 0;
+
+        cursos.forEach(curso => {
+
+            const mostrar =
+                categoria === "all" ||
+                curso.classList.contains(categoria);
+
+            curso.style.display = mostrar ? "" : "none";
+
+            if (mostrar) visible++;
+        });
+
+        // Oculta el año completo si no tiene cursos visibles
+        item.style.display = visible ? "" : "none";
+    });
+
+}
+
 function w3AddClass(element, name) {
   var i, arr1, arr2;
   arr1 = element.className.split(" ");
@@ -417,5 +484,3 @@ function w3RemoveClass(element, name) {
   }
   element.className = arr1.join(" ");
 }
-
-
