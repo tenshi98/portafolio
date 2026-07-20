@@ -151,8 +151,13 @@ for (const item of cursos) {
 dataCursos += '<li class="timeline-item"><div class="timeline-info"></div></li>';
 
 /***************************************/
+// Filtra solo los proyectos visibles
+const proyectosVisibles = proyectos.filter(
+    item => item.Visibilidad === "Mostrar"
+);
+
 // Muestra hasta 3 proyectos destacados
-dataProyectos = proyectos.slice(0, 3).map(item => `
+dataProyectos = proyectosVisibles.slice(0, 3).map(item =>`
   <li>
     <div class="inner">
       <div class="li-img">

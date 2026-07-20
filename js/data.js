@@ -777,13 +777,64 @@ var experiencia = [
 /***********************************************/
 var proyectos = [
     {
-        IMG:         "assets/project/img_70.png",
+        IMG:         "assets/project/img_72.jpg",
+        Titulo:      "Sitio Web Inverpas",
+        Descripcion: "Sitio web la empresa Inverpas Ingeniería SpA desarrolla soluciones IoT y de telemetría para la gestión inteligente del agua, integrando ingeniería especializada, automatización, plataforma cloud propia y monitoreo en tiempo real. Sus sistemas garantizan cumplimiento normativo ante la DGA, alta disponibilidad, seguridad física y digital, respaldo de información, operación autónoma y herramientas de análisis que permiten optimizar la administración de los recursos hídricos con máxima confiabilidad.",
+        DatosTec:    "Página web programada sobre el Framework PHP Fat Free Framework, se utiliza Bootstrap 5 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar."
+                    +"Utiliza el servicio interno del servidor para el envio de los correos del formulario de contacto.",
+        DescCorta:   "Sitio web la empresa Inverpas Ingeniería SpA desarrolla soluciones IoT y de telemetría para la gestión inteligente del agua, integrando ingeniería especializada, automatización, plataforma cloud propia y monitoreo en tiempo real.",
+        Tipo:        "SitioWeb",
+        Visibilidad: "Mostrar",
+        Tecnologias : [
+            {Img: "assets/icons/apache.svg",              Text: "Servidor Apache"},
+            {Img: "assets/icons/fat-free-framework.png",  Text: "Fat Free Framework"},
+            {Img: "assets/icons/php.svg",                 Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/html-5.svg",              Text: "HTML-5"},
+            {Img: "assets/icons/css-3.svg",               Text: "CSS-3"},
+            {Img: "assets/icons/bootstrap.svg",           Text: "Bootstrap 5"},
+            {Img: "assets/icons/js.svg",                  Text: "Javascript"},
+            {Img: "assets/icons/jquery.svg",              Text: "Jquery"},
+            {Img: "assets/icons/email.svg",               Text: "Email"},
+        ],
+        Links : [
+            {Link: "https://github.com/tenshi98/proyecto_inverpas",   Icon: "fas fa-code", Text: "Código Fuente"},
+            {Link: "https://inverpas.deimoscorp.cl/",                 Icon: "fas fa-link", Text: "Sitio Web"},
+        ]
+    },
+    {
+        IMG:         "assets/project/img_71.jpg",
+        Titulo:      "Sitio Web StepClean",
+        Descripcion: "Sitio web la empresa StepClean es una empresa especializada en higiene profesional, sanitización de calzado y aseo industrial para los sectores alimenticio y farmacéutico. Combinamos tecnología especializada, personal altamente capacitado y protocolos alineados con normas como ISO 22000, GMP y POES para garantizar procesos seguros, auditables y libres de contaminación. Nuestro objetivo es ayudar a las organizaciones a proteger la salud de las personas, cumplir con las exigencias regulatorias y mantener los más altos estándares de calidad e inocuidad.",
+        DatosTec:    "Página web programada sobre el Framework PHP Fat Free Framework, se utiliza Bootstrap 5 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar."
+                    +"Utiliza el servicio interno del servidor para el envio de los correos del formulario de contacto.",
+        DescCorta:   "Sitio web la empresa StepClean es una empresa especializada en higiene profesional, sanitización de calzado y aseo industrial para los sectores alimenticio y farmacéutico.",
+        Tipo:        "SitioWeb",
+        Visibilidad: "Mostrar",
+        Tecnologias : [
+            {Img: "assets/icons/apache.svg",              Text: "Servidor Apache"},
+            {Img: "assets/icons/fat-free-framework.png",  Text: "Fat Free Framework"},
+            {Img: "assets/icons/php.svg",                 Text: "Sistema programado en PHP"},
+            {Img: "assets/icons/html-5.svg",              Text: "HTML-5"},
+            {Img: "assets/icons/css-3.svg",               Text: "CSS-3"},
+            {Img: "assets/icons/bootstrap.svg",           Text: "Bootstrap 5"},
+            {Img: "assets/icons/js.svg",                  Text: "Javascript"},
+            {Img: "assets/icons/jquery.svg",              Text: "Jquery"},
+            {Img: "assets/icons/email.svg",               Text: "Email"},
+        ],
+        Links : [
+            {Link: "https://github.com/tenshi98/sitio_web_StepClean",   Icon: "fas fa-code", Text: "Código Fuente"},
+            {Link: "https://stepclean.deimoscorp.cl/",                             Icon: "fas fa-link", Text: "Sitio Web"},
+        ]
+    },
+    {
+        IMG:         "assets/project/img_70.jpg",
         Titulo:      "Sitio Web Orionix",
         Descripcion: "Sitio web de una empresa PMO Digital Completa que integra una plataforma tecnológica PMI-compliant, consultoría estratégica de expertos PMP e Inteligencia Artificial predictiva. Optimiza tus proyectos, reduce riesgos y escala tu madurez organizacional sin los costos ni tiempos de una oficina de proyectos tradicional.",
         DatosTec:    "Página web programada sobre el Framework PHP Fat Free Framework, se utiliza Bootstrap 5 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar."
                     +"Utiliza el servicio interno del servidor para el envio de los correos del formulario de contacto.",
         DescCorta:   "Sitio web de una empresa PMO Digital Completa que integra una plataforma tecnológica PMI-compliant, consultoría estratégica de expertos PMP e Inteligencia Artificial predictiva.",
         Tipo:        "SitioWeb",
+        Visibilidad: "Ocultar",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",              Text: "Servidor Apache"},
             {Img: "assets/icons/fat-free-framework.png",  Text: "Fat Free Framework"},
@@ -796,17 +847,19 @@ var proyectos = [
             {Img: "assets/icons/email.svg",               Text: "Email"},
         ],
         Links : [
-            {Link: "https://orionix.cl/",  Icon: "fas fa-link", Text: "Sitio Web"},
+            {Link: "https://github.com/tenshi98/sitio_web_Orionix",   Icon: "fas fa-code", Text: "Código Fuente"},
+            {Link: "https://orionix.cl/",                             Icon: "fas fa-link", Text: "Sitio Web (Offline)"},
         ]
     },
     {
-        IMG:         "assets/project/img_69.png",
+        IMG:         "assets/project/img_69.jpg",
         Titulo:      "Sitio Web Deimos Metrics (Incompleto por parte del cliente)",
         Descripcion: "Sitio web de una empresa especializada en soluciones integrales de metrología, enfocada en garantizar precisión, confiabilidad y cumplimiento normativo para la industria. Cuenta con amplia experiencia en servicios de calibración en 5 magnitudes metrológicas, ejecutados conforme a normas nacionales e internacionales, asegurando trazabilidad y exactitud en cada proceso.",
         DatosTec:    "Página web programada sobre el Framework PHP Fat Free Framework, se utiliza Bootstrap 5 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar."
                     +"El sitio se encuentra incompleto debido a que no han brindado toda la informacion solicitada para poder terminarlo.",
         DescCorta:   "Sitio web de una empresa especializada en soluciones integrales de metrología, enfocada en garantizar precisión, confiabilidad y cumplimiento normativo para la industria.",
         Tipo:        "SitioWeb",
+        Visibilidad: "Ocultar",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",              Text: "Servidor Apache"},
             {Img: "assets/icons/fat-free-framework.png",  Text: "Fat Free Framework"},
@@ -819,7 +872,8 @@ var proyectos = [
             {Img: "assets/icons/email.svg",               Text: "Email"},
         ],
         Links : [
-            {Link: "https://deimosmetrics.com/",  Icon: "fas fa-link", Text: "Sitio Web"},
+            {Link: "https://github.com/tenshi98/sitio_web_DeimosMetrics",  Icon: "fas fa-code", Text: "Código Fuente"},
+            {Link: "https://deimosmetrics.com/",                           Icon: "fas fa-link", Text: "Sitio Web (Offline)"},
         ]
     },
     {
@@ -834,6 +888,7 @@ var proyectos = [
                     +"Tambien permite la exportación de datos (PDF, Excel, Word).",
         DescCorta:  "Plataforma de administración enfocada en la administración de clientes, bodegas, productos, stocks, documentos mercantiles de compra y venta, campañas y partidas.",
         Tipo:       "Plataforma",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",              Text: "Servidor Apache"},
             {Img: "assets/icons/fat-free-framework.png",  Text: "Fat Free Framework"},
@@ -859,6 +914,7 @@ var proyectos = [
                     +"El sitio esta conectado a la plataforma de Gestion interna, la cual es accedida gracias a un mensaje via whatsapp en el cual se consulta la reserva de paltas, una vez aceptado se envia correo automatico al administrador avisando de la reserva.Utiliza el servicio interno del servidor para el envio de los correos del formulario de contacto.",
         DescCorta:   "Sitio web de una empresa familiar que distribuye y vende productos hortofruticolas de excelencia, con parámetros de calidad y condiciones de alto nivel.",
         Tipo:        "SitioWeb",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",              Text: "Servidor Apache"},
             {Img: "assets/icons/fat-free-framework.png",  Text: "Fat Free Framework"},
@@ -872,7 +928,8 @@ var proyectos = [
             {Img: "assets/icons/email.svg",               Text: "Email"},
         ],
         Links : [
-            {Link: "https://frucomex.cl/",  Icon: "fas fa-link", Text: "Sitio Web"},
+            {Link: "https://github.com/tenshi98/sitio_web_Frutihass", Icon: "fas fa-code", Text: "Código Fuente"},
+            {Link: "https://frucomex.cl/",                            Icon: "fas fa-link", Text: "Sitio Web"},
         ]
     },
     {
@@ -883,6 +940,7 @@ var proyectos = [
                     +"Utiliza el servicio interno del servidor para el envio de los correos del formulario de contacto.",
         DescCorta:   "Sitio web de Soluciones técnicas de alto rendimiento en automatización, metrología y control industrial.",
         Tipo:        "SitioWeb",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",              Text: "Servidor Apache"},
             {Img: "assets/icons/fat-free-framework.png",  Text: "Fat Free Framework"},
@@ -895,17 +953,19 @@ var proyectos = [
             {Img: "assets/icons/email.svg",               Text: "Email"},
         ],
         Links : [
-            {Link: "https://csjpro.cl/",  Icon: "fas fa-link", Text: "Sitio Web"},
+            {Link: "https://github.com/tenshi98/sitio_web_ComercialSanJoaquin",  Icon: "fas fa-code", Text: "Código Fuente"},
+            {Link: "https://csjpro.cl/",                                         Icon: "fas fa-link", Text: "Sitio Web"},
         ]
     },
     {
-        IMG:         "assets/project/img_68.png",
+        IMG:         "assets/project/img_68.jpg",
         Titulo:      "Sitio Web 1Tek",
         Descripcion: "Sitio con información de la empresa, da acceso directo a los clientes a su plataforma, posee funcionamiento estandar de un sitio web de este tipo.",
         DatosTec:    "Página web programada sobre el Framework PHP Fat Free Framework, se utiliza Bootstrap 5 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar."
                     +"El sitio se encuentra incompleto debido a que no han brindado toda la informacion solicitada para poder terminarlo.",
         DescCorta:   "Sitio con información de la empresa, da acceso directo a los clientes a su plataforma, posee funcionamiento estandar de un sitio web de este tipo.",
         Tipo:        "SitioWeb",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",              Text: "Servidor Apache"},
             {Img: "assets/icons/fat-free-framework.png",  Text: "Fat Free Framework"},
@@ -919,11 +979,12 @@ var proyectos = [
             {Img: "assets/icons/email.svg",               Text: "Email"},
         ],
         Links : [
-            {Link: "https://web.1tek.cl/",  Icon: "fas fa-link", Text: "Sitio Web"},
+            {Link: "https://github.com/tenshi98/sitio_web_1Tek", Icon: "fas fa-code", Text: "Código Fuente"},
+            {Link: "https://web.1tek.cl/",                       Icon: "fas fa-link", Text: "Sitio Web"},
         ]
     },
     {
-        IMG:         "assets/project/img_67.png",
+        IMG:         "assets/project/img_67.jpg",
         Titulo:      "Plataforma Telemetría",
         Descripcion: "Plataforma enfocada a gestionar las mediciones de telemetría a través de sus distintas interfaces para cada clientes de la empresa. Ofrece la administración de usuarios, de equipos de telemetría, gestión de mantenciones preventivas y de urgencia a los equipos de telemetría, informes agrupados al tipo de servicio ofrecido (medición temperaturas, GPS y niveles de riego en los campos, voltajes de equipo, etc.), entre otras características.",
         DatosTec:    "Plataforma monolítica programada en PHP puro, utiliza una base de datos MYSQL para guardar los datos, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar."
@@ -939,6 +1000,7 @@ var proyectos = [
                     +" y la integración con el SII a través de la API de LibreDTE.",
         DescCorta:   "",
         Tipo:        "Plataforma",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",      Text: "Servidor Apache"},
             {Img: "assets/icons/php.svg",         Text: "Sistema programado en PHP"},
@@ -976,6 +1038,7 @@ var proyectos = [
                     +"Tambien permite la exportación de datos (PDF, Excel, Word).",
         DescCorta:  "Plataforma de administración enfocada en la administración de socios, sus préstamos y bonificaciones.",
         Tipo:       "Plataforma",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
             {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
@@ -1000,6 +1063,7 @@ var proyectos = [
                     +"Utiliza el servicio interno del servidor para el envio de los correos del formulario de contacto.",
         DescCorta:   "Sitio web de Soluciones de ingeniería y gestión de proyectos para diversas industrias.",
         Tipo:        "SitioWeb",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",              Text: "Servidor Apache"},
             {Img: "assets/icons/fat-free-framework.png",  Text: "Fat Free Framework"},
@@ -1031,6 +1095,7 @@ var proyectos = [
                     +" y la exportación de los datos a archivos (PDF, Excel, Word, Xml)",
         DescCorta:   "Plataforma de negocios enfocada a ofrecer el servicio de gestión de veterinarias.",
         Tipo:        "Plataforma",
+        Visibilidad: "Ocultar",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
             {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
@@ -1056,6 +1121,7 @@ var proyectos = [
         DatosTec:    "Página web programada en PHP puro, se utiliza Bootstrap 5 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
+        Visibilidad: "Ocultar",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
             {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
@@ -1076,6 +1142,7 @@ var proyectos = [
         DatosTec:    "Página web programada en PHP puro, se utiliza Bootstrap 5 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
             {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
@@ -1106,6 +1173,7 @@ var proyectos = [
                     +" y la integración con el SII a través de la API de LibreDTE.",
         DescCorta:   "",
         Tipo:        "Plataforma",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",      Text: "Servidor Apache"},
             {Img: "assets/icons/php.svg",         Text: "Sistema programado en PHP"},
@@ -1142,6 +1210,7 @@ var proyectos = [
                     +" y la visualización de terrenos a través de la API de Google Maps.",
         DescCorta:   "",
         Tipo:        "Plataforma",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
             {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
@@ -1169,6 +1238,7 @@ var proyectos = [
                     +"mostrará 4 terrenos de Chile seleccionados de forma aleatoria.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",       Text: "Servidor Apache"},
             {Img: "assets/icons/php.svg",          Text: "Sistema programado en PHP"},
@@ -1180,7 +1250,8 @@ var proyectos = [
             {Img: "assets/icons/web-transfer.svg", Text: "Web Services"},
         ],
         Links : [
-            {Link: "https://web.terrania.cl/", Icon: "fas fa-link", Text: "Sitio Web"},
+            {Link: "https://github.com/tenshi98/sitio_web_Terrania", Icon: "fas fa-code", Text: "Código Fuente"},
+            {Link: "https://web.terrania.cl/",                       Icon: "fas fa-link", Text: "Sitio Web"},
         ]
     },
     {
@@ -1191,6 +1262,7 @@ var proyectos = [
                     +"<br>La plataforma hace el envío de correos masivos a través del servicio de Brevo.",
         DescCorta:   "",
         Tipo:        "Plataforma",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
             {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
@@ -1214,6 +1286,7 @@ var proyectos = [
                     +"<br>La plataforma hace el envío de correos masivos a través del servicio de Brevo.",
         DescCorta:   "",
         Tipo:        "Plataforma",
+        Visibilidad: "Ocultar",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
             {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
@@ -1238,6 +1311,7 @@ var proyectos = [
                     +"<br>Esta Página web obtiene los datos a mostrar a partir de un webservice programado en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, este webservice esta montado en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
+        Visibilidad: "Ocultar",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
             {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
@@ -1259,6 +1333,7 @@ var proyectos = [
         DatosTec:    "Sistema de gestión de contenidos (CMS), montado en un servidor Apache, esta programado utilizando PHP como base, tambien utiliza MYSQL como base de datos.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "CMS WordPress"},
             {Img: "assets/icons/apache.svg",    Text: "Servidor Apache"},
@@ -1276,6 +1351,7 @@ var proyectos = [
         DatosTec:    "Página web programada en PHP puro, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",    Text: "Servidor Apache"},
             {Img: "assets/icons/php.svg",       Text: "Sistema programado en PHP"},
@@ -1286,7 +1362,8 @@ var proyectos = [
             {Img: "assets/icons/jquery.svg",    Text: "Jquery"},
         ],
         Links : [
-            {Link: "https://web.lomasdelambert.cl/", Icon: "fas fa-link", Text: "Sitio Web"},
+            {Link: "https://github.com/tenshi98/sitio_web_LomasLambert", Icon: "fas fa-code", Text: "Código Fuente"},
+            {Link: "https://web.lomasdelambert.cl/",                     Icon: "fas fa-link", Text: "Sitio Web"},
         ]
     },
     {
@@ -1296,6 +1373,7 @@ var proyectos = [
         DatosTec:    "Página web programada en PHP puro, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",    Text: "Servidor Apache"},
             {Img: "assets/icons/php.svg",       Text: "Sistema programado en PHP"},
@@ -1306,7 +1384,8 @@ var proyectos = [
             {Img: "assets/icons/jquery.svg",    Text: "Jquery"},
         ],
         Links : [
-            {Link: "https://web.aktion.cl/", Icon: "fas fa-link", Text: "Sitio Web"},
+            {Link: "https://github.com/tenshi98/sitio_web_aktion", Icon: "fas fa-code", Text: "Código Fuente"},
+            {Link: "https://web.aktion.cl/",                       Icon: "fas fa-link", Text: "Sitio Web"},
         ]
     },
     {
@@ -1316,6 +1395,7 @@ var proyectos = [
         DatosTec:    "Plataforma monolítica programada en PHP puro, utiliza una base de datos MYSQL para guardar los datos, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar.",
         DescCorta:   "",
         Tipo:        "Plataforma",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
             {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
@@ -1343,6 +1423,7 @@ var proyectos = [
                     +"<br>Notificación y envío automático de correos a los clientes (entrega de factura y aviso de término del periodo de pago).",
         DescCorta:   "",
         Tipo:        "Plataforma",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
             {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
@@ -1366,6 +1447,7 @@ var proyectos = [
         DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/android.svg",         Text: "Android"},
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
@@ -1389,6 +1471,7 @@ var proyectos = [
         DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/android.svg",         Text: "Android"},
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
@@ -1411,6 +1494,7 @@ var proyectos = [
                     +"<br>Esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/dotnet.svg",          Text: ".NET"},
             {Img: "assets/icons/visual-studio.svg",   Text: "Visual Studio"},
@@ -1430,6 +1514,7 @@ var proyectos = [
         DatosTec:    "Sistema de gestión de contenidos (CMS), montado en un servidor Apache, esta programado utilizando PHP como base, tambien utiliza MYSQL como base de datos.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "CMS WordPress"},
             {Img: "assets/icons/apache.svg",    Text: "Servidor Apache"},
@@ -1449,6 +1534,7 @@ var proyectos = [
         DatosTec:    "Plataforma monolítica programada en PHP puro, utiliza una base de datos MYSQL para guardar los datos, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar.",
         DescCorta:   "",
         Tipo:        "Plataforma",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
             {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
@@ -1472,6 +1558,7 @@ var proyectos = [
         DatosTec:    "Plataforma monolítica programada en PHP puro, utiliza una base de datos MYSQL para guardar los datos, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar.",
         DescCorta:   "",
         Tipo:        "Plataforma",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
             {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
@@ -1493,6 +1580,7 @@ var proyectos = [
         DatosTec:    "Plataforma monolítica programada en PHP puro, utiliza una base de datos MYSQL para guardar los datos, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar.",
         DescCorta:   "",
         Tipo:        "Otros",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
             {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
@@ -1517,6 +1605,7 @@ var proyectos = [
         DatosTec:    "Plataforma monolítica programada en PHP puro, utiliza una base de datos MYSQL para guardar los datos, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar.",
         DescCorta:   "",
         Tipo:        "Plataforma",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
             {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
@@ -1538,6 +1627,7 @@ var proyectos = [
         DatosTec:    "Plataforma monolítica programada en PHP puro, utiliza una base de datos MYSQL para guardar los datos, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar.",
         DescCorta:   "",
         Tipo:        "Plataforma",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
             {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
@@ -1559,6 +1649,7 @@ var proyectos = [
         DatosTec:    "Plataforma monolítica programada en PHP puro, utiliza una base de datos MYSQL para guardar los datos, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar.",
         DescCorta:   "",
         Tipo:        "Plataforma",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
             {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
@@ -1582,6 +1673,7 @@ var proyectos = [
         DatosTec:    "Plataforma monolítica programada en PHP puro, utiliza una base de datos MYSQL para guardar los datos, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar.",
         DescCorta:   "",
         Tipo:        "Otros",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",     Text: "Servidor Apache"},
             {Img: "assets/icons/php.svg",        Text: "Sistema programado en PHP"},
@@ -1606,6 +1698,7 @@ var proyectos = [
                     +"<br>Estas aplicaciones obtienen los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/android.svg",         Text: "Android"},
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
@@ -1631,6 +1724,7 @@ var proyectos = [
         DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/android.svg",         Text: "Android"},
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
@@ -1654,6 +1748,7 @@ var proyectos = [
         DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/android.svg",         Text: "Android"},
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
@@ -1677,6 +1772,7 @@ var proyectos = [
         DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/android.svg",         Text: "Android"},
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
@@ -1702,6 +1798,7 @@ var proyectos = [
         DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/android.svg",         Text: "Android"},
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
@@ -1725,6 +1822,7 @@ var proyectos = [
         DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/android.svg",         Text: "Android"},
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
@@ -1749,6 +1847,7 @@ var proyectos = [
                     +"<br>Estas aplicaciones obtienen los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/android.svg",         Text: "Android"},
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
@@ -1776,6 +1875,7 @@ var proyectos = [
                     +"<br>Estas aplicaciones obtienen los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/android.svg",         Text: "Android"},
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
@@ -1802,6 +1902,7 @@ var proyectos = [
         DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/android.svg",         Text: "Android"},
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
@@ -1825,6 +1926,7 @@ var proyectos = [
         DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/android.svg",         Text: "Android"},
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
@@ -1848,6 +1950,7 @@ var proyectos = [
                     +"<br>Estas aplicaciones obtienen los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/android.svg",         Text: "Android"},
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
@@ -1873,6 +1976,7 @@ var proyectos = [
         DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/android.svg",         Text: "Android"},
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
@@ -1894,6 +1998,7 @@ var proyectos = [
         DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/android.svg",         Text: "Android"},
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
@@ -1917,6 +2022,7 @@ var proyectos = [
                     +"<br>Estas aplicaciones obtienen los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/android.svg",         Text: "Android"},
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
@@ -1943,6 +2049,7 @@ var proyectos = [
         DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/android.svg",         Text: "Android"},
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
@@ -1966,6 +2073,7 @@ var proyectos = [
         DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/android.svg",         Text: "Android"},
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
@@ -1987,6 +2095,7 @@ var proyectos = [
         DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/android.svg",         Text: "Android"},
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
@@ -2008,6 +2117,7 @@ var proyectos = [
         DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/android.svg",         Text: "Android"},
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
@@ -2029,6 +2139,7 @@ var proyectos = [
         DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/android.svg",         Text: "Android"},
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
@@ -2052,6 +2163,7 @@ var proyectos = [
         DatosTec:    "Aplicación nativa android hecha con Android Studio utilizando Java como lenguaje de programación y Sqlite como base de datos local, esta aplicación obtiene los datos a mostrar a partir de una REST Api programada en PHP puro, utilizando una base de datos MYSQL para almacenar los datos utilizados, esta REST Api esta montada en un servidor Apache.",
         DescCorta:   "",
         Tipo:        "APP",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/android.svg",         Text: "Android"},
             {Img: "assets/icons/android-studio.svg",  Text: "Android Studio"},
@@ -2075,6 +2187,7 @@ var proyectos = [
         DatosTec:    "Sistema de gestión de contenidos (CMS), montado en un servidor Apache, esta programado utilizando PHP como base, tambien utiliza MYSQL como base de datos.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "CMS WordPress"},
             {Img: "assets/icons/apache.svg",    Text: "Servidor Apache"},
@@ -2092,6 +2205,7 @@ var proyectos = [
         DatosTec:    "Sistema de gestión de contenidos (CMS), montado en un servidor Apache, esta programado utilizando PHP como base, tambien utiliza MYSQL como base de datos.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "CMS WordPress"},
             {Img: "assets/icons/apache.svg",    Text: "Servidor Apache"},
@@ -2111,6 +2225,7 @@ var proyectos = [
         DatosTec:    "Sistema de gestión de contenidos (CMS), montado en un servidor Apache, esta programado utilizando PHP como base, tambien utiliza MYSQL como base de datos.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "CMS WordPress"},
             {Img: "assets/icons/apache.svg",    Text: "Servidor Apache"},
@@ -2128,6 +2243,7 @@ var proyectos = [
         DatosTec:    "Sistema de gestión de contenidos (CMS), montado en un servidor Apache, esta programado utilizando PHP como base, tambien utiliza MYSQL como base de datos.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "CMS WordPress"},
             {Img: "assets/icons/apache.svg",    Text: "Servidor Apache"},
@@ -2145,6 +2261,7 @@ var proyectos = [
         DatosTec:    "Sistema de gestión de contenidos (CMS), montado en un servidor Apache, esta programado utilizando PHP como base, tambien utiliza MYSQL como base de datos.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "CMS WordPress"},
             {Img: "assets/icons/apache.svg",    Text: "Servidor Apache"},
@@ -2162,6 +2279,7 @@ var proyectos = [
         DatosTec:    "Sistema de gestión de contenidos (CMS), montado en un servidor Apache, esta programado utilizando PHP como base, tambien utiliza MYSQL como base de datos.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "CMS WordPress"},
             {Img: "assets/icons/apache.svg",    Text: "Servidor Apache"},
@@ -2179,6 +2297,7 @@ var proyectos = [
         DatosTec:    "Sistema de gestión de contenidos (CMS), montado en un servidor Apache, esta programado utilizando PHP como base, tambien utiliza MYSQL como base de datos.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "CMS WordPress"},
             {Img: "assets/icons/apache.svg",    Text: "Servidor Apache"},
@@ -2196,6 +2315,7 @@ var proyectos = [
         DatosTec:    "Sistema de gestión de contenidos (CMS), montado en un servidor Apache, esta programado utilizando PHP como base, tambien utiliza MYSQL como base de datos.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "CMS WordPress"},
             {Img: "assets/icons/apache.svg",    Text: "Servidor Apache"},
@@ -2213,6 +2333,7 @@ var proyectos = [
         DatosTec:    "Sistema de gestión de contenidos (CMS), montado en un servidor Apache, esta programado utilizando PHP como base, tambien utiliza MYSQL como base de datos.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "CMS WordPress"},
             {Img: "assets/icons/apache.svg",    Text: "Servidor Apache"},
@@ -2230,6 +2351,7 @@ var proyectos = [
         DatosTec:    "Plataforma monolítica programada en PHP puro, utiliza una base de datos MYSQL para guardar los datos, se utiliza Bootstrap 3 para el apartado visual, javascript, jquery y otras librerías similares para la parte funcional, el sistema esta montado en un servidor Apache Estandar.",
         DescCorta:   "",
         Tipo:        "Plataforma",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/apache.svg",    Text: "Servidor Apache"},
             {Img: "assets/icons/php.svg",       Text: "Sistema programado en PHP"},
@@ -2252,6 +2374,7 @@ var proyectos = [
         DatosTec:    "Sistema de gestión de contenidos (CMS), montado en un servidor Apache, esta programado utilizando PHP como base, tambien utiliza MYSQL como base de datos.",
         DescCorta:   "",
         Tipo:        "SitioWeb",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/wordpress.svg", Text: "CMS WordPress"},
             {Img: "assets/icons/apache.svg",    Text: "Servidor Apache"},
@@ -2269,6 +2392,7 @@ var proyectos = [
         DatosTec:    "Planilla que obtiene sus datos desde una base de datos access a través del ODBC de windows, luego organiza los datos, crea graficos, tablas y otras funcionalidades programadas utilizando Visual Basic.",
         DescCorta:   "",
         Tipo:        "Excel",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/excel.svg",   Text: "Excel"},
             {Img: "assets/icons/access.svg",  Text: "Conexion de BD Access"},
@@ -2286,6 +2410,7 @@ var proyectos = [
         DatosTec:    "Planilla que obtiene sus datos desde una base de datos access a través del ODBC de windows, luego organiza los datos, crea graficos, tablas y otras funcionalidades programadas utilizando Visual Basic.",
         DescCorta:   "",
         Tipo:        "Excel",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/excel.svg",   Text: "Excel"},
             {Img: "assets/icons/access.svg",  Text: "Conexion de BD Access"},
@@ -2303,6 +2428,7 @@ var proyectos = [
         DatosTec:    "Planilla resumen que entrega resumenes en base de los datos ingresados manualmente.",
         DescCorta:   "",
         Tipo:        "Excel",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/excel.svg",   Text: "Excel"},
             {Img: "assets/icons/macros.svg",  Text: "Uso de Macros"},
@@ -2319,6 +2445,7 @@ var proyectos = [
         DatosTec:    "Planilla que obtiene sus datos desde una base de datos access a través del ODBC de windows, luego organiza los datos, crea graficos, tablas y otras funcionalidades programadas utilizando Visual Basic.",
         DescCorta:   "",
         Tipo:        "Excel",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/excel.svg",   Text: "Excel"},
             {Img: "assets/icons/access.svg",  Text: "Conexion de BD Access"},
@@ -2336,6 +2463,7 @@ var proyectos = [
         DatosTec:    "Planilla que obtiene sus datos desde una base de datos access a través del ODBC de windows, luego organiza los datos, crea graficos, tablas y otras funcionalidades programadas utilizando Visual Basic.",
         DescCorta:   "",
         Tipo:        "Excel",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/excel.svg",   Text: "Excel"},
             {Img: "assets/icons/access.svg",  Text: "Conexion de BD Access"},
@@ -2353,6 +2481,7 @@ var proyectos = [
         DatosTec:    "Planilla que obtiene sus datos desde una base de datos access a través del ODBC de windows, luego organiza los datos, crea graficos, tablas y otras funcionalidades programadas utilizando Visual Basic.",
         DescCorta:   "",
         Tipo:        "Excel",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/excel.svg",   Text: "Excel"},
             {Img: "assets/icons/access.svg",  Text: "Conexion de BD Access"},
@@ -2370,6 +2499,7 @@ var proyectos = [
         DatosTec:    "Planilla que obtiene sus datos desde una base de datos access a través del ODBC de windows, luego organiza los datos, crea graficos, tablas y otras funcionalidades programadas utilizando Visual Basic.",
         DescCorta:   "",
         Tipo:        "Excel",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/excel.svg",   Text: "Excel"},
             {Img: "assets/icons/access.svg",  Text: "Conexion de BD Access"},
@@ -2387,6 +2517,7 @@ var proyectos = [
         DatosTec:    "Planilla que obtiene sus datos desde una base de datos access a través del ODBC de windows, luego organiza los datos, crea graficos, tablas y otras funcionalidades programadas utilizando Visual Basic.",
         DescCorta:   "",
         Tipo:        "Excel",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/excel.svg",   Text: "Excel"},
             {Img: "assets/icons/access.svg",  Text: "Conexion de BD Access"},
@@ -2404,6 +2535,7 @@ var proyectos = [
         DatosTec:    "Planilla que obtiene sus datos desde una base de datos access a través del ODBC de windows, luego organiza los datos, crea graficos, tablas y otras funcionalidades programadas utilizando Visual Basic.",
         DescCorta:   "",
         Tipo:        "Excel",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/excel.svg",   Text: "Excel"},
             {Img: "assets/icons/access.svg",  Text: "Conexion de BD Access"},
@@ -2421,6 +2553,7 @@ var proyectos = [
         DatosTec:    "Planilla que obtiene sus datos desde una base de datos access a través del ODBC de windows, luego organiza los datos, crea graficos, tablas y otras funcionalidades programadas utilizando Visual Basic.",
         DescCorta:   "",
         Tipo:        "Excel",
+        Visibilidad: "Mostrar",
         Tecnologias : [
             {Img: "assets/icons/excel.svg",   Text: "Excel"},
             {Img: "assets/icons/access.svg",  Text: "Conexion de BD Access"},
