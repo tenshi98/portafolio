@@ -9,6 +9,7 @@
     --bg-footer: #4158A6;
     --bg-modal: #fafafa;
     --grid-color:hsla(0,0%,4%,.03);
+    --cursor-colorbg-shadow: rgb(245, 101, 101, 0.2);
 
     /* Textos */
     --text-tittle-color: #ea4a4c;
@@ -58,6 +59,7 @@
     --bg-footer: #202124;
     --bg-modal: #202124;
     --grid-color:hsla(0, 0%, 100%, 0.03);
+    --cursor-colorbg-shadow: rgb(138, 157, 173, 0.2);
 
     /* Textos */
     --text-tittle-color: #758694;
@@ -105,7 +107,8 @@ body::-webkit-scrollbar-thumb {background-color: #aab7cf;}
 .navbar {position: fixed;top: 0;left: 0;right: 0;z-index: 20;background: var(--bg-header);}
 .navbar .container {display: flex;align-items: center;justify-content: space-between;z-index: 20;height: 80px;width: 100%;}
 .navbar .container .nav-menu {display: flex;}
-.navbar .container .nav-menu .nav-link {margin: 0 1rem;font-size: 0.8rem;font-weight: var(--weight-semibold);color: var(--text-text3-color);}
+.navbar .container .nav-menu .nav-link {margin: 0 0.8rem;font-weight: var(--weight-semibold);color: var(--text-text3-color);transition: 0.3s;}
+.navbar .container .nav-menu .nav-link:hover {color: var(--text-tittle-color);}
 .navbar .container .nav-menu .btn {margin-right: 1.5rem;}
 .navbar .container .nav-menu .btn .fas.fa-arrow-right {margin-left: 0.5rem;font-size: 0.9rem;}
 /* Blur Navbar */
@@ -500,6 +503,7 @@ MOD: MARKER OUTLINE
     }
 }
 
+/************************* Grupo de botones para los filtros *************************/
 .radio-group {margin: 0;}
 .radio-group .radio-label {cursor: pointer;display: inline-flex;justify-content: center;align-items: center;padding: 0 5px;}
 .radio-group .radio-label input[type="radio"] {display: none;}
@@ -508,3 +512,15 @@ MOD: MARKER OUTLINE
 .radio-group .radio-label:hover .radio-text {color: var(--btn-colorbg-hover);}
 .radio-group .radio-label input[type="radio"]:checked + .radio-text {color: var(--btn-colorbg);}
 .radio-group .radio-label input[type="radio"]:checked + .radio-text::after {width: 100%;background-color: var(--btn-colorbg);}
+
+/************************* Sombra que sigue al cursor *************************/
+.cursor-circle {position: fixed;top: 0;left: 0;width: 1px;height: 1px;border-radius: 50%;background: transparent;box-shadow: 0 0 80px 60px var(--cursor-colorbg-shadow);pointer-events: none;transform: translate(-100px, -100px);z-index: 9999;transition: transform 0.05s linear, opacity 0.3s;will-change: transform;}
+
+/************************* ESTILO DEL INTERRUPTOR (SWITCH) *************************/
+.theme-switch {display: flex;align-items: center;}
+.theme-switch input[type="checkbox"] {display: none;}
+.toggle-icons {position: relative;display: flex;align-items: center;justify-content: space-between;width: 64px;height: 32px;background-color: #111;border-radius: 50px;padding: 0 7px;cursor: pointer;transition: background-color 0.4s ease;}
+.toggle-icons::after {content: "";position: absolute;top: 3px;left: 3px;width: 26px;height: 26px;background-color: #ffffff;border-radius: 50%;transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.4s ease;box-shadow: 0 2px 5px rgba(0,0,0,0.2);}
+#switch:checked + .toggle-icons {background-color: #e0e0e0;}
+#switch:checked + .toggle-icons::after {transform: translateX(32px);background-color: #111;}
+.toggle-icons img {width: 16px;height: 16px;z-index: 1;pointer-events: none;user-select: none;}

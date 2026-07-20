@@ -489,3 +489,29 @@ function w3RemoveClass(element, name) {
   }
   element.className = arr1.join(" ");
 }
+
+/***************************************/
+//efectos
+const circle = document.getElementById('cursorCircle');
+
+// Mitad del ancho/alto del círculo para centrarlo exactamente en la punta del cursor
+const circleOffset = 0;
+
+document.addEventListener('mousemove', (e) => {
+    // Obtenemos las coordenadas X e Y del cursor y restamos el offset para centrarlo
+    const x = e.clientX - circleOffset;
+    const y = e.clientY - circleOffset;
+
+    // Usamos transform translate porque es mejor para el rendimiento que cambiar top/left
+    circle.style.transform = `translate(${x}px, ${y}px)`;
+});
+
+// Opcional: Ocultar el círculo si el mouse sale de la ventana
+document.addEventListener('mouseleave', () => {
+    circle.style.opacity = '0';
+});
+
+// Volver a mostrar el círculo cuando el mouse entra
+document.addEventListener('mouseenter', () => {
+    circle.style.opacity = '1';
+});
