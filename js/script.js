@@ -168,7 +168,7 @@ dataProyectos = proyectos.slice(0, 3).map(item => `
         </div>
         <div class="li-social">
           ${item.Links.map(enlace =>
-            `<a class="btn btn-primary" target="_blank" href="${enlace.Link}" ><i class="${enlace.Icon}"></i> ${enlace.Text}</a>`
+            `<a class="btn btn-primary btn-primary-shadow" target="_blank" href="${enlace.Link}" ><i class="${enlace.Icon}"></i> ${enlace.Text}</a>`
           ).join(" ")}
         </div>
       </div>
@@ -237,7 +237,7 @@ async function load_proyectos() {
         item.Links && item.Links.length
           ? `<div class="li-social">${item.Links.map(
               enlace =>
-                `<a class="btn btn-primary" target="_blank" href="${enlace.Link}" ><i class="${enlace.Icon}"></i> ${enlace.Text}</a>`
+                `<a class="btn btn-primary btn-primary-shadow" target="_blank" href="${enlace.Link}" ><i class="${enlace.Icon}"></i> ${enlace.Text}</a>`
             ).join(" ")}</div>`
           : "";
 
