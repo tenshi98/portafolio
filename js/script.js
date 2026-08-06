@@ -364,6 +364,7 @@ async function load_cursos() {
     { label: "Metodologías",              value: "Metodologias" },
     { label: "Gestión Industrial",        value: "GestionIndustrial" },
     { label: "Ingeniería",                value: "Ingenieria" },
+    { label: "Finanzas",                  value: "Finanzas" },
     { label: "Otros",                     value: "Otros" },
   ];
   const filterBtns = filters
