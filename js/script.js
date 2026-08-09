@@ -62,16 +62,27 @@ if (currentTheme) {
 // se levanta ventana modal
 const modals = document.querySelectorAll("[data-modal]");
 
+function closeModal(modal) {
+  modal.classList.add("closing");
+  modal.addEventListener("animationend", function onAnimEnd() {
+    modal.classList.remove("open");
+    modal.classList.remove("closing");
+    modal.removeEventListener("animationend", onAnimEnd);
+  }, { once: true });
+}
+
 modals.forEach(function (trigger) {
   trigger.addEventListener("click", function (event) {
     event.preventDefault();
     const modal = document.getElementById(trigger.dataset.modal);
+    // Limpia clases residuales antes de abrir
+    modal.classList.remove("closing");
     modal.classList.add("open");
     const exits = modal.querySelectorAll(".modal-exit");
     exits.forEach(function (exit) {
       exit.addEventListener("click", function (event) {
         event.preventDefault();
-        modal.classList.remove("open");
+        closeModal(modal);
       });
     });
   });
