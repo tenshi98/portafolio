@@ -311,7 +311,7 @@ async function load_experiencia() {
   const dataExperienciaModal = `
     <section id="experiencia" class="project-container container">
       <div class="content-text">
-        <h2><i class="fas fa-book"></i> Experiencia Laboral2</h2>
+        <h2><i class="fas fa-book"></i> Experiencia Laboral</h2>
         <h3>Revisa mi experiencia laboral</h3>
       </div>
       <article>
