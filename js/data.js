@@ -481,13 +481,50 @@ var experiencia = [
     {
         Fechas:      "Noviembre 2025 - Presente",
         Empresa:     "Gotruck SPA",
-        Puesto:      "FullStack Developer",
+        Puesto:      "Full Stack Developer Mid-Senior",
         Descripcion:
-                    "•	Mantencion de la plataforma Gotruck en general."
-                    + "<br/>•	Mantención de las funcionalidades ya presentes."
-                    + "<br/>•	Creación e integración de nuevas funcionalidades a solicitud de los clientes."
-                    + "<br/>•	Mantención de las App relacionadas a Gotruck."
-                    + "<br/>•	Creación e integración de nuevas App de Gotruck."
+                    "<br/><h3>Responsabilidades y funciones:</h3>"
+                    + "<br/>•	Mantenimiento integral y evolución de la plataforma GoTruck, asegurando su estabilidad, disponibilidad y continuidad operativa."
+                    + "<br/>•	Desarrollo, optimización y mejora continua de funcionalidades, procesos y servicios de la plataforma."
+                    + "<br/>•	Análisis, diseño, desarrollo e implementación de nuevas funcionalidades e integraciones según los requerimientos del negocio y las necesidades de los clientes."
+                    + "<br/>•	Diseño, desarrollo y mantenimiento de APIs REST e integración con servicios y plataformas externas."
+                    + "<br/>•	Implementación e integración de sistemas de GPS, telemetría y seguimiento de flotas, permitiendo la recepción, procesamiento y sincronización de información de múltiples proveedores."
+                    + "<br/>•	Integración con sistemas de facturación electrónica, SII y plataformas ERP, incluyendo envío de documentos tributarios electrónicos (DTE), validación de información y sincronización de datos."
+                    + "<br/>•	Integración de servicios de geolocalización, cartografía, cálculo de rutas, matrices de distancias y optimización de recorridos."
+                    + "<br/>•	Desarrollo de integraciones con plataformas de RRHH, finanzas, notificaciones y automatización de procesos empresariales mediante APIs y webhooks."
+                    + "<br/>•	Administración e integración de servicios de almacenamiento y bases de datos asociados al ecosistema de aplicaciones."
+                    + "<br/>•	Mantenimiento, soporte y evolución de aplicaciones web y móviles asociadas a GoTruck."
+                    + "<br/>•	Diseño, desarrollo e implementación de nuevas aplicaciones para ampliar y fortalecer el ecosistema tecnológico de GoTruck."
+                    + "<br/><br/><h3>Integraciones y tecnologías:</h3>"
+                    + "<br/><strong>Inteligencia Artificial, Automatización y Sistemas de Decisión</strong>"
+                    + "<br/>•	Desarrollo de servidores MCP para consultas e interacción con bases de datos mediante IA."
+                    + "<br/>•	Agentes inteligentes para análisis y clasificación de correos, automatización de decisiones mediante reglas de negocio y memoria persistente con retroalimentación humana."
+                    + "<br/><strong>GPS, telemetría y seguimiento de flotas</strong>"
+                    + "<br/>•	Webfleet / TomTom, Berman GPS, GPS Chile, FleetUp, LineGPS, SkySat, Position, ControlPosition, Volvo Connect, Copiloto, CTAC, ConectateGPS, Websat, Scania rFMS, BTrak y Service24GPS."
+                    + "<br/>•	Integración para recepción y envío de información con Maersk, Perrot / Wisetrack, QAnalytics, Cloux y Unigis."
+                    + "<br/><strong>SII y facturación electrónica</strong>"
+                    + "<br/>•	LibreDTE: firma electrónica, envío y consulta de estados de documentos tributarios electrónicos (DTE) ante el SII."
+                    + "<br/>•	Integración con servicios del SII para consulta y validación del padrón de contribuyentes mediante scraping autenticado."
+                    + "<br/><strong>ERP, finanzas y recursos humanos</strong>"
+                    + "<br/>•	Defontana: integración para envío de facturas y sincronización de catálogos."
+                    + "<br/>•	Nubox: integración con servicios de recursos humanos."
+                    + "<br/>•	Previred: integración mediante API de Gael Cloud."
+                    + "<br/>•	Sap: integración para el envío de facturas por centros de costos propios del cliente."
+                    + "<br/><strong>Geolocalización, mapas y seguimiento marítimo</strong>"
+                    + "<br/>•	Google Maps: geocodificación, normalización de direcciones, cálculo de rutas y matrices de distancias."
+                    + "<br/>•	LocationIQ: servicios de matrices de distancias, búsqueda de ubicaciones cercanas (Nearest), optimización de rutas y direcciones."
+                    + "<br/>•	Leaflet y OpenStreetMap: visualización cartográfica y mapas interactivos."
+                    + "<br/>•	VesselFinder y FleetMon: seguimiento y consulta de información de naves."
+                    + "<br/><strong>Notificaciones y automatización de procesos</strong>"
+                    + "<br/>•	OneSignal: notificaciones push para aplicaciones móviles."
+                    + "<br/>•	Zapier: automatización de procesos mediante webhooks."
+                    + "<br/>•	Kissflow: integración mediante webhooks para creación y actualización de registros de rutas."
+                    + "<br/>•	WhatsApp: generación de enlaces de comunicación directa mediante wa.me para el aviso de las cargas/descargas de Contenedores."
+                    + "<br/><strong>Infraestructura y almacenamiento</strong>"
+                    + "<br/>•	AWS S3: almacenamiento y gestión de archivos y recursos de la plataforma."
+                    + "<br/>•	Oracle Database / Storage: gestión de bases de datos y almacenamiento de información del ecosistema GoTruck."
+                    + "<br/><br/><h3>Herramientas y tecnologías:</h3>"
+                    + "<br/>PHP, JavaScript, jQuery, HTML5, CSS3, Bootstrap 5.3, Flutter, SQL, Oracle Database, MySQL, APIs REST, JWT, Webhooks, JSON, XML, Google Maps API, LocationIQ, Leaflet, OpenStreetMap, AWS S3, LibreDTE, SII, Defontana, Nubox, Previred, OneSignal, Zapier y Kissflow."
                     ,
         proyectos : [
             {Link: "https://github.com/tenshi98/gotruckLite",        Nombre: "Plataforma GoTruck Lite - Core Engine Modular"},
@@ -498,11 +535,14 @@ var experiencia = [
     {
         Fechas:      "Agosto 2025 - Octubre 2025",
         Empresa:     "1Tek. (Freelance)",
-        Puesto:      "FullStack Developer",
+        Puesto:      "Full Stack Developer Senior + IoT Engineer",
         Descripcion:
-                    "•	Actualización de la interfaz de la plataforma gestión modular, anteriormente perteneciente a Simplytech."
-                    + "<br/>•	Mantención de las funcionalidades ya presentes."
-                    + "<br/>•	Creación e integración de nuevas funcionalidades a solicitud de los clientes."
+                    "<br/><h3>Responsabilidades y funciones:</h3>"
+                    + "<br/>•	Actualización de la interfaz de la plataforma de gestión modular, anteriormente perteneciente a Simplytech."
+                    + "<br/>•	Mantenimiento y optimización de funcionalidades existentes, asegurando la estabilidad y continuidad operativa de la plataforma."
+                    + "<br/>•	Diseño, desarrollo e integración de nuevas funcionalidades personalizadas según los requerimientos de los clientes."
+                    + "<br/>•	Mejoras de experiencia de usuario y adaptación de módulos a nuevas necesidades operacionales."
+                    + "<br/>•	Implementación de mejoras orientadas a incrementar la satisfacción y retención de usuarios clave."
                     ,
         proyectos : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma Gesti%C3%B3n Modular",  Nombre: "Actualización plataforma Telemetría"},
@@ -525,23 +565,48 @@ var experiencia = [
     {
         Fechas:      "Junio 2016 - Julio 2025",
         Empresa:     "Exilon 360 SPA - Crosstech - Simplytech",
-        Puesto:      "FullStack Developer",
+        Puesto:      "Full Stack Developer Senior / Líder Técnico",
         Descripcion:
-                    "•	Creación de plataforma de administración de equipos, clientes y contratos."
-                    + "<br/>•	Implementación de sistema telemetría y geolocalización GPS en tiempo real basado en tecnología propia (placas Arduino y sensores GPS)."
-                    + "<br/>•	Implementación de sistema mediciones en tiempo real basado en tecnología propia (placas Arduino y sensores de temperatura, niveles de flujo, tensión eléctrica, etc.)."
-                    + "<br/>•	Implementación de sistema de notificaciones masivas a través de la API de WhatsApp Business."
-                    + "<br/>•	Implementación de sistema de notificaciones de correo masivas a través del servicio de correos del servidor."
-                    + "<br/>•	Implementación de gráficos simples utilizando la librería charts.js."
-                    + "<br/>•	Implementación de gráficos de mayor complejidad utilizando la librería plotly.js."
-                    + "<br/>•	Implementación de Crones para el envío de informes personalizados a los distintos usuarios de cada cliente basado en los permisos de los equipos asignados."
-                    + "<br/>•	Implementación de mapas dinámicos a través de la API de Google Maps, para la visualización de datos de medición y/o telemetría (delimitación de campos de arado, niveles de áreas fumigadas, ruta de tractores u otros vehículos, etc.)."
-                    + "<br/>•	Implementación de la librería PHP ML para la previsión de datos (principalmente meteorológicos, para dar aviso mediante correo y/o WhatsApp antes de una helada)."
-                    + "<br/>•	Implementación exportación de datos (PDF, Excel, Word, Xml)."
-                    + "<br/>•	Implementación importación de datos masivos (CVS o XML)."
-                    + "<br/>•	Implementación de facturación electrónica a través de la API de LibreDTE."
-                    + "<br/>•	Creación de APP para Android utilizando Android Studio."
-                    + "<br/>•	Creación de Aplicaciones para Windows utilizando Visual Studio."
+                    "<br/><h3>Responsabilidades y funciones:</h3>"
+                    + "<br/>•	Liderazgo técnico y desarrollo de plataformas empresariales desde cero, participando en el análisis, diseño, arquitectura, implementación y mantenimiento de soluciones."
+                    + "<br/>•	Desarrollo de plataformas de telemetría, geolocalización y monitoreo en tiempo real, utilizadas por más de 100 usuarios diarios."
+                    + "<br/>•	Diseño e implementación de servicios backend para recepción y procesamiento de datos provenientes de dispositivos IoT."
+                    + "<br/>•	Desarrollo de endpoints con capacidad de gestionar hasta 200 conexiones simultáneas por segundo."
+                    + "<br/>•	Integración de dispositivos GPS, sensores especializados y equipos de telemetría basados en Arduino."
+                    + "<br/>•	Desarrollo de dashboards y herramientas de visualización de información en tiempo real."
+                    + "<br/>•	Implementación de sistemas de notificaciones masivas mediante WhatsApp Business API."
+                    + "<br/>•	Desarrollo de modelos predictivos y soluciones de Machine Learning aplicadas al sector agrícola."
+                    + "<br/>•	Integración de sistemas de facturación electrónica y automatización de procesos tributarios."
+                    + "<br/>•	Desarrollo de soluciones para importación y exportación de información en múltiples formatos."
+                    + "<br/>•	Desarrollo de aplicaciones móviles y de escritorio para requerimientos específicos de clientes."
+                    + "<br/><br/><h3>Proyectos desarrollados:</h3>"
+                    + "<br/><strong>Plataforma de Telemetría, IoT y Geolocalización</strong>"
+                    + "<br/>•	Monitoreo de dispositivos y sensores en tiempo real."
+                    + "<br/>•	Recepción y procesamiento de información de GPS, temperatura, niveles de flujo y tensión eléctrica."
+                    + "<br/>•	Desarrollo de endpoints para recepción de datos con hasta 200 conexiones simultáneas por segundo."
+                    + "<br/>•	Implementación de dashboards, visualización geográfica y gráficos estadísticos."
+                    + "<br/><strong>Sistema de Notificaciones y Automatización vía WhatsApp</strong>"
+                    + "<br/>•	Integración con WhatsApp Business API."
+                    + "<br/>•	Desarrollo de notificaciones masivas y automatización de comunicaciones operativas."
+                    + "<br/>•	Reducción de los tiempos de respuesta operativa al 30% del valor original, según métricas del cliente."
+                    + "<br/><strong>Modelos de Predicción Climática</strong>"
+                    + "<br/>•	Desarrollo de modelos de Machine Learning utilizando PHP-ML."
+                    + "<br/>•	Procesamiento de información climática para plataformas agrícolas."
+                    + "<br/>•	Implementación de alertas automatizadas."
+                    + "<br/>•	Precisión predictiva reportada del 75% y reducción de pérdidas agrícolas del 30%, según reportes internos."
+                    + "<br/><strong>Integración de Facturación Electrónica</strong>"
+                    + "<br/>•	Integración con LibreDTE."
+                    + "<br/>•	Automatización de procesos de facturación electrónica para múltiples clientes."
+                    + "<br/>•	Comunicación con servicios tributarios y procesamiento de documentos electrónicos."
+                    + "<br/><strong>Soluciones de Importación y Exportación de Datos</strong>"
+                    + "<br/>•	Desarrollo de procesos de intercambio y transformación de información."
+                    + "<br/>•	Generación y procesamiento de documentos en formatos PDF, Excel, Word, XML y CSV."
+                    + "<br/><strong>Aplicaciones Móviles y de Escritorio</strong>"
+                    + "<br/>•	Desarrollo de aplicaciones móviles para Android."
+                    + "<br/>•	Desarrollo de aplicaciones de escritorio para clientes específicos."
+                    + "<br/>•	Implementación de soluciones personalizadas según requerimientos operacionales."
+                    + "<br/><br/><h3>Herramientas y tecnologías:</h3>"
+                    + "<br/>PHP, MySQL, PHP-ML, Arduino, IoT, GPS, sensores especializados, Google Maps, Chart.js, LibreDTE, WhatsApp Business API, Android Studio, Visual Studio, APIs REST, XML, JSON, PDF, Excel, Word y CSV."
                     ,
         proyectos : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma Gesti%C3%B3n Modular",  Nombre: "Creación plataforma Gestión Modular"},
@@ -630,13 +695,17 @@ var experiencia = [
         Empresa:     "Natural Phone S.A.",
         Puesto:      "Jefe Departamento de Desarrollo de Aplicaciones",
         Descripcion:
-                    "•	Planificación, coordinación y desarrollo de proyectos en distintas áreas tecnológicas, principalmente en proyectos realizados fuera de Chile."
-                    + "<br/>•	Implementación las últimas tecnologías para tareas tales como chat en vivo, videoconferencias, comunicaciones web-teléfono a través de servidores Asterisk."
-                    + "<br/>•	Desarrollo de aplicaciones para las plataformas IOS y Android enfocadas a temas de seguridad y redes sociales."
-                    + "<br/>•	Asesorías en instalación de redes."
-                    + "<br/>•	Asesorías en adquisición de equipamientos."
-                    + "<br/>•	Instalación, mantención y soporte de computadores."
-                    + "<br/>•	Coordinación de proyectos en Perú, Colombia y Venezuela."
+                    "<br/><h3>Responsabilidades y funciones:</h3>"
+                    + "<br/>•	Dirección y coordinación de proyectos tecnológicos para clientes de Chile, Perú, Colombia y Venezuela."
+                    + "<br/>•	Análisis, diseño y desarrollo de soluciones de comunicación empresarial."
+                    + "<br/>•	Integración de plataformas de telefonía IP mediante Asterisk."
+                    + "<br/>•	Implementación de sistemas de videoconferencia y chat en vivo."
+                    + "<br/>•	Desarrollo de aplicaciones móviles nativas para Android e iOS."
+                    + "<br/>•	Diseño de aplicaciones orientadas a seguridad y redes sociales."
+                    + "<br/>•	Asesoría técnica en adquisición de hardware y software."
+                    + "<br/>•	Optimización de infraestructura tecnológica, logrando una reducción de costos del 25%."
+                    + "<br/><br/><h3>Herramientas y tecnologías:</h3>"
+                    + "<br/>PHP, Laravel 7.3, Android, iOS, Asterisk, telefonía IP, videoconferencias, chat en vivo, hardware y software empresarial."
                     ,
         proyectos : [
             {Link: "https://github.com/tenshi98/Trabajo_Imagenes/tree/main/Plataforma TodosComunicados",    Nombre: "Creación Plataforma TodosComunicados"},
@@ -674,9 +743,31 @@ var experiencia = [
         Empresa:     "Novafoods S.A.",
         Puesto:      "Programador PHP",
         Descripcion:
-                    "•	Análisis y diseño del sistema de gestión interno de la empresa enfocada en compras, ventas, gestión de las bodegas, gestión de producción y la planificación de la misma."
-                    + "<br/>•	Creación del sistema Novasystem, el cual es un sistema de administración de la empresa similar a un ERP, el cual permite administrar las compras, ventas y los procesos dentro de la planta de producción, a través de un Flujo de Trabajo predefinido."
-                    + "<br/>•	Creación del sistema Mercotactica, el cual es un pequeño sistema orientado a la administración de las bodegas de Novafoods en todo chile, permitiendo el traspaso de productos entre la bodega central y el resto de las bodegas, mostrando en todo momento el stock de las bodegas en tiempo real.",
+                    "<br/><h3>Responsabilidades y funciones:</h3>"
+                    + "<br/>•	Análisis, diseño y desarrollo de sistemas de gestión empresarial (ERP)."
+                    + "<br/>•	Desarrollo e implementación de módulos para administración de compras, ventas, bodegas, producción y planificación."
+                    + "<br/>•	Automatización de procesos administrativos y operacionales mediante workflows."
+                    + "<br/>•	Desarrollo de sistemas de planificación y control de producción."
+                    + "<br/>•	Implementación de soluciones para administración logística y control de inventarios."
+                    + "<br/>•	Centralización de información y optimización de procesos internos."
+                    + "<br/><br/><h3>Proyectos desarrollados:</h3>"
+                    + "<br/><strong>Novasystem ERP</strong>"
+                    + "<br/>•	Desarrollo de un sistema ERP para centralizar la gestión de compras y ventas."
+                    + "<br/>•	Implementación de módulos de gestión de bodegas, producción y planificación."
+                    + "<br/>•	Automatización de procesos mediante workflows predefinidos."
+                    + "<br/>•	Reducción de errores administrativos del 40%, según reportes internos."
+                    + "<br/><strong>Sistema de Planificación de Producción</strong>"
+                    + "<br/>•	Desarrollo de herramientas para planificación y coordinación de procesos productivos."
+                    + "<br/>•	Optimización de la gestión interna y tiempos de respuesta."
+                    + "<br/>•	Reducción de tiempos de respuesta del 25%, según reportes internos."
+                    + "<br/><strong>Mercotáctica – Plataforma Logística</strong>"
+                    + "<br/>•	Desarrollo de una plataforma nacional para administración de múltiples bodegas."
+                    + "<br/>•	Implementación de inventario en tiempo real."
+                    + "<br/>•	Gestión y control de distribución entre bodega central y sucursales."
+                    + "<br/>•	Precisión de stock superior al 95%."
+                    + "<br/><br/><h3>Herramientas y tecnologías:</h3>"
+                    + "<br/>PHP, MySQL, SQL, JavaScript, ERP, Workflows, gestión de inventarios y planificación de producción."
+                    ,
     },
     {
         Fechas:      "Octubre 2013 - Diciembre 2013",

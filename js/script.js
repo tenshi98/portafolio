@@ -298,7 +298,7 @@ async function load_experiencia() {
 
   const timelineItems = experiencia.map(item => {
     const proyectos = (item.proyectos && item.proyectos.length > 0)
-      ? `<strong>Proyectos:</strong>${
+      ? `<br/><h3>Proyectos:</h3>${
           item.proyectos.map(proyecto =>
             proyecto.Link
               ? `<br/><a href="${proyecto.Link}" target="_blank" rel="noopener noreferrer">• ${proyecto.Nombre}.</a>`
